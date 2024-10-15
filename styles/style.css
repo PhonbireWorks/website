@@ -104,22 +104,55 @@ footer {
 
 /* NORMAL STYLES START */
 
-.hero_section {
-    background-color: antiquewhite;
-    padding: 2%;
-    text-align: center;
-}
-
-.intro_section {
-    background-color: rgb(255, 204, 138);
-    padding: 2%;
-    text-align: center;
-}
-
-.center-image {
+.center-object { /* ALLOWS YOU TO CENTER OBJECTS WITHIN A SECTION */
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
+
+
+.hero_section {
+    background-color: #000000;
+    padding: 2%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.intro_section {
+    background-color: #5e5e5e;
+    padding: 2%;
+    text-align: left;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row; /* Default to row layout */
+    align-items: center;
+    flex-wrap: wrap;
+}
+.intro_section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem; /* Add some space above the image */
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+}
+
+
+
+
+
+
+.products_and_services_section {
+    background-color: #0d92c3;
+    padding: 2%;
+    text-align: center;
+}
+
+
 
 
 
