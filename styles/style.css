@@ -104,6 +104,13 @@ footer {
 
 /* NORMAL STYLES START */
 
+.sticky {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
 .center-object { /* ALLOWS YOU TO CENTER OBJECTS WITHIN A SECTION */
     margin-left: auto;
     margin-right: auto;
@@ -118,6 +125,7 @@ footer {
     padding: 2%;
     text-align: center;
     color: #ffffff;
+    height: 40rem;
 }
 
 .intro_section {
@@ -147,7 +155,7 @@ footer {
 
 
 .products_and_services_section {
-    background-color: #0d92c3;
+    background-color: #8a8a8a;
     padding: 2%;
     text-align: center;
 }
