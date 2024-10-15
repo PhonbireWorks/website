@@ -23,9 +23,9 @@
                 <span class="bar"></span>
             </div>
             <ul class="nav-menu" id="nav-menu">
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="shop.html">Shop</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
@@ -37,43 +37,100 @@
 
 
         <!-- HERO STARTS -->
-        <section class="hero_section" style="background-image: url(images/hero.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed">
+        <section class="hero_section" style="background-image: url(images/hero.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; display: grid; place-items: center">
+            <div>
             <h1 style="font-size: 4rem">Your Destination For Digital Products & Services</h1>
             <p style="font-size: 2rem">This is a simple responsive website example.</p>
             <button id="scrollButton" onclick="scrollToSection()">Learn More</button>
+        </div>
         </section>
         <!-- HERO ENDS -->
 
         <!-- INTRO STARTS -->
-        <section class="intro_section" style="display: flex;">
+        <section class="intro_section" style="display: flex">
         <div>
             <h1 style="font-size: 4rem">Hi;</h1>
             <p style="font-size: 2rem; max-width: 60rem;">
                 My name is Warren Van Zuydam. This website is used to host my portfolio, digital products, services, and anything else I feel like. I am a hobbyist graphic and website designer who is looking to share my own works and skills with the rest of the world.
             </p>
         </div>
-            <img src="images/mugshot.png" alt="Description of image" class="center-object" style="width: 30rem; box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.5); background-color: #ffffff;">
+            <img src="images/mugshot.png" alt="Description of image" class="center-object" style="width: 30rem">
         </section>
         <!-- INTRO ENDS -->
 
 
         <!-- PRODUCTS & SERVICES STARTS -->
-        <section class="products_and_services_section" id="targetSection">
-            <h1 style="font-size: 4rem">What Services Do I Offer?</h1>
-            <h1 style="font-size: 4rem">What Products Do I Offer?</h1>
-            <p style="font-size: 2rem">This is a simple responsive website example.</p>
+        <section class="products_and_services_section" id="targetSection" style="display: grid; place-items: left">
+            <h1 style="color: #ffffff; font-size: 4rem; text-align: left">What Services Do I Offer?</h1>
+            <p style="color: #ffffff; font-size: 2rem; max-width: 60rem; text-align: left">
+                - Vector Tracing (Converting Low-Quality Image Files To SVG Files)<br><br>
+                - Converting PDF Files To SVG, And Vice Versa<br><br>
+                - Converting Image Files To Any Format (Where Applicable)<br><br>
+                - I Design Custom Resumes<br><br>
+                - I Design Custom Business Cards<br><br>
+                - I Design Custom Brochures<br><br>
+                - I Design Custom Billboards<br><br>
+                - I Design Custom Logos<br><br>
+                - I Design Custom Adverts<br><br>
+                - I Design Custom Product Labels<br><br>
+            </p>
+            <h1 style="color: #ffffff; font-size: 4rem; text-align: left">What Products Do I Offer?</h1>
+            <p style="color: #ffffff; font-size: 2rem; max-width: 60rem; text-align: left">
+                - I Sell Digital Document Templates<br><br>
+                - I Sell Spreadsheets<br><br>
+                - I Sell Websites To Small Businesses With A Tight Budget<br><br>
+                - I Sell ...<br><br>
+                - I Sell ...<br><br>
+                - I Sell ...<br><br>
+                - I Sell ...<br><br>
+                - I Sell ...<br><br>
+                - I Sell ...<br><br>
+                - I Sell ...<br><br>
+            </p>
             <img src="images/debug.png" alt="Description of image" class="center-object">
         </section>
         <!-- PRODUCTS & SERVICES ENDS -->
 
 
-
+        
 
 
     </main><!-- MAIN ENDS -->
-    <footer>
-        <p>© 2024 My Responsive Website</p>
-    </footer>
+    <section style="height: 2rem; display: block; justify-content: center; align-items: center">
+        <p style="max-width: 50rem; text-align: justify; color:#000000; padding-top: 2em; padding-bottom: 2em; margin: auto">
+        PhonbireWorks is the go-to source for high-quality digital products and services, from digital templates,
+        to custom logos. My goal is to provide customizable solutions tailored to your
+        needs. I am passionate about creating digital experiences that make a difference. Let's embark on a digital
+        journey together.
+      </p>
+      <p style="font-size: 2rem; max-width: 50rem; text-align: center; color:#000000; padding-bottom: 2em; margin: auto">
+        Let's Colabborate!
+    </p>
+        <!--FORM STARTS-->
+      <div
+      style="display: flex; flex-direction: column; align-items: center; max-width: 50rem; height: auto; margin: auto">
+      <form style="display: flex; flex-direction: column; align-items: center"
+        action="https://formspree.io/f/xnnqalvd" method="POST">
+        <label style="color: #ffffff" for="fname">First Name*</label>
+        <input style="width: 400px" type="text" id="fname" name="firstname" placeholder="Your name.." required>
+        <br>
+        <label style="color: #ffffff" for="lname">Last Name*</label>
+        <input style="width: 400px" type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+        <br>
+        <label style="color: #ffffff" for="email">Email*</label>
+        <input style="width: 400px" type="email" id="email" name="email" placeholder="Your email.." required>
+        <br>
+        <label style="color: #ffffff" for="subject">Your Message*</label>
+        <textarea style="width: 400px" id="subject" name="subject" placeholder="Write something.."
+          style="height:200px" required></textarea>
+        <br>
+        <input style="width: 100px" type="submit" value="Submit">
+      </form>
+    </div>
+    <!--FORM ENDS-->
+    <br><br><br>
+            <p style="display: flex; flex-direction: column; align-items: center; margin: auto">© 2024 PhonbireWorks</p>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>

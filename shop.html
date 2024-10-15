@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="styles/style.css">
+    
+</head>
+<body>
+    
+
+
+    <header class="sticky">
+
+        
+        <div>
+        <h1>PHONBIREWORKS</h1>
+        <nav>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <main><!-- MAIN STARTS -->
+
+
+
+        <!-- HERO STARTS -->
+        <section class="hero_section" style="background-image: url(images/hero.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed">
+            <h1 style="font-size: 4rem">Homemade Digital Products</h1>
+            <p style="font-size: 2rem">All products featured here are made in Inkscape</p>
+            <button id="scrollButton" onclick="scrollToSection()">Learn More</button>
+        </section>
+        <!-- HERO ENDS -->
+
+        <!-- INTRO STARTS -->
+        <section class="intro_section" style="display: flex;">
+        <div>
+            <h1 style="font-size: 4rem">Hi;</h1>
+            <p style="font-size: 2rem; max-width: 60rem;">
+                My name is Warren Van Zuydam. This website is used to host my portfolio, digital products, services, and anything else I feel like. I am a hobbyist graphic and website designer who is looking to share my own works and skills with the rest of the world.
+            </p>
+        </div>
+            <img src="images/mugshot.png" alt="Description of image" class="center-object" style="width: 30rem; box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.5); background-color: #ffffff;">
+        </section>
+        <!-- INTRO ENDS -->
+
+
+        <!-- PRODUCTS & SERVICES STARTS -->
+        <section class="products_and_services_section" id="targetSection">
+            <h1 style="font-size: 4rem">What Services Do I Offer?</h1>
+            <h1 style="font-size: 4rem">What Products Do I Offer?</h1>
+            <p style="font-size: 2rem">This is a simple responsive website example.</p>
+            <img src="images/debug.png" alt="Description of image" class="center-object">
+        </section>
+        <!-- PRODUCTS & SERVICES ENDS -->
+
+
+
+
+
+    </main><!-- MAIN ENDS -->
+    <footer>
+        <p>© 2024 My Responsive Website</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
