@@ -94,6 +94,40 @@ footer {
         margin: 1rem 0;
     }
 }
+
+.home {
+    color:#8a8a8a;
+}
+.home:hover {
+    color:#ffffff;
+}
+
+.about {
+    color:#8a8a8a;
+}
+.about:hover {
+    color:#ffffff;
+}
+
+.shop {
+    color:#8a8a8a;
+}
+.shop:hover {
+    color:#ffffff;
+}
+
+.contact {
+    color:#8a8a8a;
+}
+.contact:hover {
+    color:#ffffff;
+}
+
+
+
+
+
+
 /* ESSENTIAL STYLES ENDS */
 
 
@@ -151,7 +185,13 @@ footer {
     }
 }
 
-
+.footer_section {
+    height: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #aaa100;
+}
 
 
 
