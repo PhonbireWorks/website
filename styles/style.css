@@ -7,8 +7,11 @@ body {
 
 
 
+
+
+
 header {
-    background-color: #333;
+    background-color: #272727;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -59,8 +62,8 @@ main img {
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #272727;
+    color: #000000;
     text-align: center;
     padding: 1rem;
     position: fixed;
@@ -165,10 +168,10 @@ footer {
 }
 
 .intro_section {
-    background-color: #aaa100;
+    background-color: #ffe683;
     padding: 2%;
     text-align: left;
-    color: #ffffff;
+    color: #000000;
     display: flex;
     flex-direction: row; /* Default to row layout */
     align-items: center;
@@ -185,22 +188,26 @@ footer {
     }
 }
 
+
+.products_and_services_section {
+    background-color: #ffffff;
+    padding: 2%;
+    text-align: center;
+    color: #000000;
+}
+
 .footer_section {
     height: auto;
     display: block;
     justify-content: center;
     align-items: center;
-    background-color: #aaa100;
+    background-color: #ffe683;
 }
 
 
 
 
-.products_and_services_section {
-    background-color: #8a8a8a;
-    padding: 2%;
-    text-align: center;
-}
+
 
 
 
