@@ -96,7 +96,24 @@ footer {
         text-align: center;
         margin: 1rem 0;
     }
+
+    .scroll-container {
+        display: column;
+        /* Arrange figures in a row */
+        overflow-x: auto;
+        /* Enable horizontal scrolling */
+        white-space: nowrap;
+        /* Prevent line breaks */
+        background-color: #ffffff;
+      }
+
+
+
 }
+
+
+
+
 
 .home {
     color:#8a8a8a;
