@@ -37,53 +37,14 @@
     <main><!-- MAIN STARTS -->
 
 
-        <style>
-            .scroll-container {
-                display: flex;
-                /* Arrange figures in a row */
-                overflow-x: auto;
-                /* Enable horizontal scrolling */
-                white-space: nowrap;
-                /* Prevent line breaks */
-                background-color: #ffffff;
-            }
 
-            .scroll-container figure {
-                margin-right: 10px;
-                /* Space between figures */
-                text-align: center;
-                /* Center align text */
-                flex: 0 0 auto;
-                /* Prevent shrinking */
-            }
-
-            .scroll-container img {
-                height: 25rem;
-                /* Set a uniform height */
-                width: auto;
-                /* Let the width adjust automatically */
-                object-fit: contain;
-                /* Ensures the entire image fits within the container */
-                display: block;
-                /* Ensure images are block elements */
-            }
-
-            .scroll-container figcaption {
-                margin-top: 0.25em;
-                /* Space between image and text */
-                font-size: 2rem;
-                /* Adjust font size as needed */
-                color: #000000;
-                /* Adjust text color as needed */
-            }
-        </style>
 
 
         <!-- HERO STARTS -->
         <section class="hero_section"
-            style="background-image: url(images/hero.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; display: grid; place-items: center">
+            style="background-image: url(../images/hero.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; display: grid; place-items: center">
             <div>
-                <h1 style="font-size: 4rem">Homemade Digital Products</h1>
+                <h1 style="font-size: 4rem">Browse Calendar Templates</h1>
                 <p style="font-size: 2rem">All Products Featured Here Are Made In Inkscape</p>
                 <button id="scrollButton" onclick="scrollToSection()">Learn More</button>
             </div>
@@ -94,81 +55,103 @@
         <section class="intro_section">
 
 
-            <div class="scroll-container">
+            <div class="scroll-container" style="margin:auto">
                 <figure>
-                    <a href="category_pages/calendars.html"> <img src="../mockups/resumes.jpg" alt="RESUME TEMPLATES"></a>
-                    <figcaption>RESUME TEMPLATES</figcaption>
+                    <a href="category_pages/calendars.html"> <img src="../mockups/resumes.jpg"
+                            alt="RESUME TEMPLATES"></a>
+                    <figcaption class="figtext">DESIGN 1</figcaption>
                 </figure>
                 <figure>
-                    <a href="category_pages/calendars.html"> <img src="../mockups/resumes.jpg" alt="RESUME TEMPLATES"></a>
-                    <figcaption>CALENDARS</figcaption>
+                    <a href="category_pages/calendars.html"> <img src="../mockups/calendars.jpg" alt="CALENDARS"></a>
+                    <figcaption class="figtext">DESIGN 2</figcaption>
                 </figure>
                 <figure>
-                    <a href="category_pages/calendars.html"> <img src="../mockups/resumes.jpg" alt="RESUME TEMPLATES"></a>
-                    <figcaption>JOURNALS</figcaption>
+                    <a href="category_pages/calendars.html"> <img src="../mockups/journals.webp" alt="JOURNALS"></a>
+                    <figcaption class="figtext">DESIGN 3</figcaption>
                 </figure>
                 <figure>
-                    <a href="category_pages/calendars.html"> <img src="../mockups/resumes.jpg" alt="RESUME TEMPLATES"></a>
-                    <figcaption>DESK PADS</figcaption>
+                    <a href="category_pages/calendars.html"> <img src="../mockups/deskpads.webp" alt="DESK PADS"></a>
+                    <figcaption class="figtext">DESIGN 4</figcaption>
                 </figure>
                 <figure>
-                    <a href="category_pages/calendars.html"> <img src="../mockups/resumes.jpg" alt="RESUME TEMPLATES"></a>
-                    <figcaption>SPREADSHEETS</figcaption>
+                    <a href="category_pages/calendars.html"> <img src="../mockups/spreadsheets.webp"
+                            alt="SPREADSHEETS"></a>
+                    <figcaption class="figtext">SPREADSHEETS</figcaption>
                 </figure>
                 <figure>
-                    <a href="category_pages/calendars.html"> <img src="../mockups/resumes.jpg" alt="RESUME TEMPLATES"></a>
-                    <figcaption>DAILY PLANNERS</figcaption>
+                    <a href="category_pages/calendars.html"> <img src="../mockups/dailyplanners.jpg"
+                            alt="DAILY PLANNERS"></a>
+                    <figcaption class="figtext">DAILY PLANNERS</figcaption>
                 </figure>
                 <figure>
-                    <a href="category_pages/calendars.html"> <img src="../mockups/resumes.jpg" alt="RESUME TEMPLATES"></a>
-                    <figcaption>FORMS</figcaption>
+                    <a href="category_pages/calendars.html"> <img src="../mockups/forms.webp" alt="FORMS"></a>
+                    <figcaption class="figtext">FORMS</figcaption>
                 </figure>
                 <figure>
-                    <a href="category_pages/calendars.html"> <img src="../mockups/resumes.jpg" alt="RESUME TEMPLATES"></a>
-                    <figcaption>VECTOR GRAPHIC ELEMENT PACKS</figcaption>
+                    <a href="category_pages/calendars.html"> <img src="../mockups/vectorelements.png"
+                            alt="VECTOR GRAPHIC ELEMENT PACKS"></a>
+                    <figcaption class="figtext">VECTOR GRAPHIC ELEMENT PACKS</figcaption>
                 </figure>
                 <figure>
-                    <a href="category_pages/calendars.html"> <img src="../mockups/resumes.jpg" alt="RESUME TEMPLATES"></a>
-                    <figcaption>BROCHURES</figcaption>
+                    <a href="category_pages/calendars.html"> <img src="../mockups/brochures.jpg" alt="BROCHURES"></a>
+                    <figcaption class="figtext">BROCHURES</figcaption>
                 </figure>
                 <figure>
-                    <a href="category_pages/calendars.html"> <img src="../mockups/resumes.jpg" alt="RESUME TEMPLATES"></a>
-                    <figcaption>BUSINESS CARDS</figcaption>
+                    <a href="category_pages/calendars.html"> <img src="../mockups/businesscards.jpg"
+                            alt="BUSINESS CARDS"></a>
+                    <figcaption class="figtext">BUSINESS CARDS</figcaption>
                 </figure>
                 <figure>
-                    <a href="category_pages/calendars.html"> <img src="../mockups/resumes.jpg" alt="RESUME TEMPLATES"></a>
-                    <figcaption>SLIDESHOW TEMPLATES</figcaption>
+                    <a href="category_pages/calendars.html"> <img src="../mockups/slideshows.jpg"
+                            alt="SLIDESHOW TEMPLATES"></a>
+                    <figcaption class="figtext">SLIDESHOW TEMPLATES</figcaption>
                 </figure>
                 <figure>
-                    <a href="category_pages/calendars.html"> <img src="../mockups/resumes.jpg" alt="RESUME TEMPLATES"></a>
-                    <figcaption>FONTS</figcaption>
+                    <a href="category_pages/calendars.html"> <img src="../mockups/fonts.png" alt="FONTS"></a>
+                    <figcaption class="figtext">FONTS</figcaption>
                 </figure>
                 <figure>
-                    <a href="category_pages/calendars.html"> <img src="../mockups/resumes.jpg" alt="RESUME TEMPLATES"></a>
-                    <figcaption>E-BOOKS</figcaption>
+                    <a href="category_pages/calendars.html"> <img src="../mockups/ebooks.jpg" alt="E-BOOKS"></a>
+                    <figcaption class="figtext">E-BOOKS</figcaption>
                 </figure>
                 <figure>
-                    <a href="category_pages/calendars.html"> <img src="../mockups/resumes.jpg" alt="RESUME TEMPLATES"></a>
-                    <figcaption>MEAL PLANNING CALENDARS</figcaption>
+                    <a href="category_pages/calendars.html"> <img src="../mockups/mealplanners.png"
+                            alt="MEAL PLANNING CALENDARS"></a>
+                    <figcaption class="figtext">MEAL PLANNING CALENDARS</figcaption>
                 </figure>
                 <figure>
-                    <a href="category_pages/calendars.html"> <img src="../mockups/resumes.jpg" alt="RESUME TEMPLATES"></a>
-                    <figcaption>HOME CLEANING CHECKLISTS</figcaption>
+                    <a href="category_pages/calendars.html"> <img src="../mockups/homecleaningchecklists.jpg"
+                            alt="HOME CLEANING CHECKLISTS"></a>
+                    <figcaption class="figtext">HOME CLEANING CHECKLISTS</figcaption>
                 </figure>
                 <figure>
-                    <a href="category_pages/calendars.html"> <img src="../mockups/resumes.jpg" alt="RESUME TEMPLATES"></a>
-                    <figcaption>SOCIAL MEDIA POST TEMPLATES</figcaption>
+                    <a href="category_pages/calendars.html"> <img src="../mockups/socialmediaposttemplates.jpg"
+                            alt="SOCIAL MEDIA POST TEMPLATES"></a>
+                    <figcaption class="figtext">SOCIAL MEDIA POST TEMPLATES</figcaption>
                 </figure>
-                <figure>
-                    <a href="category_pages/calendars.html"> <img src="../mockups/resumes.jpg" alt="RESUME TEMPLATES"></a>
-                    <figcaption>BIRTHDAY CARDS</figcaption>
+                <figure class="figtext">
+                    <a href="category_pages/calendars.html"> <img src="../mockups/birthdaycards.jpg"
+                            alt="BIRTHDAY CARDS"></a>
+                    <figcaption class="figtext">BIRTHDAY CARDS</figcaption>
                 </figure>
-                <figure>
-                    <a href="category_pages/calendars.html"> <img src="../mockups/resumes.jpg" alt="RESUME TEMPLATES"></a>
-                    <figcaption>WEDDING INVITATIONS</figcaption>
+                <figure class="figtext">
+                    <a href="category_pages/calendars.html"> <img src="../mockups/resumes.jpg"
+                            alt="WEDDING INVITATIONS"></a>
+                    <figcaption class="figtext">WEDDING INVITATIONS</figcaption>
                 </figure>
                 <!-- Add more figures as needed -->
             </div>
+
+            <script src="https://www.paypal.com/sdk/js?client-id=BAAUqfavrxebRBDh8yT_PjWpf0NvpcqjcsL0AQqcYeHvG41WACzLaNPExCRRy02ijOzk6psGMt9NZHQ56Y&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
+<div id="paypal-container-7M3VKRTB2QD6E"></div>
+<script>
+  paypal.HostedButtons({
+    hostedButtonId: "7M3VKRTB2QD6E",
+  }).render("#paypal-container-7M3VKRTB2QD6E")
+</script>
+
+
+<a href="https://www.paypal.com/ncp/payment/WHS3NUSWVZCH2" target="_blank">BUY NOW FOR $3</a>
 
 
 
@@ -179,37 +162,6 @@
         <!-- INTRO ENDS -->
 
 
-        <!-- PRODUCTS & SERVICES STARTS -->
-        <section class="products_and_services_section" id="targetSection" style="display: grid; place-items: left">
-            <h1 style="color: #ffffff; font-size: 4rem; text-align: left">What Services Do I Offer?</h1>
-            <p style="color: #ffffff; font-size: 2rem; max-width: 60rem; text-align: left">
-                - Vector Tracing (Converting Low-Quality Image Files To SVG Files)<br><br>
-                - Converting PDF Files To SVG, And Vice Versa<br><br>
-                - Converting Image Files To Any Format (Where Applicable)<br><br>
-                - I Design Custom Resumes<br><br>
-                - I Design Custom Business Cards<br><br>
-                - I Design Custom Brochures<br><br>
-                - I Design Custom Billboards<br><br>
-                - I Design Custom Logos<br><br>
-                - I Design Custom Adverts<br><br>
-                - I Design Custom Product Labels<br><br>
-            </p>
-            <h1 style="color: #ffffff; font-size: 4rem; text-align: left">What Products Do I Offer?</h1>
-            <p style="color: #ffffff; font-size: 2rem; max-width: 60rem; text-align: left">
-                - I Sell Digital Document Templates<br><br>
-                - I Sell Spreadsheets<br><br>
-                - I Sell Websites To Small Businesses With A Tight Budget<br><br>
-                - I Sell ...<br><br>
-                - I Sell ...<br><br>
-                - I Sell ...<br><br>
-                - I Sell ...<br><br>
-                - I Sell ...<br><br>
-                - I Sell ...<br><br>
-                - I Sell ...<br><br>
-            </p>
-            <img src="images/debug.png" alt="Description of image" class="center-object">
-        </section>
-        <!-- PRODUCTS & SERVICES ENDS -->
 
 
 
