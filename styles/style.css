@@ -190,6 +190,7 @@ footer {
     /* Default to row layout */
     align-items: center;
     flex-wrap: wrap;
+    padding: 2em;
 }
 
 .intro_section img {
@@ -202,7 +203,7 @@ footer {
 
 .products_and_services_section {
     background-color: #ffffff;
-    padding: 2%;
+    padding: 2em;
     text-align: center;
     color: #000000;
 }
