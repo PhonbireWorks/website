@@ -251,6 +251,7 @@ footer {
     /* Ensures the entire image fits within the container */
     display: block;
     /* Ensure images are block elements */
+    margin: 0em;
 }
 
 .scroll-container figcaption {
@@ -274,16 +275,18 @@ footer {
         flex-direction: column;/* Stack items vertically on smaller screens */
         width: 30rem;
         background-color: #ff0000;
+        overflow-x: none;
     }
     .scroll-container img {
         height: auto;
         /* Set a uniform height */
-        width: 30rem;
+        width: 20rem;
         /* Let the width adjust automatically */
         object-fit: contain;
         /* Ensures the entire image fits within the container */
         display: block;
         /* Ensure images are block elements */
+        margin: 0em;
     }
     .scroll-container figcaption {
         margin-top: 0.05em;
