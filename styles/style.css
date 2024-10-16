@@ -230,6 +230,7 @@ footer {
     white-space: nowrap;
     /* Prevent line breaks */
     background-color: #ffffff;
+    width: 100%;
 }
 
 .scroll-container figure {
@@ -271,7 +272,7 @@ footer {
     .scroll-container {
         display: flex;
         flex-direction: column;/* Stack items vertically on smaller screens */
-        max-width: 768px;
+        width: 30rem;
         background-color: #ff0000;
     }
     .scroll-container img {
@@ -283,8 +284,6 @@ footer {
         /* Ensures the entire image fits within the container */
         display: block;
         /* Ensure images are block elements */
-        margin-left: auto;
-        margin-right: auto;
     }
     .scroll-container figcaption {
         margin-top: 0.05em;
