@@ -266,17 +266,27 @@ footer {
 @media (max-width: 768px) {
     .scroll-container {
         flex-direction: column;/* Stack items vertically on smaller screens */
+        background-color: #ff0000;
     }
     .scroll-container img {
         height: auto;
         /* Set a uniform height */
-        width: 100%;
+        width: 30rem;
         /* Let the width adjust automatically */
         object-fit: contain;
         /* Ensures the entire image fits within the container */
         display: block;
         /* Ensure images are block elements */
     }
+    .scroll-container figcaption {
+        margin-top: 0.05em;
+        /* Space between image and text */
+        font-size: 2rem;
+        /* Adjust font size as needed */
+        color: #000000;
+        /* Adjust text color as needed */
+    }
+    
 }
 
 
