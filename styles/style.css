@@ -1,24 +1,31 @@
-/* ESSENTIAL STYLES STARTS */
+/* GLOBAL STYLES FOR ENTIRE WEBSITE STARTS */
 *{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
+/* GLOBAL STYLES FOR ENTIRE WEBSITE ENDS */
 
-html {
+
+
+
+html { /* WITHOUT THIS, YOUR BACK TO TOP BUTTON WON'T SCROLL SMOOTHLY */
     scroll-behavior: smooth; /* Enable smooth scrolling */
 }
 
 
 
-
+/* HEADER STYLES STARTS */
 header {
     background-color: #272727;
     color: white;
     padding: 1rem;
     text-align: center;
 }
+/* HEADER STYLES STARTS */
 
+
+/* NAV MENU STYLES STARTS */
 nav {
     position: relative;
 }
@@ -51,28 +58,12 @@ nav ul li a {
     background-color: white;
     margin: 4px 0;
 }
+/* NAV MENU STYLES ENDS */
 
-main {
-    padding: 0rem;
-}
 
-main img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 1rem 0;
-}
 
-footer {
-    background-color: #272727;
-    color: #000000;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
 
+/* NAV MENU MEDIA QUERY STARTS */
 @media (max-width: 768px) {
 
     .hamburger {
@@ -98,14 +89,13 @@ footer {
         text-align: center;
         margin: 1rem 0;
     }
-
-
 }
+/* NAV MENU MEDIA QUERY ENDS */
 
 
 
 
-
+ /* NAV BUTTON STYLES STARTS */
 .home {
     color: #8a8a8a;
 }
@@ -137,27 +127,15 @@ footer {
 .contact:hover {
     color: #ffffff;
 }
+/* NAV BUTTON STYLES ENDS */
 
 
 
 
 
-
-/* ESSENTIAL STYLES ENDS */
-
-
-
-
-
-
-
-
-
-/* NORMAL STYLES START */
 
 .sticky {
-    position: -webkit-sticky;
-    /* For Safari */
+    position: -webkit-sticky; /* For Safari */
     position: sticky;
     top: 0;
     z-index: 100;
@@ -167,7 +145,7 @@ footer {
 
 
 
-
+/* SECTION STYLES STARTS */
 .hero_section {
     background-color: #000000;
     padding: 2%;
@@ -224,10 +202,16 @@ footer {
     align-items: center;
 }
 
+/* SECTION STYLES ENDS */
 
 
 
 
+
+
+
+
+/* MISC. STYLES STARTS */
 .scroll-container {
     display: flex;
     /* Arrange figures in a row */
@@ -333,7 +317,7 @@ footer {
     background-color: #9d9d9d;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px /* 768PX DEFAULT */) { 
 
     .fab-container {
         display: flex;
@@ -347,9 +331,8 @@ footer {
     .flexchild1 p {
         font-size: 1rem !important;
     }
-
-
 }
+
 
 
 
@@ -390,4 +373,4 @@ footer {
 
 
 
-/* NORMAL STYLES ENDS */
+/* MISC. STYLES ENDS */
