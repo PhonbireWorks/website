@@ -360,7 +360,7 @@ footer {
 .flexchild1{
     margin: 1em;
     padding: 1em;
-    min-width: 30rem;
+    min-width: 20rem;
     max-width: 50rem;
     display: flex;
     flex-direction: column;
