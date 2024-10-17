@@ -364,7 +364,6 @@ footer {
     margin: 1em;
     padding: 2em;
     display: flex;
-    min-width: 30rem;
     flex-direction: column;
     border: 2px;
     border-style: solid;
