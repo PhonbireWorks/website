@@ -285,7 +285,7 @@ footer {
     .scroll-container img {
         height: auto;
         /* Set a uniform height */
-        width: 20rem;
+        width: auto;
         /* Let the width adjust automatically */
         object-fit: contain;
         /* Ensures the entire image fits within the container */
