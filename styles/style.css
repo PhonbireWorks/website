@@ -204,6 +204,9 @@ footer {
     padding: 2em;
     text-align: center;
     color: #000000;
+    display: column;
+    width: auto;
+    flex-grow: 1;
 }
 
 .footer_section {
@@ -359,10 +362,9 @@ footer {
 
 .flexchild1{
     margin: 1em;
-    padding: 1em;
-    min-width: 20rem;
-    max-width: 50rem;
+    padding: 2em;
     display: flex;
+    min-width: 30rem;
     flex-direction: column;
     border: 2px;
     border-style: solid;
