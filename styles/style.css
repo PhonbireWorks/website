@@ -341,6 +341,12 @@ footer {
         bottom: 2em;
         right: 2em;
     }
+    .flexchild1 h1 {
+        font-size: 2rem !important;
+    }
+    .flexchild1 p {
+        font-size: 1rem !important;
+    }
 
 
 }
