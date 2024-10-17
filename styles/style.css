@@ -163,11 +163,6 @@ footer {
     z-index: 100;
 }
 
-.center-object {
-    /* ALLOWS YOU TO CENTER OBJECTS WITHIN A SECTION */
-    margin-left: auto;
-    margin-right: auto;
-}
 
 
 
@@ -188,6 +183,7 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 2em;
 }
