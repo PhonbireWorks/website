@@ -187,7 +187,6 @@ footer {
     color: #000000;
     display: flex;
     flex-direction: row;
-    /* Default to row layout */
     align-items: center;
     flex-wrap: wrap;
     padding: 2em;
@@ -196,7 +195,6 @@ footer {
 .intro_section img {
     max-width: 100%;
     height: auto;
-    /* Add some space above the image */
 }
 
 
@@ -348,6 +346,11 @@ footer {
 }
 
 
+
+
+
+
+
 .flexcontainer1{
     display: flex;
     flex-direction: row;
@@ -358,7 +361,7 @@ footer {
     margin: 1em;
     padding: 1em;
     min-width: 30rem;
-    max-width: 100%;
+    max-width: 50rem;
     display: flex;
     flex-direction: column;
     border: 2px;
