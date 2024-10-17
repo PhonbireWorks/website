@@ -182,7 +182,6 @@ footer {
     color: #000000;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     padding: 2em;
@@ -307,7 +306,7 @@ footer {
 
 
 .fab-container {
-    display: none;
+    display: flex;
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -353,22 +352,31 @@ footer {
 
 
 .flexcontainer1{
-    display: flex;
+    display: flex; /* SET TO NONE IF YOU WNT TO HIDE FOR PC */
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .flexchild1{
-    margin: 1em;
+    box-shadow: 0rem 0rem 2rem #71717180;
+    margin: 2em;
     padding: 2em;
     display: flex;
     max-width: 100%;
     flex-direction: column;
-    border: 2px;
+    border: 0rem;
     border-style: solid;
     border-color: #000000;
     border-radius: 2em;
     flex: 1;
+}
+
+.box1{
+    box-shadow: 0rem 0rem 3rem #ff000080;
+}
+
+.box2{
+    box-shadow: 0rem 0rem 3rem #0033ff80;
 }
 
 
