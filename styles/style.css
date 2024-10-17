@@ -278,7 +278,7 @@ footer {
     .scroll-container {
         display: flex;
         flex-direction: column;/* Stack items vertically on smaller screens */
-        width: 30rem;
+        width: auto;
         background-color: #ffffff;
         overflow-x: none;
     }
