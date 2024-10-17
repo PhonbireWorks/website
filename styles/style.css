@@ -207,7 +207,7 @@ footer {
     display: column;
     width: auto;
     flex-grow: 1;
-    justify-content: center;
+    align-items: center;
 }
 
 .footer_section {
