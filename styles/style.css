@@ -319,12 +319,7 @@ nav ul li a {
 
 @media (max-width: 1200px /* 768PX DEFAULT */) { 
 
-    .fab-container {
-        display: flex;
-        position: fixed;
-        bottom: 2em;
-        right: 2em;
-    }
+    
     .flexchild1 h1 {
         font-size: 2rem !important;
     }
@@ -333,7 +328,16 @@ nav ul li a {
     }
 }
 
+@media (max-width: 768px /* 768PX DEFAULT */) { 
 
+    .fab-container {
+        display: flex;
+        position: fixed;
+        bottom: 2em;
+        right: 2em;
+    }
+    
+}
 
 
 
