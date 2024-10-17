@@ -298,8 +298,8 @@ nav ul li a {
 }
 
 .fab {
-    width: 6rem;
-    height: 6rem;
+    width: 3em;
+    height: 3em;
     background-image: url('../images/arrow.png');
     background-size: cover;
     background-position: center;
