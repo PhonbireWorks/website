@@ -32,7 +32,7 @@ nav {
 
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 1em;
     display: flex;
     justify-content: center;
 }
@@ -75,7 +75,7 @@ nav ul li a {
         flex-direction: column;
         position: absolute;
         top: 60px;
-        left: -200%;
+        left: -250%;
         width: 100%;
         background-color: #333;
         transition: left 0.3s ease-in-out;
