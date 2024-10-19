@@ -9,8 +9,8 @@
 
 
 
-html { /* WITHOUT THIS, YOUR BACK TO TOP BUTTON WON'T SCROLL SMOOTHLY */
-    scroll-behavior: smooth; /* Enable smooth scrolling */
+html {
+    scroll-behavior: smooth; /* WITHOUT THIS, YOUR FA BUTTON WON'T SCROLL SMOOTHLY */
 }
 
 
@@ -295,7 +295,7 @@ nav ul li a {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    z-index: 100; /* WITHOUT THIS PROPERTY, THE ANIMATIONS WILL PREVENT YOU FROM CLICKING THIS BUTTON */
+    z-index: 100; /* WITHOUT THIS PROPERTY, THE ANIMATIONS WILL PREVENT YOU FROM CLICKING THIS FA BUTTON */
 }
 
 .fab {
