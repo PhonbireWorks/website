@@ -378,4 +378,51 @@ nav ul li a {
 
 
 
+
+
+/* BLOG.HTML STYLES STARTS */
+.blog_section {
+    background-color: #ffffff;
+    padding: 0em;
+    text-align: center;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.blog-container{
+    display: flex; /* SET TO NONE IF YOU WNT TO HIDE FOR PC */
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.blog-child{
+    box-shadow: 0rem 0rem 2rem #71717180;
+    margin: 2em;
+    padding: 2em;
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    border: 0rem;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 0em;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+/* BLOG.HTML STYLES ENDS */
+
+
+
+
+
+
+
+
+
+
 /* MISC. STYLES ENDS */
