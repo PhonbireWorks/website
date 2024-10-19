@@ -84,6 +84,9 @@
 
 
         <section style="height: 20rem; display: flex; flex-direction: column; align-items: center; background-color: blue;">
+
+
+
             <div class="guestbook">
                 <h1>Guestbook</h1>
                 <form id="commentForm">
@@ -97,22 +100,47 @@
             </div>
         
             <script>
-                document.getElementById('commentForm').addEventListener('submit', function(event) {
+                document.getElementById('commentForm').addEventListener('submit', async function(event) {
                     event.preventDefault();
                     const name = document.getElementById('name').value;
                     const comment = document.getElementById('comment').value;
-                    const commentSection = document.getElementById('comments');
         
-                    const newComment = document.createElement('div');
-                    newComment.classList.add('comment');
-                    newComment.innerHTML = `<strong>${name}</strong><p>${comment}</p>`;
-                    commentSection.appendChild(newComment);
+                    const response = await fetch('comments.php', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/x-www-form-urlencoded'
+                        },
+                        body: new URLSearchParams({ name, comment })
+                    });
+        
+                    const newComment = await response.json();
+                    const commentSection = document.getElementById('comments');
+                    const commentDiv = document.createElement('div');
+                    commentDiv.classList.add('comment');
+                    commentDiv.innerHTML = `<strong>${newComment.name}</strong><p>${newComment.comment}</p>`;
+                    commentSection.appendChild(commentDiv);
         
                     document.getElementById('commentForm').reset();
                 });
-            </script>
         
-            </div>
+                async function loadComments() {
+                    const response = await fetch('comments.php');
+                    const comments = await response.json();
+                    const commentSection = document.getElementById('comments');
+                    comments.forEach(comment => {
+                        const commentDiv = document.createElement('div');
+                        commentDiv.classList.add('comment');
+                        commentDiv.innerHTML = `<strong>${comment.name}</strong><p>${comment.comment}</p>`;
+                        commentSection.appendChild(commentDiv);
+                    });
+                }
+        
+                loadComments();
+            </script>
+
+
+
+
         </section>
 
         
