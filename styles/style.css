@@ -470,11 +470,44 @@ nav ul li a {
       opacity: 1;
     }
   }
-  
+/* ANIMATION STYLES ENDS */
 
 
 
-/* ANIMATION STYLES STARTS */
+
+/* BUTTON STYLE 1 STARTS */
+.svg-button {
+    width: 10rem;
+    height: 2rem;
+    color: #000000;
+    background-size: cover; /* Ensures the SVG covers the entire button */
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    background-repeat: no-repeat; /* Prevents the SVG from repeating */
+    background-position: center; /* Centers the SVG in the button */
+    box-shadow: 0rem 0rem 2rem #0000004d; /* Enhanced shadow on hover */
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.5s;
+    transition: background-color 0.5s;
+  }
+  .svg-button:hover { /* Changes button style on hover */
+    opacity: 0.8;
+    color: #000000;
+    background-color: #ffe683;
+  }
+  .svg-button:active { /* Changes button style on click */
+    opacity: 0.2;
+    transform: translateY(0.5rem);
+    background-color: #ffe683;
+  }
+  /* BUTTON STYLE 1 ENDS */
+
+
+
+
 
 
 /* MISC. STYLES ENDS */
