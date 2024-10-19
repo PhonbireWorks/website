@@ -295,6 +295,7 @@ nav ul li a {
     position: fixed;
     bottom: 20px;
     right: 20px;
+    z-index: 100; /* WITHOUT THIS PROPERTY, THE ANIMATIONS WILL PREVENT YOU FROM CLICKING THIS BUTTON */
 }
 
 .fab {
