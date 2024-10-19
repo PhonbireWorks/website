@@ -7,7 +7,7 @@
     <title>PhonbireWorks Home</title>
     <link rel="icon" type="image/x-icon" href="images/logo_icon.png">
     <link rel="stylesheet" href="styles/style.css">
-
+    <script src="animate_on_view.js"></script>
 </head>
 
 <body>
@@ -52,7 +52,7 @@
         <!-- HERO STARTS -->
         <section class="hero_section"
             style="background-image: url(images/hero.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; display: grid; place-items: center">
-            <div>
+            <div class="fade-in">
                 <h1 style="font-size: 4rem">Your Destination For Digital Products & Services</h1>
                 <p style="font-size: 2rem">Explore my services and products for your daily needs</p>
                 <button id="scrollButton" onclick="scrollToSection()">Learn More</button>
@@ -67,7 +67,7 @@
 
         <!-- INTRO STARTS -->
         <section class="intro_section">
-            <div>
+            <div class="fade-in">
                 <h1 style="font-size: 4rem">Hi;</h1>
                 <p style="font-size: 2rem; max-width: 60rem;">
                     My name is Warren Van Zuydam. This website is used to host my portfolio, digital products, services,
@@ -75,14 +75,14 @@
                     my own works and skills with the rest of the world.
                 </p>
             </div>
-            <img src="images/mugshot.png" alt="Description of image" class="center-object" style="width: 20rem">
+            <img src="images/mugshot.png" alt="Description of image" class="center-object fade-in" style="width: 20rem">
         </section>
         <!-- INTRO ENDS -->
 
         <!-- WEBSITE STARTS -->
         <section class="products_and_services_section" >
-
-            <div class="flexcontainer1"> <!-- FLEX CONTAINER STARTS -->
+            
+            <div class="flexcontainer1 fade-in"> <!-- FLEX CONTAINER STARTS -->
                 <div class="flexchild1">
                     <h1 style="font-size: 2rem; text-align: left">Are You In Need Of A Website?</h1><br>
                     <p style="font-size: 1rem; max-width: 60rem; text-align: left">
@@ -116,7 +116,7 @@
         <!-- ALTERNATIVE PRODUCTS & SERVICES STARTS -->
         <section class="products_and_services_section" >
 
-            <div class="flexcontainer1"> <!-- FLEX CONTAINER STARTS -->
+            <div class="flexcontainer1 fade-in"> <!-- FLEX CONTAINER STARTS -->
                 <div class="flexchild1">
                     <h1 style="font-size: 2rem; text-align: left">Explore Other Services & Products</h1><br>
                     <p style="font-size: 1rem; max-width: 60rem; text-align: left">
@@ -134,7 +134,7 @@
         <!-- PRODUCTS & SERVICES STARTS -->
         <section class="products_and_services_section" id="targetSection" >
 
-            <div class="flexcontainer1"> <!-- FLEX CONTAINER STARTS -->
+            <div class="flexcontainer1 fade-in"> <!-- FLEX CONTAINER STARTS -->
                 <div class="flexchild1 box1">
                     <h1 style="font-size: 2rem; text-align: left">What Services Do I Offer?</h1><br>
                     <p style="font-size: 1rem; max-width: 60rem; text-align: left">
