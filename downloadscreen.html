@@ -8,6 +8,28 @@
     <link rel="icon" type="image/x-icon" href="images/logo_icon.png">
     <link rel="stylesheet" href="styles/style.css">
 
+
+
+    <style>
+        .guestbook {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .comment {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .comment:last-child {
+            border-bottom: none;
+        }
+    </style>
+
+
+
 </head>
 
 <body>
@@ -58,6 +80,40 @@
             </div>
         </section>
         <!-- DOWNLOAD SCREEN ENDS -->
+
+
+
+        <section style="height: 20rem; display: flex; flex-direction: column; align-items: center; background-color: blue;">
+            <div class="guestbook">
+                <h1>Guestbook</h1>
+                <form id="commentForm">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="comment">Comment:</label><br>
+                    <textarea id="comment" name="comment" required></textarea><br><br>
+                    <button type="submit">Submit</button>
+                </form>
+                <div id="comments"></div>
+            </div>
+        
+            <script>
+                document.getElementById('commentForm').addEventListener('submit', function(event) {
+                    event.preventDefault();
+                    const name = document.getElementById('name').value;
+                    const comment = document.getElementById('comment').value;
+                    const commentSection = document.getElementById('comments');
+        
+                    const newComment = document.createElement('div');
+                    newComment.classList.add('comment');
+                    newComment.innerHTML = `<strong>${name}</strong><p>${comment}</p>`;
+                    commentSection.appendChild(newComment);
+        
+                    document.getElementById('commentForm').reset();
+                });
+            </script>
+        
+            </div>
+        </section>
 
         
 
