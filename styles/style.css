@@ -94,6 +94,13 @@ nav ul li a {
         display: none;
     }
 
+    .hero-text1{
+        font-size: 2rem !important;
+    }
+
+    .hero-text2{
+        font-size: 1rem !important;
+    }
 
 }
 /* NAV MENU MEDIA QUERY ENDS */
@@ -157,7 +164,7 @@ nav ul li a {
     padding: 2%;
     text-align: center;
     color: #ffffff;
-    height: 40rem;
+    min-height: 40vh;
 }
 
 .intro_section {
