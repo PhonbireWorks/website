@@ -307,20 +307,16 @@ nav ul li a {
 }
 
 .fab {
-    width: 3em;
-    height: 3em;
+    width: 5em;
+    height: 5em;
     background-image: url('../images/arrow.png');
     background-size: cover;
     background-position: center;
     border: none;
     border-radius: 50%;
     color: white;
-    font-size: 24px;
     cursor: pointer;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .fab:hover {
@@ -343,8 +339,8 @@ nav ul li a {
     .fab-container {
         display: flex;
         position: fixed;
-        bottom: 2em;
-        right: 2em;
+        bottom: 1rem;
+        right: 1rem;
     }
     
 }
