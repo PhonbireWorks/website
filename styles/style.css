@@ -7,8 +7,6 @@
 /* GLOBAL STYLES FOR ENTIRE WEBSITE ENDS */
 
 
-
-
 html {
     scroll-behavior: smooth; /* WITHOUT THIS, YOUR FA BUTTON WON'T SCROLL SMOOTHLY */
 }
@@ -94,11 +92,11 @@ nav ul li a {
         display: none;
     }
 
-    .hero-text1{
+    .text1{
         font-size: 2rem !important;
     }
 
-    .hero-text2{
+    .text2{
         font-size: 1rem !important;
     }
 
@@ -366,7 +364,7 @@ nav ul li a {
 }
 
 .flexchild1{
-    box-shadow: 0rem 0rem 2rem #71717180;
+    /* box-shadow: 0rem 0rem 2rem #71717180; */
     margin: 2em;
     padding: 2em;
     display: flex;
@@ -380,11 +378,11 @@ nav ul li a {
 }
 
 .box1{
-    box-shadow: 0rem 0rem 3rem #ff000080;
+    /* box-shadow: 0rem 0rem 3rem #ff000080; */
 }
 
 .box2{
-    box-shadow: 0rem 0rem 3rem #0033ff80;
+    /* box-shadow: 0rem 0rem 3rem #0033ff80; */
 }
 
 
