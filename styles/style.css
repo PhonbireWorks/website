@@ -89,6 +89,12 @@ nav ul li a {
         text-align: center;
         margin: 1rem 0;
     }
+
+    .header-logo{ /* WITHOUT THIS, SMALL DEVICES WILL HAVE A WEIRD WHITE BAR ON THE RIGHT SIDE */
+        display: none;
+    }
+
+
 }
 /* NAV MENU MEDIA QUERY ENDS */
 
@@ -500,7 +506,7 @@ nav ul li a {
   }
   .svg-button:active { /* Changes button style on click */
     opacity: 0.2;
-    transform: translateY(0.5rem);
+    transform: translateY(0.25rem);
     background-color: #ffe683;
   }
   /* BUTTON STYLE 1 ENDS */
