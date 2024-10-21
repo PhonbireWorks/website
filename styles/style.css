@@ -413,6 +413,8 @@ nav ul li a {
     display: flex; /* SET TO NONE IF YOU WNT TO HIDE FOR PC */
     flex-direction: column;
     flex-wrap: wrap;
+    background-color: #ffffff;
+    
 }
 
 .blog-child{
@@ -491,7 +493,7 @@ nav ul li a {
 
 
 /* BUTTON STYLE 1 STARTS */
-.svg-button {
+.button1 {
     width: 10rem;
     height: 2rem;
     color: #000000;
@@ -508,12 +510,12 @@ nav ul li a {
     transition: opacity 0.5s;
     transition: background-color 0.5s;
   }
-  .svg-button:hover { /* Changes button style on hover */
+  .button1:hover { /* Changes button style on hover */
     opacity: 0.8;
     color: #000000;
     background-color: #ffe683;
   }
-  .svg-button:active { /* Changes button style on click */
+  .button1:active { /* Changes button style on click */
     opacity: 0.2;
     transform: translateY(0.25rem);
     background-color: #ffe683;
