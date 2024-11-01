@@ -7,6 +7,37 @@
     <title>PhonbireWorks Calendars</title>
     <link rel="icon" type="image/x-icon" href="../images/logo_icon.png">
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<style>
+    .container{
+    height: 100vh;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 20%;
+}
+
+.swiper{
+    width: 100%;
+    height: fit-content;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper .swiper-button-prev, .swiper-button-next{
+    color: #fff;
+}
+
+.swiper .swiper-pagination-bullet-active{
+    background: #fff;
+}
+</style>
+
 
 </head>
 
@@ -66,7 +97,7 @@
 
             <div class="scroll-container" style="margin:auto">
                 <figure>
-                    <a href="https://www.paypal.com/ncp/payment/ZYGA4CLUZHSA4" target="_blank"> <img
+                    <a href="https://www.paypal.com/ncp/payment/CHKNTC3QG6M38" target="_blank"> <img
                             src="../mockups/watermark_mockup_template.png" alt="RESUME TEMPLATES"></a>
                     <figcaption class="figtext">DESIGN 1</figcaption>
                     <figcaption class="figtext" style="margin-bottom: 2rem">$5</figcaption>
@@ -183,19 +214,82 @@
             <br>
             <p><b>WHAT YOU WILL RECEIVE AFTER PURCHASE:</b></p><br>
             <ul style="list-style-type:square; margin-left: 2%">
-                <li>A fully editable SVG project file (critical for customization, and makes up for the price of the product)</li>
+                <li>A fully editable SVG project file (critical for customization, and makes up for the price of the
+                    product)</li>
                 <li>PDF file(s)</li>
                 <li>PNG file(s) of varying resolutions (low, medium, high)</li>
                 <li>JPG file(s) of varying resolutions (low, medium, high)</li>
                 <li>Spreadsheet file(s)</li>
             </ul>
             <br>
-            <p>After your purchase, I will manually send an email containing the correct download link, as well as a personalized "thank you" letter.</p>
+            <p>After your purchase, I will manually send an email containing the correct download link, as well as a
+                personalized "thank you" letter.</p>
             <br>
             <p>All files can be opened with free and open source programs. No premium software required.</p>
             <br>
             <p><b>WHAT ARE SVG FILES, AND HOW DO THEY WORK?</b></p><br>
-            <p>SVG is a very versatile file format made up of vector graphic elements. They do not use pixels, but rather mathematical curves, paths, gradients, boxes, strokes, text, etc. This not only allows for a much smaller file size, but it lets you scale your graphics to any resolution you desire. SVGs are used as source files for logos, t-shirt designs, bed sheet designs, digital templates, web icons, billboards, window stickers, car stickers, etc. These files are not designed for complex photos, or other images with a lot of detail and texture. Trying to convert a PNG or JPG into an SVG might work if it's simple enough, but if it's a large, complex image with a lot of detail, it can get quite resource-intensive to convert to SVG. SVG files are not to be treated the same way as PNGs, but rather as "project files", or "source files", where you can pick each vector element apart, reuse it for other projects, and export it separately into PDFs, PNGs, etc. The best way to create and open SVG files is either through paid programs like Adobe Illustrator, or free and open source alternatives, such as Inkscape. I personally use Inkscape, because I'm not coughing up $60 per month for only a handful of programs from the Adobe Creative Cloud.</p>
+            <p>SVG is a very versatile file format made up of vector graphic elements. They do not use pixels, but
+                rather mathematical curves, paths, gradients, boxes, strokes, text, etc. This not only allows for a much
+                smaller file size, but it lets you scale your graphics to any resolution you desire. SVGs are used as
+                source files for logos, t-shirt designs, bed sheet designs, digital templates, web icons, billboards,
+                window stickers, car stickers, etc. These files are not designed for complex photos, or other images
+                with a lot of detail and texture. Trying to convert a PNG or JPG into an SVG might work if it's simple
+                enough, but if it's a large, complex image with a lot of detail, it can get quite resource-intensive to
+                convert to SVG. SVG files are not to be treated the same way as PNGs, but rather as "project files", or
+                "source files", where you can pick each vector element apart, reuse it for other projects, and export it
+                separately into PDFs, PNGs, etc. The best way to create and open SVG files is either through paid
+                programs like Adobe Illustrator, or free and open source alternatives, such as Inkscape. I personally
+                use Inkscape, because I'm not coughing up $60 per month for only a handful of programs from the Adobe
+                Creative Cloud.</p>
+
+
+                <div class="container">
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                      <!-- Additional required wrapper -->
+                      <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="../images/debug.png"></div>
+                        <div class="swiper-slide"><img src="../images/debug.png"></div>
+                        <div class="swiper-slide"><img src="../images/debug.png"></div>
+                      </div>
+                      <!-- If we need pagination -->
+                      <div class="swiper-pagination"></div>
+                
+                      <!-- If we need navigation buttons -->
+                      <div class="swiper-button-prev"></div>
+                      <div class="swiper-button-next"></div>
+                
+                    </div>
+                
+                    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+                    <script>
+                      const swiper = new Swiper('.swiper', {
+                        // Optional parameters
+                        autoplay: {
+                          delay: 3000,
+                          disableOnInteraction: false,
+                        },
+                        loop: true,
+                
+                        // If we need pagination
+                        pagination: {
+                          el: '.swiper-pagination',
+                          clickable: true,
+                        },
+                
+                        // Navigation arrows
+                        navigation: {
+                          nextEl: '.swiper-button-next',
+                          prevEl: '.swiper-button-prev',
+                        },
+                
+                
+                      });
+                    </script>
+
+
+
         </section>
 
 
