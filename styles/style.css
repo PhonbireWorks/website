@@ -552,14 +552,14 @@ nav ul li a {
 }
 
 .swiper .swiper-button-prev{
-    color: #fff;
+    color: #ffffff;
 }
 .swiper .swiper-button-next{
-    color: #fff;
+    color: #ffffff;
 }
 
 .swiper .swiper-pagination-bullet-active{
-    background: #fff;
+    background: #ffffff;
 }
 
 @media (max-width: 768px) {
