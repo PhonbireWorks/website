@@ -585,13 +585,19 @@ nav ul li a {
 
 .swiper .swiper-button-prev{
     color: #ffffff;
+    background-color: #000000a3;
+    padding: 1%;
+    font-weight: bold;
 }
 .swiper .swiper-button-next{
     color: #ffffff;
+    background-color: #000000a3;
+    padding: 1%;
+    font-weight: bold;
 }
 
 .swiper .swiper-pagination-bullet-active{
-    background: #ffffff;
+    background-color: #000000;
 }
 
 @media (max-width: 768px) {
