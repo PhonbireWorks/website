@@ -407,13 +407,12 @@ nav ul li a {
     flex-direction: column;
     flex-wrap: wrap;
     background-color: #ffffff;
-    width: 50%;
-    
+    max-width: 100%;
 }
 
 .blog-child{
     box-shadow: 0rem 0rem 2rem #0000003e;
-    margin: 2em;
+    margin: 1rem;
     padding: 1rem;
     display: flex;
     max-width: 100%;
