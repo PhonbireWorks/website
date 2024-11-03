@@ -398,7 +398,6 @@ nav ul li a {
     color: #000000;
     display: flex;
     flex-direction: column;
-    width: auto;
     flex-grow: 1;
     align-items: center;
 }
@@ -408,20 +407,21 @@ nav ul li a {
     flex-direction: column;
     flex-wrap: wrap;
     background-color: #ffffff;
+    width: 50%;
     
 }
 
 .blog-child{
-    box-shadow: 0rem 0rem 2rem #71717180;
+    box-shadow: 0rem 0rem 2rem #0000003e;
     margin: 2em;
-    padding: 2em;
+    padding: 1rem;
     display: flex;
     max-width: 100%;
     flex-direction: column;
     border: 0rem;
     border-style: solid;
     border-color: #000000;
-    border-radius: 0em;
+    border-radius: 1rem;
     flex: 1;
     justify-content: center;
     align-items: center;
