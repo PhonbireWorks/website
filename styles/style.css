@@ -12,8 +12,6 @@ html {
     scroll-behavior: smooth; /* WITHOUT THIS, YOUR FA BUTTON WON'T SCROLL SMOOTHLY */
 }
 
-
-
 /* HEADER STYLES STARTS */
 header {
     background-color: #272727;
@@ -392,7 +390,7 @@ nav ul li a {
 
 /* BLOG.HTML STYLES STARTS */
 .blog_section {
-    background-color: #ffffff;
+    background-color: #272727;
     padding: 0em;
     text-align: center;
     color: #000000;
@@ -402,24 +400,18 @@ nav ul li a {
     align-items: center;
 }
 
-.blog-container{
-    display: flex; /* SET TO NONE IF YOU WNT TO HIDE FOR PC */
-    flex-direction: column;
-    background-color: #ffffff;
-    max-width: 100%;
-}
-
 .blog-child{
-    box-shadow: 0rem 0rem 2rem #0000003e;
+    background-color: #272727;
+    box-shadow: 0rem 0rem 1rem #000000;
     margin: 1rem;
-    padding: 1rem;
+    padding: 0rem;
     display: flex;
     max-width: 100%;
     flex-direction: column;
     border: 0rem;
     border-style: solid;
     border-color: #000000;
-    border-radius: 1rem;
+    border-radius: 2%;
     flex: 1;
     justify-content: center;
     align-items: center;
