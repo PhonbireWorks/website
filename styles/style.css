@@ -405,7 +405,6 @@ nav ul li a {
 .blog-container{
     display: flex; /* SET TO NONE IF YOU WNT TO HIDE FOR PC */
     flex-direction: column;
-    flex-wrap: wrap;
     background-color: #ffffff;
     max-width: 100%;
 }
