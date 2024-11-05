@@ -84,7 +84,7 @@ nav ul li a {
 
     nav ul li {
         text-align: center;
-        margin: 1rem 0;
+        margin: 5%;
     }
 
     .header-logo{ /* WITHOUT THIS, SMALL DEVICES WILL HAVE A WEIRD WHITE BAR ON THE RIGHT SIDE */
@@ -470,6 +470,68 @@ nav ul li a {
     }
     100% {
       opacity: 1;
+    }
+  }
+
+  .button2:hover {
+	-webkit-animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+@-webkit-keyframes shake-horizontal {
+    0%,
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translateX(-5px);
+              transform: translateX(-5px);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: translateX(5px);
+              transform: translateX(5px);
+    }
+    80% {
+      -webkit-transform: translateX(8px);
+              transform: translateX(8px);
+    }
+    90% {
+      -webkit-transform: translateX(-8px);
+              transform: translateX(-8px);
+    }
+  }
+  @keyframes shake-horizontal {
+    0%,
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translateX(-5px);
+              transform: translateX(-5px);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: translateX(5px);
+              transform: translateX(5px);
+    }
+    80% {
+      -webkit-transform: translateX(8px);
+              transform: translateX(8px);
+    }
+    90% {
+      -webkit-transform: translateX(-8px);
+              transform: translateX(-8px);
     }
   }
 /* ANIMATION STYLES ENDS */
