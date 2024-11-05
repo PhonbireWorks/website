@@ -11,6 +11,11 @@ document.getElementById('scrollButton').addEventListener('click', function() {
     document.getElementById('targetSection').scrollIntoView({ behavior: 'smooth' });
 });
 
+// script.js
+document.getElementById('scrollButton').addEventListener('click', function() {
+    document.getElementById('targetSection2').scrollIntoView({ behavior: 'smooth' });
+});
+
 
 
 
