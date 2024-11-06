@@ -658,10 +658,10 @@ nav ul li a {
 }
 
 .swiper .swiper-pagination-bullet{
-    background-color: #ffffff;
+    background-color: #000000a3;
     border-width: 2px;
     border-style: solid;
-    border-color: #000000a3;
+    border-color: #ffffff;
 }
 
 @media (max-width: 768px) {
