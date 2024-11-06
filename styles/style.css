@@ -642,6 +642,7 @@ nav ul li a {
     padding: 1%;
     font-weight: bold;
 }
+
 .swiper .swiper-button-next{
     color: #ffffff;
     background-color: #000000a3;
@@ -651,6 +652,16 @@ nav ul li a {
 
 .swiper .swiper-pagination-bullet-active{
     background-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.swiper .swiper-pagination-bullet{
+    background-color: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000000a3;
 }
 
 @media (max-width: 768px) {
