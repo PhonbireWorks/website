@@ -7,7 +7,7 @@
     <title>PhonbireWorks Shop</title>
     <link rel="icon" type="image/x-icon" href="images/logo_icon.png">
     <link rel="stylesheet" href="styles/style.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -129,8 +129,74 @@
 
 
 
+        <section style="padding: 2%; display: flex; flex-direction: column">
+
+            <p><b>QUICK SEARCH</b></p><br>
+            <ul style="list-style-type:square; margin-left: 1rem">
+                <li><a href="#">Resume Templates</a></li>
+                <li><a href="#">Monthly Planners</a></li>
+                <li><a href="#">Desk Pads</a></li>
+                <li><a href="#">Spreadsheets</a></li>
+                <li><a href="#">Daily Planners</a></li>
+                <li><a href="#">Forms</a></li>
+                <li><a href="#">Vector Graphic Element Packs</a></li>
+                <li><a href="#">Brochures</a></li>
+                <li><a href="#">Business Cards</a></li>
+                <li><a href="#">Slideshow Templates</a></li>
+                <li><a href="#">Fonts</a></li>
+                <li><a href="#">E-Books</a></li>
+                <li><a href="#">Meal Planners</a></li>
+                <li><a href="#">Home Cleaning Checklists</a></li>
+                <li><a href="#">Social Media Post Templates</a></li>
+                <li><a href="#">Birthday Cards</a></li>
+                <li><a href="#">Wedding Invitations</a></li>
+                <li><a href="#">Website Framework Templates</a></li>
+            </ul>
+        
+        </section>
+
+
+
+
+
+        <section style="background-color: #272727; display: flex; flex-direction: column; align-items: center; padding: 2%">
+
+
+
+
+
+            <!-- SWIPER STARTS -->
+            <div class="container">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="images/debug2.png"><p style="text-align: center; color:#ffffff; margin-bottom: 2rem"><b>RESUME TEMPLATES</b></p></div>
+                        <div class="swiper-slide"><img src="category_pages/calendars/design1/1.png"><p style="text-align: center; color:#ffffff; margin-bottom: 2rem"><b>MONTHLY PLANNERS</b></p></div>
+                        <div class="swiper-slide"><img src="images/debug2.png"><p style="text-align: center; color:#ffffff; margin-bottom: 2rem"><b>JOURNALS</b></p></div>
+                        <div class="swiper-slide"><img src="images/debug2.png"><p style="text-align: center; color:#ffffff; margin-bottom: 2rem"><b>DESK PADS</b></p></div>
+                    
+                    
+                    
+                    
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            <!-- SWIPER ENDS -->
+        </section>
+
+
+
+
         <!-- INTRO STARTS -->
         <section id="targetSection2" class="shop_section">
+
+
+            
 
 
             <div class="scroll-container" style="margin:auto">
@@ -213,31 +279,31 @@
         <!-- INTRO ENDS -->
 
 
-<section style="padding: 2%; display: flex; flex-direction: column">
 
-    <p><b>QUICK SEARCH</b></p><br>
-    <ul style="list-style-type:square; margin-left: 1rem">
-        <li><a href="#">Resume Templates</a></li>
-        <li><a href="#">Monthly Planners</a></li>
-        <li><a href="#">Desk Pads</a></li>
-        <li><a href="#">Spreadsheets</a></li>
-        <li><a href="#">Daily Planners</a></li>
-        <li><a href="#">Forms</a></li>
-        <li><a href="#">Vector Graphic Element Packs</a></li>
-        <li><a href="#">Brochures</a></li>
-        <li><a href="#">Business Cards</a></li>
-        <li><a href="#">Slideshow Templates</a></li>
-        <li><a href="#">Fonts</a></li>
-        <li><a href="#">E-Books</a></li>
-        <li><a href="#">Meal Planners</a></li>
-        <li><a href="#">Home Cleaning Checklists</a></li>
-        <li><a href="#">Social Media Post Templates</a></li>
-        <li><a href="#">Birthday Cards</a></li>
-        <li><a href="#">Wedding Invitations</a></li>
-        <li><a href="#">Website Framework Templates</a></li>
-    </ul>
 
-</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                loop: true,
+                // If we need pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        </script>
+
+
+
 
 
 
