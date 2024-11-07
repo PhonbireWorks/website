@@ -52,19 +52,85 @@
         <!-- HERO STARTS -->
         <section class="hero_section" style="background-image: url(images/hero.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; display: grid; place-items: center">
             <div>
-                <h1 style="font-size: 4rem" class="text1">Homemade Digital Templates</h1>
+                <h1 style="font-size: 4rem" class="text1">MY DIGITAL SHOP</h1>
                 <p style="font-size: 2rem" class="text2">All products featured here are Made in Inkscape, Krita or LibreOffice</p>
-                <button id="scrollButton" onclick="scrollToSection()" class="button1">Learn More</button>
+                <br>
+                <button id="scrollButton" onclick="scrollToSection()" class="button1">Browse Categories</button>
             </div>
 
         </section>
         <!-- HERO ENDS -->
 
+        <section style="padding: 2%; display: flex; flex-direction: column">
+            <p><b>PLEASE NOTE:</b></p>
+            <br>
+            <p>
+                When you click on a design link, you'll be brought to the PayPal payment screen. <br>
+                After your purchase has been successful, you will be presented with a "Return To Merchant" button. <br>
+                Clicking this button will automatically start downloading your ZIP file. <br>
+                If you by any chance paid for a product, but did not receive it, then PLEASE send me an email, and I
+                will manually send it to you. Don't leave empty-handed. I will help.<br>
+                I DO NOT accept emails if I didn't get a payment received notification. <br>
+            </p>
+            <br>
+            <p><b>WHAT YOU WILL RECEIVE AFTER PURCHASE (DEPENDS ON THE TYPE OF PRODUCT):</b></p><br>
+            <ul style="list-style-type:square; margin-left: 1rem">
+                <li>A fully editable Inkscape SVG project file (critical for customization, and makes up for the price of the
+                    product)</li>
+                <li>A fully editable plain SVG project file (critical for customization, and makes up for the price of the
+                    product)</li>
+                <li>PDF file(s)</li>
+                <li>PNG file(s) of varying resolutions (low, medium, high)</li>
+                <li>JPG file(s) of varying resolutions (low, medium, high)</li>
+                <li>Spreadsheet file(s) (for spreadsheets only)</li>
+            </ul>
+            <br>
+
+            <p>All files you get can be opened and edited with free and open source programs. No premium software
+                needed. Inkscape (free), or Adobe Illustrator (paid) is recommended for SVG files. Here are some links
+                to the main programs I use:</p>
+            <br>
+            <ul style="list-style-type:square; margin-left: 1rem">
+                <li><a href="https://inkscape.org/" target="_blank">https://inkscape.org/</a></li>
+                <li><a href="https://krita.org/" target="_blank">https://krita.org/</a></li>
+                <li><a href="https://www.libreoffice.org/" target="_blank">https://www.libreoffice.org/</a></li>
+            </ul><br>
+
+            <p><b>WHAT ARE SVG FILES, AND HOW DO THEY WORK?</b></p><br>
+            <p>SVG is a very versatile file format made up of vector graphic elements. It's technically a markup language, similar to HTML and XML (websites are built in HTML). These file formats are text-based, unlike image files. SVG does not use pixels, but
+                rather mathematical curves, paths, gradients, boxes, strokes, text, etc., wrapped in tags similar to HTML. This not only allows for a much
+                smaller file size, but it lets you scale the graphics to any resolution you desire. SVGs are used as
+                source files for logos, t-shirt designs, bed sheet designs, digital templates, web icons, billboards,
+                window stickers, car stickers, etc. These files are not designed for complex photos, or other images
+                with a lot of detail and texture. Trying to convert a PNG or JPG into an SVG might work if it's simple
+                enough, but if it's a large, complex image with a lot of detail, it can get quite resource-intensive to
+                convert to SVG. SVG files are not to be treated the same way as PNGs or JPGs, but rather as "project files", or
+                "source files", where you can pick each vector element apart, reuse it for other projects, and export it
+                separately into PDFs, PNGs, etc. The best way to create and open SVG files is either through paid
+                programs like Adobe Illustrator, or free and open source alternatives, such as Inkscape. Visit <a href="https://www.slashgear.com/1702635/best-alternative-adobe-illustrator/" target="_blank">this</a> website to learn more about the best alternatives to Adobe Illustrator.
+            </p>
+            <br>
+            <p><b>WHAT IS THE DIFFERENCE BETWEEN "INKSCAPE SVG" AND "PLAIN SVG"?</b></p><br>
+            <p><b>INKSCAPE SVG:</b></p><br>
+            <ul style="list-style-type:square; margin-left: 1rem">
+                <li><b>Inkscape-Specific Metadata: </b>Inkscape SVG files contain additional metadata and elements specific to Inkscape, such as layer information, guides, grids, and custom settings. These elements help preserve the editing environment and features unique to Inkscape.</li>
+                <li><b>Enhanced Editing: </b>When you open an Inkscape SVG file in Inkscape, you retain all the advanced editing capabilities, including the ability to manipulate layers, use custom filters, and access Inkscape-specific tools.</li>
+                <li><b>File Size: </b>Inkscape SVG files can be larger due to the extra metadata and elements included.</li>
+            </ul>
+            <br>
+            <p><b>PLAIN SVG:</b></p><br>
+            <ul style="list-style-type:square; margin-left: 1rem">
+                <li><b>Standard Compliance: </b>Plain SVG files adhere strictly to the SVG specification without any additional metadata or elements specific to a particular software. This ensures maximum compatibility across different applications and platforms.</li>
+                <li><b>Simplicity: </b>Plain SVG files are simpler and often smaller in size because they do not include the extra data that Inkscape SVG files do.</li>
+                <li><b>Universal Editing: </b>Plain SVG files can be opened and edited in any vector graphic editor that supports the SVG format, ensuring broad compatibility and ease of use.</li>
+            </ul>
+        </section>
+
 
 
 
         <!-- INTRO STARTS -->
-        <section class="shop_section">
+        <section id="targetSection2" class="shop_section">
 
 
             <div class="scroll-container" style="margin:auto">
@@ -147,8 +213,31 @@
         <!-- INTRO ENDS -->
 
 
+<section style="padding: 2%; display: flex; flex-direction: column">
 
+    <p><b>QUICK SEARCH</b></p><br>
+    <ul style="list-style-type:square; margin-left: 1rem">
+        <li><a href="#">Resume Templates</a></li>
+        <li><a href="#">Monthly Planners</a></li>
+        <li><a href="#">Desk Pads</a></li>
+        <li><a href="#">Spreadsheets</a></li>
+        <li><a href="#">Daily Planners</a></li>
+        <li><a href="#">Forms</a></li>
+        <li><a href="#">Vector Graphic Element Packs</a></li>
+        <li><a href="#">Brochures</a></li>
+        <li><a href="#">Business Cards</a></li>
+        <li><a href="#">Slideshow Templates</a></li>
+        <li><a href="#">Fonts</a></li>
+        <li><a href="#">E-Books</a></li>
+        <li><a href="#">Meal Planners</a></li>
+        <li><a href="#">Home Cleaning Checklists</a></li>
+        <li><a href="#">Social Media Post Templates</a></li>
+        <li><a href="#">Birthday Cards</a></li>
+        <li><a href="#">Wedding Invitations</a></li>
+        <li><a href="#">Website Framework Templates</a></li>
+    </ul>
 
+</section>
 
 
 
@@ -178,7 +267,7 @@
                 <label style="color: #000000" for="subject">Your Message*</label>
                 <textarea style="width: 100%" id="subject" name="subject" placeholder="Write something.." style="height:20rem" required></textarea>
                 <br>
-                <input style="width: 80%" type="submit" value="Submit">
+                <input style="width: 80%" type="submit" value="Submit" class="button2">
             </form>
         </div>
         <!--FORM ENDS-->

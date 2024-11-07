@@ -234,7 +234,7 @@ nav ul li a {
 .scroll-container {
     display: flex;
     /* Arrange figures in a row */
-    overflow-x: auto;
+    overflow-x: scroll;
     /* Enable horizontal scrolling */
     white-space: nowrap;
     /* Prevent line breaks */
@@ -269,6 +269,24 @@ nav ul li a {
     text-align: left;
     
 }
+
+.scroll-container::-webkit-scrollbar {
+    height: 25px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+    background: #e0e0e0; /* Color of the scrollbar track */
+  }
+
+  .scroll-container::-webkit-scrollbar-thumb {
+    background-color: #000000; /* Color of the scrollbar handle */
+    border-radius: 0px; /* Roundness of the scrollbar handle */
+    height: 25px;
+  }
+
+  .scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #424242; /* Color of the scrollbar handle on hover */
+  }
 
 
 
@@ -541,8 +559,10 @@ nav ul li a {
 
 /* BUTTON STYLE 1 STARTS */
 .button1 {
-    width: 10rem;
+    width: auto;
     height: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     color: #000000;
     background-size: cover; /* Ensures the SVG covers the entire button */
     background-color: #ffffff;
