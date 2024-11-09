@@ -81,7 +81,44 @@
             <input type="text" id="chat-input" placeholder="Type a message...">
             <button id="send-btn">Send</button>
         </div>
-        <script src="script.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script>
+            const socket = io();
+    
+            const chatBox = document.getElementById('chat-box');
+            const chatInput = document.getElementById('chat-input');
+            const sendBtn = document.getElementById('send-btn');
+    
+            // Load chat history
+            socket.on('chat history', (messages) => {
+                messages.forEach(message => {
+                    displayMessage(message);
+                });
+            });
+    
+            // Listen for new messages
+            socket.on('chat message', (msg) => {
+                displayMessage(msg);
+            });
+    
+            // Send new message
+            sendBtn.addEventListener('click', () => {
+                const message = chatInput.value.trim();
+                if (message) {
+                    socket.emit('chat message', message);
+                    chatInput.value = '';
+                }
+            });
+    
+            // Display message in chat box
+            const displayMessage = (message) => {
+                const messageElement = document.createElement('div');
+                messageElement.classList.add('message');
+                messageElement.textContent = message;
+                chatBox.appendChild(messageElement);
+                chatBox.scrollTop = chatBox.scrollHeight;
+            };
+        </script>
 
 
 
