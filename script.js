@@ -44,3 +44,56 @@ function topFunction() {
 }
 
 
+
+
+
+
+
+
+
+//CHAT BOX CODE STARTS
+// script.js
+document.addEventListener('DOMContentLoaded', () => {
+    const chatBox = document.getElementById('chat-box');
+    const chatInput = document.getElementById('chat-input');
+    const sendBtn = document.getElementById('send-btn');
+
+    // Load messages from LocalStorage
+    const loadMessages = () => {
+        const messages = JSON.parse(localStorage.getItem('chatMessages')) || [];
+        messages.forEach(message => {
+            displayMessage(message);
+        });
+    };
+
+    // Save messages to LocalStorage
+    const saveMessage = (message) => {
+        const messages = JSON.parse(localStorage.getItem('chatMessages')) || [];
+        messages.push(message);
+        localStorage.setItem('chatMessages', JSON.stringify(messages));
+    };
+
+    // Display message in chat box
+    const displayMessage = (message) => {
+        const messageElement = document.createElement('div');
+        messageElement.classList.add('message');
+        messageElement.textContent = message;
+        chatBox.appendChild(messageElement);
+        chatBox.scrollTop = chatBox.scrollHeight;
+    };
+
+    // Send button click event
+    sendBtn.addEventListener('click', () => {
+        const message = chatInput.value.trim();
+        if (message) {
+            displayMessage(message);
+            saveMessage(message);
+            chatInput.value = '';
+        }
+    });
+
+    // Load messages on page load
+    loadMessages();
+});
+//CHAT BOX CODE ENDS
+
