@@ -8,6 +8,7 @@
     <title>PhonbireWorks Home</title>
     <link rel="icon" type="image/x-icon" href="images/logo_icon.png">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="animate_on_view.js"></script> <!-- SCRIPT FOR HANDLING ANIMATIONS WHEN IN VIEW -->
 </head>
 
@@ -51,12 +52,12 @@
 
 
         <!-- HERO STARTS -->
-        <section class="hero_section" style="background-image: url(images/hero.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; display: grid; place-items: center">
+        <section class="hero_section" style="background-image: url(images/hero.png); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; display: grid; place-items: center">
             <div class="fade-in">
                 <h1 style="font-size: 4rem" class="text1">Your Destination For Digital Products & Services</h1>
                 <p style="font-size: 2rem" class="text2">Explore all kinds of interesting digital downloads & services</p>
                 <br>
-                <button id="scrollButton" onclick="scrollToSection()" class="button1">Learn More</button>
+                <button id="scrollButton" onclick="scrollToSection()" class="button1">Get Started!</button>
             </div>
         </section>
         <!-- HERO ENDS -->
@@ -66,7 +67,7 @@
             <div class="fade-in">
                 <h1 style="font-size: 4rem" class="text1">Hi;</h1>
                 <p style="font-size: 2rem; max-width: 50rem" class="text2">
-                    My name is Warren Van Zuydam. This website is used to host my portfolio, digital products, services,
+                    My name is Warren Van Zuydam. This is my personal website, used to host my portfolio, digital products, services,
                     and anything else I feel like. I am a hobbyist graphic and website designer who is looking to share
                     my own works and skills with the rest of the world.
                 </p>
@@ -76,159 +77,69 @@
         <!-- INTRO ENDS -->
 
 
-        <div class="chat-container">
-            <div class="chat-box" id="chat-box"></div>
-            <input type="text" id="chat-input" placeholder="Type a message...">
-            <button id="send-btn">Send</button>
-        </div>
-        <script src="/socket.io/socket.io.js"></script>
-        <script>
-            const socket = io();
-    
-            const chatBox = document.getElementById('chat-box');
-            const chatInput = document.getElementById('chat-input');
-            const sendBtn = document.getElementById('send-btn');
-    
-            // Load chat history
-            socket.on('chat history', (messages) => {
-                messages.forEach(message => {
-                    displayMessage(message);
-                });
-            });
-    
-            // Listen for new messages
-            socket.on('chat message', (msg) => {
-                displayMessage(msg);
-            });
-    
-            // Send new message
-            sendBtn.addEventListener('click', () => {
-                const message = chatInput.value.trim();
-                if (message) {
-                    socket.emit('chat message', message);
-                    chatInput.value = '';
-                }
-            });
-    
-            // Display message in chat box
-            const displayMessage = (message) => {
-                const messageElement = document.createElement('div');
-                messageElement.classList.add('message');
-                messageElement.textContent = message;
-                chatBox.appendChild(messageElement);
-                chatBox.scrollTop = chatBox.scrollHeight;
-            };
-        </script>
-
-
-
-
-
-
-        <!-- WEBSITE STARTS -->
-        <section class="products_and_services_section">
-
-            <div class="flexcontainer1"> <!-- FLEX CONTAINER STARTS -->
-                <div class="flexchild1 fade-in">
-                    <h1 style="font-size: 2rem; text-align: left">Are You In Need Of A Website?</h1><br>
+        <section id="targetSection" style="background-color: #eeeeee; padding: 2%; display: flex; flex-direction: row; justify-content:space-evenly; flex-wrap: wrap">
+            <div style="min-width: 50%; background-color: #ffffff; padding: 2%; border-radius: 1rem">
+                <h1 style="font-size: 2rem; text-align: left">What Services Do I Offer?</h1><br>
                     <p style="font-size: 1rem; max-width: 60rem; text-align: left">
-                        I'm here to offer affordable solutions to small starting businesses who just want something
-                        simple that works, and isn't overly expensive, compared to other options, which can go for well
-                        over $1000-$5000+. At the moment, I do not support WordPress websites. I hand code all websites
-                        for under $1000, which one of the cheapest options out there. This is partly also due to me
-                        being a new freelancer, so I am still trying to get my foot in the door with website
-                        freelancing. As I get better myself as a freelancer and coder, my prices will gradually
-                        increase.
+                        - I Blog Hosting On My Website For Those Who Want To Get Their Word Out To The World. I Take Care Of Your Coverage Through Ads<br><br>
+                        - Simple Personal Websites Written In HTML, CSS and JavaScript (No WordPress support yet)<br><br>
+                        - Vector Tracing (Turning Low-Quality Image Files Into Customizable SVG Files)<br><br>
+                        - Converting PDF To SVG, And Back Into PDF<br><br>
+                        - Converting Image Files To Any Format<br><br>
+                        - Custom Resumes & Templates<br><br>
+                        - Custom Business Cards & Templates<br><br>
+                        - Custom Spreadsheets & Templates<br><br>
+                        - Custom Brochures & Templates<br><br>
+                        - Custom Billboards<br><br>
+                        - Custom Logos<br><br>
+                        - Custom Adverts<br><br>
+                        - Custom Product Labels & Templates<br><br>
+                        - Custom Social Media Posts & Templates<br><br>
                     </p>
-                </div>
-                <div class="flexchild1 fade-in">
-                    <h1 style="font-size: 2rem; text-align: left">Website Pricing:</h1><br>
-                    <p style="font-size: 1rem; max-width: 60rem; text-align: left">
-                        - Basic Blog Website - $500<br><br>
-                        - Portfolio Website - $500<br><br>
-                        - Personal Website - $750<br><br>
-                        - E-Commerce Website - $1000<br><br>
-                        - Non-Profit Organization - $1000<br><br>
-                    </p>
-                </div>
-                <div class="flexchild1 fade-in">
-                    <h1 style="font-size: 2rem; text-align: left">How The Process Works:</h1><br>
-                    <p style="font-size: 1rem; max-width: 60rem; text-align: left">
-                        - Design Discussion Over Zoom, Discord, Or Telegram<br><br>
-                        - You Send Me Any Specific Images, And I Start Building Your Website<br><br>
-                        - I Make Revisions Based On Your Feedback<br><br>
-                        - You Sign Up For A Web Host Service<br><br>
-                        - You Go Live!<br><br>
-                    </p>
-                </div>
-            </div><!-- FLEX CONTAINER ENDS -->
-        </section>
-        <!-- WEBSITE ENDS -->
+                    <br>
+            <a href="about.html" style="align-self: left"><button class="button1">Learn More</button></a>
+            <br><br>
+            </div>
 
-        <!-- ALTERNATIVE PRODUCTS & SERVICES STARTS -->
-        <section class="products_and_services_section">
-
-            <div class="flexcontainer1"> <!-- FLEX CONTAINER STARTS -->
-                <div class="flexchild1 fade-in">
-                    <h1 style="font-size: 2rem; text-align: left">Explore Other Services & Products</h1><br>
-                    <p style="font-size: 1rem; max-width: 60rem; text-align: left">
-                        I not only offer custom-built websites, but also other small services and digital products.
-                    </p>
-                </div>
-
-            </div><!-- FLEX CONTAINER ENDS -->
-
-
-        </section>
-        <!-- ALTERNATIVE PRODUCTS & SERVICES ENDS -->
-
-
-        <!-- PRODUCTS & SERVICES STARTS -->
-        <section class="products_and_services_section" id="targetSection">
-
-            <div class="flexcontainer1"> <!-- FLEX CONTAINER STARTS -->
-                <div class="flexchild1 box1 fade-in">
-                    <h1 style="font-size: 2rem; text-align: left">What Services Do I Offer?</h1><br>
-                    <p style="font-size: 1rem; max-width: 60rem; text-align: left">
-                        - Vector Tracing (Converting Low-Quality Image Files To SVG Files)<br><br>
-                        - Converting PDF Files To SVG, And Vice Versa<br><br>
-                        - Converting Image Files To Any Format (Where Applicable)<br><br>
-                        - I Design Custom Resumes<br><br>
-                        - I Design Custom Business Cards<br><br>
-                        - I Design Custom Brochures<br><br>
-                        - I Design Custom Billboards<br><br>
-                        - I Design Custom Logos<br><br>
-                        - I Design Custom Adverts<br><br>
-                        - I Design Custom Product Labels<br><br>
-                    </p>
-                </div>
-                <div class="flexchild1 box2 fade-in">
-                    <h1 style="font-size: 2rem; text-align: left">What Products Do I Offer?</h1><br>
-                    <p style="font-size: 1rem; max-width: 60rem; text-align: left">
-                        - I Sell Digital Document Templates<br><br>
-                        - I Sell Spreadsheets<br><br>
-                        - I Sell Websites To Small Businesses With A Tight Budget<br><br>
-                        - I Sell ...<br><br>
-                        - I Sell ...<br><br>
-                        - I Sell ...<br><br>
-                        - I Sell ...<br><br>
-                        - I Sell ...<br><br>
-                        - I Sell ...<br><br>
-                        - I Sell ...<br><br>
-                    </p>
-                </div>
-            </div><!-- FLEX CONTAINER ENDS -->
-
+            <!-- <img src="images/debug.png" alt="" style="width: 100%; height: 100%; max-width: 20rem; align-self: center"> -->
             
-
-
-
-
-
-
-
         </section>
-        <!-- PRODUCTS & SERVICES ENDS -->
+
+        <section style="background-color: #ffffff; padding: 2%; display: flex; flex-direction: row; justify-content:space-evenly; flex-wrap: wrap">
+            <div style="min-width: 50%; background-color: #eeeeee; padding: 2%; border-radius: 1rem">
+                <h1 style="font-size: 2rem; text-align: left">What Digial Products Do I Sell?</h1><br>
+                    <p style="font-size: 1rem; max-width: 60rem; text-align: left">
+                        - Resume Templates<br><br>
+                        - Quote Templates<br><br>
+                        - Daily Planners<br><br>
+                        - Weekly Planners<br><br>
+                        - Monthly Planners<br><br>
+                        - Yearly Planners<br><br>
+                        - Journals<br><br>
+                        - Desk Pads<br><br>
+                        - Spreadsheets<br><br>
+                        - Form Templates<br><br>
+                        - Vector Graphic Element Packs<br><br>
+                        - Brochures<br><br>
+                        - Business Cards<br><br>
+                        - Slideshow Templates<br><br>
+                    </p>
+                    <br>
+            <a href="shop.html" style="align-self: left"><button class="button1">Browse My Shop</button></a>
+            <br><br>
+            </div>
+
+            <!-- <img src="images/debug.png" alt="" style="width: 100%; height: 100%; max-width: 20rem; align-self: center"> -->
+            
+        </section>
+
+        
+
+
+
+
+
+        
 
 
 
@@ -245,6 +156,32 @@
 
 
 
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                // Optional parameters
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+                loop: true,
+                // If we need pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        </script>
+
+
+
     </main><!-- MAIN ENDS -->
     <section class="footer_section">
         <p style="max-width: 50rem; text-align: justify; color:#000000; padding: 1em; margin: auto">
@@ -253,28 +190,23 @@
             needs. I am passionate about creating digital experiences that make a difference. Let's embark on a digital
             journey together.
         </p>
-        <p
-            style="font-size: 2rem; max-width: 50rem; text-align: center; color:#000000; padding-bottom: 1em; margin: auto">
-            Let's Colabborate!
+        <p style="font-size: 2rem; max-width: 50rem; text-align: center; color:#000000; padding-bottom: 1em; margin: auto">
+            Let's Collaborate!
         </p>
         <!--FORM STARTS-->
-        <div
-            style="display: flex; flex-direction: column; align-items: center; width: 100%; height: auto; margin: auto">
-            <form style="display: flex; flex-direction: column; align-items: center"
-                action="https://formspree.io/f/xnnqalvd" method="POST">
+        <div style="display: flex; flex-direction: column; align-items: center; width: 100%; height: auto; margin: auto">
+            <form style="display: flex; flex-direction: column; align-items: center" action="https://formspree.io/f/xnnqalvd" method="POST">
                 <label style="color: #000000" for="fname">First Name*</label>
                 <input style="width: 100%" type="text" id="fname" name="firstname" placeholder="Your name.." required>
                 <br>
                 <label style="color: #000000" for="lname">Last Name*</label>
-                <input style="width: 100%" type="text" id="lname" name="lastname" placeholder="Your last name.."
-                    required>
+                <input style="width: 100%" type="text" id="lname" name="lastname" placeholder="Your last name.." required>
                 <br>
                 <label style="color: #000000" for="email">Email*</label>
                 <input style="width: 100%" type="email" id="email" name="email" placeholder="Your email.." required>
                 <br>
                 <label style="color: #000000" for="subject">Your Message*</label>
-                <textarea style="width: 100%" id="subject" name="subject" placeholder="Write something.."
-                    style="height:20rem" required></textarea>
+                <textarea style="width: 100%" id="subject" name="subject" placeholder="Write something.." style="height:20rem" required></textarea>
                 <br>
                 <input style="width: 80%" type="submit" value="Submit" class="button2">
             </form>
