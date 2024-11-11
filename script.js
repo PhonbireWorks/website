@@ -46,7 +46,7 @@ function topFunction() {
 
 
 
-// POPUP GRAPHIC CODE STARTS
+// POPUP AD CODE STARTS
 document.addEventListener('DOMContentLoaded', function() {
     var popup = document.getElementById('popup');
     var close = document.getElementsByClassName('close')[0];
@@ -69,4 +69,4 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// POPUP GRAPHIC CODE ENDS
+// POPUP AD CODE ENDS
