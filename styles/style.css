@@ -701,55 +701,35 @@ nav ul li a {
 
 
 
-
-/* styles.css */
-.chat-container {
-    width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+/* Style the Popup */
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000000ac;
 }
 
-.chat-box {
-    height: 400px;
-    overflow-y: auto;
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
+.popup img {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
 }
 
-.chat-box .message {
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #e0e0e0;
-}
-
-#chat-input {
-    width: calc(100% - 60px);
-    padding: 10px;
-    border: none;
-    border-top: 1px solid #ccc;
-    border-radius: 0 0 0 5px;
-}
-
-#send-btn {
-    width: 60px;
-    padding: 10px;
-    border: none;
-    border-top: 1px solid #ccc;
-    border-left: 1px solid #ccc;
-    border-radius: 0 0 5px 0;
-    background-color: #007bff;
-    color: #fff;
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
     cursor: pointer;
 }
-
-
-
-
-
-
 
 
 

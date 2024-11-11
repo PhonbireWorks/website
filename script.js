@@ -42,3 +42,31 @@ function topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
 }
+
+
+
+
+// POPUP GRAPHIC CODE STARTS
+document.addEventListener('DOMContentLoaded', function() {
+    var popup = document.getElementById('popup');
+    var close = document.getElementsByClassName('close')[0];
+
+    // Show the popup after 3 seconds
+    setTimeout(function() {
+        popup.style.display = 'flex';
+    }, 3000);
+
+    // Close the popup when the user clicks on <span> (x)
+    close.onclick = function() {
+        popup.style.display = 'none';
+    }
+
+    // Close the popup when the user clicks anywhere outside of the popup
+    window.onclick = function(event) {
+        if (event.target == popup) {
+            popup.style.display = 'none';
+        }
+    }
+});
+
+// POPUP GRAPHIC CODE ENDS
