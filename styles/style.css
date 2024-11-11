@@ -732,8 +732,8 @@ nav ul li a {
 
 .close {
     position: absolute;
-    top: 15px;
-    right: 35px;
+    top: 10rem;
+    left: 90%;
     color: #ffffff;
     font-size: 40px;
     font-weight: bold;
