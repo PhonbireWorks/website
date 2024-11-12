@@ -630,8 +630,8 @@ nav ul li a {
 .button3 {
     width: auto;
     height: 4rem;
-    padding-left: 8rem;
-    padding-right: 8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     margin: 1rem;
     color: #ffffff;
     background-size: cover; /* Ensures the SVG covers the entire button */
