@@ -496,6 +496,11 @@ nav ul li a {
 	        animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 }
 
+.button3:hover {
+	-webkit-animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
 @-webkit-keyframes shake-horizontal {
     0%,
     100% {
@@ -559,7 +564,7 @@ nav ul li a {
 
 /* BUTTON STYLE 1 STARTS */
 .button1 {
-    width: auto;
+    width: 100%;
     height: 2rem;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -621,6 +626,39 @@ nav ul li a {
   }
   /* BUTTON STYLE 2 ENDS */
 
+  /* BUTTON STYLE 3 STARTS */
+.button3 {
+    width: 100%;
+    height: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 1rem;
+    color: #ffffff;
+    background-size: cover; /* Ensures the SVG covers the entire button */
+    background-color: #128251;
+    border: none;
+    border-radius: 3px;
+    background-repeat: no-repeat; /* Prevents the SVG from repeating */
+    background-position: center; /* Centers the SVG in the button */
+    box-shadow: 0rem 0rem 2rem #0000004d; /* Enhanced shadow on hover */
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    /* transition: opacity 0.5s; */
+    transition: background-color 0.5s;
+  }
+  .button3:hover { /* Changes button style on hover */
+    /* opacity: 0.8; */
+    color: #ffffff;
+    background-color: #00a35c;
+  }
+  .button3:active { /* Changes button style on click */
+    opacity: 0.8;
+    /* transform: translateY(0.25rem); */
+    background-color: #00a35c81;
+  }
+  /* BUTTON STYLE 3 ENDS */
+
 
 
 
@@ -638,13 +676,12 @@ nav ul li a {
 
 /* SWIPER IMAGE SCROLLER STYLES STARTS */
 .container{
-    background: #000000;
+    background: #ffffff;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 50%;
-    height: 50%;
-    margin: auto;
 }
 
 .swiper{
@@ -659,15 +696,13 @@ nav ul li a {
 .swiper .swiper-button-prev{
     color: #ffffff;
     background-color: #000000a3;
-    padding: 1%;
-    font-weight: bold;
+    padding: 2%;
 }
 
 .swiper .swiper-button-next{
     color: #ffffff;
     background-color: #000000a3;
-    padding: 1%;
-    font-weight: bold;
+    padding: 2%;
 }
 
 .swiper .swiper-pagination-bullet-active{
@@ -687,7 +722,6 @@ nav ul li a {
 @media (max-width: 768px) {
 
     .container{
-        background: #000000;
         display: flex;
         align-items: center;
         justify-content: center;
