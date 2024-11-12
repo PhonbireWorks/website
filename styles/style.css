@@ -564,7 +564,7 @@ nav ul li a {
 
 /* BUTTON STYLE 1 STARTS */
 .button1 {
-    width: 100%;
+    width: auto;
     height: 2rem;
     padding-left: 1rem;
     padding-right: 1rem;
