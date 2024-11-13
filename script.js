@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Show the popup after 3 seconds
     setTimeout(function() {
         popup.style.display = 'flex';
-    }, 10000);
+    }, 1000);
 
     // Close the popup when the user clicks on <span> (x)
     close.onclick = function() {
