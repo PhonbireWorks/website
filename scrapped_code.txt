@@ -200,3 +200,39 @@
 
         </section>
         <!-- PRODUCTS & SERVICES ENDS -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- SWIPER STARTS -->
+            <div class="container">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="../weekly_planners/design_1/1.png"></div>
+                        <div class="swiper-slide"><img src="../weekly_planners/design_1/2.png"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            <h1 style="color: #ffffff; font-size: 4rem" class="text2">DESIGN 1</h1>
+            <a href="https://www.paypal.com/ncp/payment/2LLXUMAWEKBHN" target="_blank"><button class="button2 shake-horizontal">Buy Now For $15</button></a>
+            <!-- SWIPER ENDS -->
+
+            <br><br><br><br>

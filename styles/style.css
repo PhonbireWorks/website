@@ -204,9 +204,9 @@ nav ul li a {
 
 .footer_section {
     height: auto;
-    display: block;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
     background-color: #83deff;
 }
 
@@ -682,13 +682,11 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     width: 45%;
-    border-radius: 1rem;
 }
 
 .swiper{
     width: 100%;
     height: fit-content;
-    border-radius: 1rem;
 }
 
 .swiper-slide img{
