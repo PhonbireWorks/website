@@ -719,7 +719,7 @@ nav ul li a {
     border-color: #ffffff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
 
     .container{
         display: flex;
