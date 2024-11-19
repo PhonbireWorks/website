@@ -771,7 +771,7 @@ nav ul li a {
     margin: auto;
     display: flex;
     justify-content: center;
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
 }
 
