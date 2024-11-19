@@ -440,10 +440,18 @@ nav ul li a {
     width: 90%;
 }
 
+.blog-image {
+    height: 20rem;
+}
+
 @media (max-width: 768px) {
     .blog-child1{
-        width: 100%;
-        max-width: 95%;
+        max-width: 90%;
+    }
+
+    .blog-image {
+        max-width: 90vw;
+        height: auto;
     }
 }
 /* BLOG.HTML STYLES ENDS */
