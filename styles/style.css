@@ -642,9 +642,9 @@ nav ul li a {
     background-color: #83deff;
   }
   .button1:active { /* Changes button style on click */
-    opacity: 0.8;
+    /* opacity: 0.8; */
     /* transform: translateY(0.25rem); */
-    background-color: #ffdfb0;
+    background-color: #00bbff;
   }
   /* BUTTON STYLE 1 ENDS */
 
@@ -674,9 +674,9 @@ nav ul li a {
     background-color: #83deff;
   }
   .button2:active { /* Changes button style on click */
-    opacity: 0.8;
+    /* opacity: 0.8; */
     /* transform: translateY(0.25rem); */
-    background-color: #ffdfb0;
+    background-color: #00bbff;
   }
   /* BUTTON STYLE 2 ENDS */
 
@@ -707,9 +707,9 @@ nav ul li a {
     background-color: #00a35c;
   }
   .button3:active { /* Changes button style on click */
-    opacity: 0.8;
+    /* opacity: 0.8; */
     /* transform: translateY(0.25rem); */
-    background-color: #00a35c81;
+    background-color: #00d378;
   }
   /* BUTTON STYLE 3 ENDS */
 
