@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="114.62543mm"
+   height="133.31264mm"
+   viewBox="0 0 114.62544 133.31264"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="logo2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.125"
+     inkscape:cx="1772"
+     inkscape:cy="172"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="2391"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient13"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#9d33dd;stop-opacity:1;"
+         offset="0"
+         id="stop12" />
+      <stop
+         style="stop-color:#e04747;stop-opacity:1;"
+         offset="1"
+         id="stop13" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient11"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#9d33dd;stop-opacity:1;"
+         offset="0"
+         id="stop10" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop11" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient13"
+       id="linearGradient17"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.57730181,0,0,0.57730181,1325.6562,474.42727)"
+       x1="330.72504"
+       y1="185.73749"
+       x2="330.72504"
+       y2="82.814583" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient11"
+       id="linearGradient18"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.57730181,0,0,0.57730181,1325.6562,474.42727)"
+       x1="330.72504"
+       y1="115.35833"
+       x2="330.72504"
+       y2="340.78333" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1458.5858,-498.72052)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.76047;paint-order:stroke fill markers"
+       id="rect13"
+       width="114.62542"
+       height="133.31264"
+       x="1458.5858"
+       y="498.72052"
+       inkscape:export-filename="logo2.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:3.28266;paint-order:stroke fill markers"
+       id="rect14"
+       width="107.90949"
+       height="107.90949"
+       x="1461.9438"
+       y="502.07849" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5953px;font-family:Amiri;-inkscape-font-specification:'Amiri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.600291;paint-order:stroke fill markers"
+       x="1516.0455"
+       y="625.66455"
+       id="text16"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5953px;font-family:Amiri;-inkscape-font-specification:'Amiri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.600291"
+         x="1516.0455"
+         y="625.66455"><tspan
+           style="fill:#000000;fill-opacity:1"
+           id="tspan14">PHONBIRE</tspan><tspan
+           style="fill:#000000;fill-opacity:1"
+           id="tspan15">WORKS</tspan></tspan></text>
+    <path
+       id="path16"
+       style="fill:url(#linearGradient18);fill-opacity:1;stroke:none;stroke-width:1.99999;paint-order:fill markers stroke"
+       d="m 1479.7864,541.0239 -4.5501,22.14852 4.5501,7.87032 h 15.0947 8.8759 a 11.455556,11.455556 0 0 0 11.4556,-11.45563 v -3.55379 -6.20686 -8.80256 h -8.8025 -6.4777 z m 36.7982,0 v 40.63008 h 11.4557 v -29.17445 a 11.455556,11.455556 0 0 0 -11.4557,-11.45563 z m 17.7127,15.98507 17.7131,24.64501 h 11.4556 l -17.7126,-24.64501 z" />
+    <path
+       id="path17"
+       style="fill:url(#linearGradient17);fill-opacity:1;stroke:none;stroke-width:2;paint-order:fill markers stroke"
+       d="m 1479.7864,541.0239 a 11.455556,11.455556 0 0 0 -11.4557,11.45563 v 29.17445 h 11.4557 z m 72.224,0 v 40.63008 h 11.4561 V 541.0239 a 11.455556,11.455556 0 0 0 -11.4556,11.45563 V 541.0239 Z m -17.7131,15.98507 -17.7127,24.64501 h 11.4557 l 17.7131,-24.64501 z" />
+  </g>
+</svg>

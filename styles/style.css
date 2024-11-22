@@ -193,10 +193,16 @@ nav ul li a {
     min-height: 40vh;
 }
 
+@media (max-width: 768px) {
+.hero_section {
+    background-position: center;
+}
+}
+
 .intro_section {
-    background-color: #83deff;
+    background-color: #8a8a8a;
     text-align: left;
-    color: #000000;
+    color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -236,7 +242,7 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #83deff;
+    background-color: #8a8a8a;
 }
 
 
@@ -638,7 +644,7 @@ nav ul li a {
   .button1:active { /* Changes button style on click */
     opacity: 0.8;
     /* transform: translateY(0.25rem); */
-    background-color: #83deff;
+    background-color: #ffdfb0;
   }
   /* BUTTON STYLE 1 ENDS */
 
@@ -670,7 +676,7 @@ nav ul li a {
   .button2:active { /* Changes button style on click */
     opacity: 0.8;
     /* transform: translateY(0.25rem); */
-    background-color: #83deff;
+    background-color: #ffdfb0;
   }
   /* BUTTON STYLE 2 ENDS */
 
