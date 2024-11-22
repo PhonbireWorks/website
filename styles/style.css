@@ -22,6 +22,35 @@ header {
 /* HEADER STYLES STARTS */
 
 
+
+
+
+
+
+
+
+.no-right-click { /* PREVENTS PEOPLE FROM RIGHT-CLICKING THIS OBJECT */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+img { /* PREVENTS PEOPLE FROM DRAGGING YOUR IMAGE FILES TO A NEW BROWSER WINDOW */
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+
+
+
+
+
+
+
+
 /* NAV MENU STYLES STARTS */
 nav {
     position: relative;

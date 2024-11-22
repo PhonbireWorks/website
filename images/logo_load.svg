@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="114.62542mm"
+   height="133.31261mm"
+   viewBox="0 0 114.62542 133.31261"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="logo2 - Copy.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="-83.4386"
+     inkscape:cy="504.87424"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="2391"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true">
+    <sodipodi:guide
+       position="-1182.6411,516.67484"
+       orientation="0,-1"
+       id="guide13"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-1163.0619,446.29567"
+       orientation="0,1"
+       id="guide14"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-1131.0473,492.33318"
+       orientation="1,0"
+       id="guide15"
+       inkscape:locked="false" />
+    <inkscape:page
+       x="-1.4282927e-12"
+       y="0"
+       width="114.62543"
+       height="133.31261"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1163.0618,-498.72054)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke;stroke:none"
+       id="rect1"
+       width="114.62541"
+       height="133.31261"
+       x="1163.0618"
+       y="498.72055" />
+    <g
+       id="g2"
+       transform="translate(-3.8146973e-5,-2.2015152)">
+      <circle
+         style="fill:#5555ff;fill-opacity:1;stroke:none;stroke-width:0.999999;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="path1"
+         cx="1188.1311"
+         cy="567.57837"
+         r="13.163021" />
+      <circle
+         style="fill:#5555ff;fill-opacity:1;stroke:none;stroke-width:0.999999;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="circle1"
+         cx="1220.3745"
+         cy="567.57837"
+         r="13.163021" />
+      <circle
+         style="fill:#5555ff;fill-opacity:1;stroke:none;stroke-width:0.999999;stroke-linejoin:round;paint-order:fill markers stroke"
+         id="circle2"
+         cx="1252.6179"
+         cy="567.57837"
+         r="13.163021" />
+    </g>
+  </g>
+</svg>

@@ -70,3 +70,33 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // POPUP AD CODE ENDS
+
+
+
+
+
+
+
+
+
+
+
+
+// RANDOM LOGO LOAD CODE STARTS
+// THIS CODE LOADS A RANDOM LOGO VARIATION EVERY TIME THE PAGE REFRESHES OR LOADS
+const images = [
+    'images/logo2.svg',
+    'images/logo3.svg',
+];
+
+// Function to load a random image
+function loadRandomImage() {
+    const randomIndex = Math.floor(Math.random() * images.length);
+    const randomImage = images[randomIndex];
+    document.getElementById('randomImage').src = randomImage;
+}
+
+// Load a random image when the page loads
+window.onload = loadRandomImage;
+// THIS CODE LOADS A RANDOM LOGO VARIATION EVERY TIME THE PAGE REFRESHES OR LOADS
+// RANDOM LOGO LOAD CODE ENDS

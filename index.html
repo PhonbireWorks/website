@@ -35,7 +35,6 @@
         }
     </script>
     <!-- GOOGLE SEO STUFF ENDS -->
-
 </head>
 
 <body>
@@ -45,7 +44,12 @@
     <header class="sticky" style="box-shadow: 0 0 3rem -0rem #00000068">
 
         <div style="display: flex; justify-content: space-between">
-            <img src="images/logo.svg" alt="Sample GIF" style="display: flex; align-self: center; height: 10vh">
+            <img src="images/logo_load.svg" alt="Sample GIF" style="display: flex; align-self: center; height: 10vh" id="randomImage" class="no-right-click">
+            <script>
+                document.addEventListener('contextmenu', function (e) {
+                    e.preventDefault();
+                }, false);
+            </script>
             <div style="display: flex; flex-direction: column; justify-content: center; flex-grow: 1;">
                 <h1 style="font-size: 2rem" class="header-logo">PHONBIREWORKS</h1>
                 <nav>
@@ -61,13 +65,13 @@
                         <li><a href="blog.html" class="shop" style="font-size: 1rem">BLOG</a></li>
                         <li><a href="shop.html" class="shop" style="font-size: 1rem">PORTFOLIO</a></li>
                         <li><a href="contact.html" class="contact" style="font-size: 1rem">CONTACT</a></li>
-                        <!-- <li><a href="downloadscreen.html" class="contact" style="font-size: 1rem">DOWNLOAD</a></li> -->
                     </ul>
                 </nav>
             </div>
         </div>
 
     </header>
+
 
     <main><!-- MAIN STARTS -->
 
@@ -89,7 +93,17 @@
 
 
 
-
+<!-- HERO STARTS -->
+<section class="hero_section" style="background-image: url(images/hero2.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; display: flex">
+    <div class="fade-in">
+        <h1 style="font-size: 6rem; color: #ffffff; max-width: 30%; text-align: left;" class="text1">WE SELL DIGITAL PRODUCTS & SERVICES</h1>
+        <br><br><br>
+        <p style="font-size: 2rem; color: #ffffff; text-align: left;" class="text2">Explore all kinds of interesting digital downloads & services</p>
+        <br>
+        <button id="scrollButton" onclick="scrollToSection()" class="button1">Get Started</button>
+    </div>
+</section>
+<!-- HERO ENDS -->
 
 
         <!-- HERO STARTS -->
@@ -98,7 +112,7 @@
                 <h1 style="font-size: 4rem" class="text1">Your Destination For Digital Products & Services</h1>
                 <p style="font-size: 2rem" class="text2">Explore all kinds of interesting digital downloads & services</p>
                 <br>
-                <button id="scrollButton" onclick="scrollToSection()" class="button1">Get Started!</button>
+                <button id="scrollButton" onclick="scrollToSection()" class="button1">Download My Business Card</button>
             </div>
         </section>
         <!-- HERO ENDS -->
@@ -112,6 +126,7 @@
             <div style="min-width: 50%; background-color: #ffffff; padding: 2%; border-radius: 1rem">
                 <h1 style="font-size: 2rem; text-align: left">Services I Offer:</h1><br>
                 <p style="font-size: 1rem; max-width: 60rem; text-align: left">
+                    - I Do Custom "Digital Business Cards", Which Are Interactive PDF Files Which Look Like Physical Business Cards, That Contain Links To Your Socials, Website, Etc.<br><br>
                     - I Do Blog Hosting On My Website For Those Who Want To Get Their Work Out There Without Needing Their Own Website<br><br>
                     - I Code Simple Personal Websites In HTML, CSS & JavaScript, Just Like I Did With This Website (No WordPress Support Yet)<br><br>
                     - I Do Vector Tracing (Turning Low-Quality Graphics Into Customizable SVG Project Files)<br><br>
