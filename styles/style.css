@@ -622,9 +622,9 @@ nav ul li a {
     height: 2rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    color: #000000;
+    color: #ffffff;
     background-size: cover; /* Ensures the SVG covers the entire button */
-    background-color: #ffffff;
+    background-color: #00bbff;
     border: none;
     border-radius: 50px;
     background-repeat: no-repeat; /* Prevents the SVG from repeating */
@@ -642,9 +642,9 @@ nav ul li a {
     background-color: #83deff;
   }
   .button1:active { /* Changes button style on click */
-    /* opacity: 0.8; */
+    opacity: 0.8;
     /* transform: translateY(0.25rem); */
-    background-color: #00bbff;
+    background-color: #83deff;
   }
   /* BUTTON STYLE 1 ENDS */
 
@@ -654,9 +654,9 @@ nav ul li a {
     height: 2rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    color: #000000;
+    color: #ffffff;
     background-size: cover; /* Ensures the SVG covers the entire button */
-    background-color: #ffffff;
+    background-color: #00bbff;
     border: none;
     border-radius: 50px;
     background-repeat: no-repeat; /* Prevents the SVG from repeating */
@@ -674,9 +674,9 @@ nav ul li a {
     background-color: #83deff;
   }
   .button2:active { /* Changes button style on click */
-    /* opacity: 0.8; */
+    opacity: 0.8;
     /* transform: translateY(0.25rem); */
-    background-color: #00bbff;
+    background-color: #83deff;
   }
   /* BUTTON STYLE 2 ENDS */
 
