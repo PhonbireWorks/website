@@ -99,3 +99,24 @@ function loadRandomImage() {
 window.onload = loadRandomImage;
 // THIS CODE LOADS A RANDOM LOGO VARIATION EVERY TIME THE PAGE REFRESHES OR LOADS
 // RANDOM LOGO LOAD CODE ENDS
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    var headers = document.querySelectorAll('.accordion-header');
+
+    headers.forEach(function(header) {
+        header.addEventListener('click', function() {
+            var content = this.nextElementSibling;
+
+            if (content.style.display === 'block') {
+                content.style.display = 'none';
+            } else {
+                content.style.display = 'block';
+            }
+        });
+    });
+});
+

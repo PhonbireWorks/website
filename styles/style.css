@@ -835,3 +835,48 @@ nav ul li a {
 
 
 /* MISC. STYLES ENDS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.accordion {
+    width: 100%;
+    max-width: 100%;
+}
+
+.accordion-item {
+    border: 1px solid #8a8a8a00;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+
+.accordion-header {
+    color: #ffffff;
+    background-color: #8a8a8a;
+    border: solid;
+    border-radius: 5rem;
+    padding: 1rem;
+    width: 100%;
+    text-align: left;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.accordion-content {
+    display: none;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #ffffff;
+}
