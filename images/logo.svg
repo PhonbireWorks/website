@@ -2,22 +2,18 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="150.83282mm"
-   height="175.4229mm"
-   viewBox="0 0 150.83282 175.4229"
+   width="146.12083mm"
+   height="146.12083mm"
+   viewBox="0 0 146.12083 146.12083"
    version="1.1"
    id="svg1"
-   xml:space="preserve"
-   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
    sodipodi:docname="logo.svg"
-   inkscape:export-filename="..\..\poop.png"
-   inkscape:export-xdpi="200"
-   inkscape:export-ydpi="200"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
      id="namedview1"
      pagecolor="#ffffff"
      bordercolor="#000000"
@@ -28,91 +24,134 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showguides="true"
-     inkscape:zoom="0.11313709"
-     inkscape:cx="3619.5028"
-     inkscape:cy="1807.5417"
+     inkscape:zoom="0.5"
+     inkscape:cx="27"
+     inkscape:cy="521"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="2391"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" /><defs
-     id="defs1"><linearGradient
-       id="linearGradient3"
-       inkscape:collect="always"><stop
-         style="stop-color:#808080;stop-opacity:1;"
-         offset="0"
-         id="stop3" /><stop
-         style="stop-color:#808080;stop-opacity:0;"
-         offset="1"
-         id="stop4" /></linearGradient><linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3"
-       id="linearGradient4"
-       x1="9498.3389"
-       y1="-249.98997"
-       x2="9498.3389"
-       y2="-416.70255"
-       gradientUnits="userSpaceOnUse" /></defs><g
+     inkscape:current-layer="g15" />
+  <defs
+     id="defs1" />
+  <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-8565.7219,435.78857)"><rect
-       style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:26.4393;paint-order:stroke fill markers"
-       id="rect252"
-       width="1919.9999"
-       height="196.032"
-       x="8538.3389"
-       y="-446.02197"
-       inkscape:export-filename="..\..\background.svg"
-       inkscape:export-xdpi="72.911842"
-       inkscape:export-ydpi="72.911842" /><rect
-       style="opacity:0.506893;fill:url(#linearGradient4);fill-opacity:1;stroke:none;stroke-width:26.4393;paint-order:stroke fill markers"
-       id="rect3"
-       width="1919.9999"
-       height="196.032"
-       x="8538.3389"
-       y="-446.02197"
-       inkscape:export-filename="..\..\background.svg"
-       inkscape:export-xdpi="72.911842"
-       inkscape:export-ydpi="72.911842" /><g
-       id="g130"
-       transform="matrix(1.3158759,0,0,1.3158759,2867.3155,-527.55445)"
-       inkscape:export-filename="..\..\..\logo.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"><rect
-         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.76047;paint-order:stroke fill markers"
-         id="rect81"
-         width="114.62542"
-         height="133.31264"
-         x="4330.5044"
-         y="69.737488"
-         inkscape:export-filename="rect27.png"
+     transform="translate(-373.78126,-61.398071)">
+    <g
+       id="g15"
+       transform="translate(0.25025554)">
+      <circle
+         style="fill:#000000;stroke:#ffffff;stroke-width:5;stroke-linecap:round;paint-order:stroke markers fill"
+         id="path7"
+         cx="446.59143"
+         cy="427.5239"
+         r="82.832047"
+         inkscape:export-filename="logo pfp.svg"
          inkscape:export-xdpi="96"
-         inkscape:export-ydpi="96" /><rect
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.28266;paint-order:stroke fill markers"
-         id="rect108"
-         width="107.90949"
-         height="107.90949"
-         x="4333.8623"
-         y="73.095428" /><path
-         id="path108"
-         style="fill:#cccccc;stroke:none;stroke-width:2.17907;paint-order:stroke fill markers"
-         d="m 4342.0898,111.09718 c -2.6999,0 -4.8736,2.17365 -4.8736,4.8736 v 40.84609 c 0,2.69994 2.1737,4.87308 4.8736,4.87308 2.7,0 4.8736,-2.17314 4.8736,-4.87308 v -40.84609 c 0,-2.69995 -2.1736,-4.8736 -4.8736,-4.8736 z m 13.207,0 c -2.8698,0 -5.1801,2.31023 -5.1801,5.18004 v 20.31452 c 0,2.86981 2.3103,5.18005 5.1801,5.18005 h 20.3145 c 2.8698,0 5.18,-2.31024 5.18,-5.18005 v -20.31452 c 0,-2.86981 -2.3102,-5.18004 -5.18,-5.18004 z m 33.522,0 c -0.05,0 -0.099,0.006 -0.1484,0.007 -0.072,0.002 -0.1444,0.005 -0.217,0.0114 -0.116,0.009 -0.2301,0.0228 -0.3436,0.0398 -0.033,0.005 -0.067,0.0101 -0.1003,0.0155 -0.1484,0.0254 -0.2942,0.0579 -0.4377,0.0966 0,10e-4 -0.01,10e-4 -0.012,0.003 0,7.3e-4 -0.01,0.002 -0.01,0.003 -0.792,0.21743 -1.5021,0.63159 -2.0795,1.19218 0,0.004 -0.01,0.007 -0.011,0.0103 -0.1042,0.10183 -0.203,0.20894 -0.2981,0.31988 -0.011,0.0123 -0.022,0.0233 -0.033,0.0357 -0.093,0.11115 -0.1814,0.22733 -0.2651,0.34675 -0.01,0.01 -0.014,0.019 -0.021,0.0289 -0.08,0.11638 -0.1547,0.23669 -0.2253,0.36019 -0.01,0.0169 -0.02,0.0335 -0.03,0.0506 -0.063,0.11292 -0.1199,0.2295 -0.1742,0.34778 -0.014,0.031 -0.03,0.0608 -0.043,0.092 -0.046,0.10489 -0.086,0.21231 -0.1245,0.32091 -0.017,0.0481 -0.035,0.096 -0.051,0.14469 -0.03,0.0931 -0.056,0.18818 -0.081,0.28371 -0.018,0.0673 -0.035,0.13442 -0.05,0.20257 -0.018,0.0834 -0.033,0.16778 -0.047,0.2527 -0.013,0.0807 -0.026,0.16125 -0.036,0.24288 -0.01,0.0789 -0.015,0.15875 -0.021,0.23874 -0.01,0.0888 -0.011,0.17754 -0.013,0.26717 -6e-4,0.0327 -0.01,0.0644 -0.01,0.0971 0,0.051 0.01,0.10031 0.01,0.15089 0,0.078 0.01,0.15625 0.011,0.23462 0.01,0.11148 0.021,0.22093 0.036,0.33021 0.01,0.0445 0.012,0.0889 0.02,0.13332 0.023,0.13682 0.051,0.27138 0.084,0.40411 0,0.0156 0.01,0.0309 0.01,0.0465 l 0.044,0.16898 c 0,0.009 0.01,0.0189 0.01,0.0279 l 10.5208,40.36911 c 0.5857,2.24776 2.5516,3.71559 4.7082,3.71037 v 0.006 h 23.8415 v -0.006 c 2.1572,0.006 4.1238,-1.46208 4.7097,-3.71037 l 10.5219,-40.37273 c 0,-0.008 0,-0.0163 0.01,-0.0243 l 0.044,-0.16898 c 0,-0.0156 0.01,-0.0309 0.01,-0.0465 0.033,-0.13188 0.061,-0.26561 0.083,-0.40152 0.01,-0.0474 0.014,-0.0943 0.021,-0.1416 0.015,-0.10754 0.027,-0.21589 0.035,-0.32556 0.01,-0.0762 0.01,-0.15199 0.012,-0.22789 0,-0.0525 0.01,-0.10365 0.01,-0.15658 0,-0.033 0,-0.0648 -0.01,-0.0977 0,-0.0929 -0.01,-0.18497 -0.014,-0.27698 -0.01,-0.0743 -0.011,-0.1484 -0.019,-0.2217 -0.01,-0.0857 -0.023,-0.17006 -0.037,-0.25476 -0.014,-0.0831 -0.028,-0.16588 -0.046,-0.24753 -0.015,-0.0682 -0.033,-0.1353 -0.05,-0.20257 -0.025,-0.0955 -0.05,-0.19055 -0.08,-0.28371 -0.016,-0.0487 -0.034,-0.0966 -0.052,-0.14469 -0.039,-0.10861 -0.079,-0.21602 -0.1246,-0.32091 -0.014,-0.0313 -0.029,-0.0615 -0.043,-0.0925 -0.054,-0.11781 -0.1105,-0.23373 -0.1731,-0.34623 -0.011,-0.0193 -0.023,-0.0376 -0.034,-0.0568 -0.069,-0.12005 -0.141,-0.23757 -0.2191,-0.35088 -0.01,-0.0139 -0.02,-0.027 -0.03,-0.0408 -0.083,-0.11819 -0.1698,-0.23306 -0.2625,-0.34313 -0.01,-0.008 -0.014,-0.0146 -0.02,-0.0222 -0.099,-0.11563 -0.2016,-0.227 -0.3101,-0.33279 0,-0.002 -0.01,-0.004 -0.01,-0.007 -0.577,-0.56028 -1.2869,-0.97516 -2.0784,-1.19269 0,-8.3e-4 -0.01,-0.002 -0.01,-0.003 -0.01,-10e-4 -0.01,-0.002 -0.013,-0.003 -0.1429,-0.0385 -0.2878,-0.0708 -0.4356,-0.0961 -0.033,-0.006 -0.067,-0.0104 -0.1003,-0.0155 -0.1135,-0.0169 -0.2276,-0.031 -0.3436,-0.0398 -0.073,-0.006 -0.1448,-0.009 -0.2171,-0.0114 -0.05,-0.001 -0.098,-0.007 -0.1483,-0.007 z" /><path
-         id="path109"
-         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.17907;paint-order:stroke fill markers"
-         d="m 4342.0898,104.72673 c -2.6999,0 -4.8736,2.17366 -4.8736,4.87361 v 40.84608 c 0,2.69995 2.1737,4.87361 4.8736,4.87361 2.7,0 4.8736,-2.17366 4.8736,-4.87361 v -40.84608 c 0,-2.69995 -2.1736,-4.87361 -4.8736,-4.87361 z m 13.207,0 c -2.8698,0 -5.1801,2.31024 -5.1801,5.18005 v 20.31452 c 0,2.86981 2.3103,5.18005 5.1801,5.18005 h 20.3145 c 2.8698,0 5.18,-2.31024 5.18,-5.18005 v -20.31452 c 0,-2.86981 -2.3102,-5.18005 -5.18,-5.18005 z m 33.522,0 c -0.05,0 -0.099,0.006 -0.1484,0.007 -0.072,0.002 -0.1444,0.006 -0.217,0.0114 -0.116,0.009 -0.2301,0.0229 -0.3436,0.0398 -0.033,0.005 -0.067,0.01 -0.1003,0.0155 -0.1484,0.0254 -0.2942,0.0579 -0.4377,0.0966 0,0.001 -0.01,0.001 -0.012,0.003 0,7.4e-4 -0.01,0.002 -0.01,0.003 -0.792,0.21743 -1.5021,0.63159 -2.0795,1.19218 0,0.004 -0.01,0.006 -0.011,0.01 -0.1042,0.10183 -0.203,0.20893 -0.2981,0.31987 -0.011,0.0123 -0.022,0.0238 -0.033,0.0362 -0.093,0.11115 -0.1814,0.22732 -0.2651,0.34674 -0.01,0.01 -0.014,0.019 -0.021,0.0289 -0.08,0.11637 -0.1547,0.23669 -0.2253,0.36019 -0.01,0.0169 -0.02,0.0336 -0.03,0.0506 -0.063,0.11293 -0.1199,0.22899 -0.1742,0.34727 -0.014,0.031 -0.03,0.0612 -0.043,0.0925 -0.046,0.10489 -0.086,0.21231 -0.1245,0.32091 -0.017,0.0481 -0.035,0.096 -0.051,0.14469 -0.03,0.0932 -0.056,0.18818 -0.081,0.28371 -0.018,0.0673 -0.035,0.13442 -0.05,0.20257 -0.018,0.0834 -0.033,0.16777 -0.047,0.2527 -0.013,0.0807 -0.026,0.16125 -0.036,0.24287 -0.01,0.0789 -0.015,0.15875 -0.021,0.23875 -0.01,0.0888 -0.011,0.17754 -0.013,0.26717 -6e-4,0.0327 -0.01,0.0643 -0.01,0.0971 0,0.051 0.01,0.10031 0.01,0.15089 0,0.078 0.01,0.15573 0.011,0.2341 0.01,0.11148 0.021,0.22144 0.036,0.33073 0.01,0.0445 0.012,0.0888 0.02,0.13332 0.023,0.13682 0.051,0.27086 0.084,0.4036 0,0.0156 0.01,0.0314 0.01,0.047 l 0.044,0.16898 c 0,0.009 0.01,0.0183 0.01,0.0274 l 10.5208,40.36963 c 0.5858,2.24776 2.5516,3.71508 4.7082,3.70985 v 0.007 h 23.8415 v -0.007 c 2.1572,0.006 4.1238,-1.46156 4.7097,-3.70985 l 10.5219,-40.37273 c 0,-0.008 0,-0.0163 0.01,-0.0243 l 0.044,-0.16898 c 0,-0.0156 0.01,-0.0314 0.01,-0.047 0.033,-0.13189 0.061,-0.2651 0.083,-0.40101 0.01,-0.0473 0.014,-0.0943 0.021,-0.1416 0.015,-0.10754 0.027,-0.2159 0.035,-0.32556 0.01,-0.0762 0.01,-0.15199 0.012,-0.22789 0,-0.0525 0.01,-0.10365 0.01,-0.15658 0,-0.033 0,-0.0648 -0.01,-0.0977 0,-0.0929 -0.01,-0.18497 -0.014,-0.27699 -0.01,-0.0743 -0.011,-0.14839 -0.019,-0.22169 -0.01,-0.0857 -0.023,-0.17006 -0.037,-0.25476 -0.014,-0.0831 -0.028,-0.16588 -0.046,-0.24753 -0.015,-0.0682 -0.033,-0.13531 -0.05,-0.20257 -0.025,-0.0955 -0.05,-0.19055 -0.08,-0.28371 -0.016,-0.0487 -0.034,-0.0965 -0.052,-0.14469 -0.039,-0.10861 -0.079,-0.21603 -0.1246,-0.32091 -0.014,-0.0313 -0.029,-0.0615 -0.043,-0.0925 -0.054,-0.11781 -0.1105,-0.23373 -0.1731,-0.34624 -0.011,-0.0193 -0.023,-0.0376 -0.034,-0.0568 -0.069,-0.12005 -0.141,-0.23758 -0.2191,-0.35088 -0.01,-0.0139 -0.02,-0.027 -0.03,-0.0408 -0.083,-0.11819 -0.1698,-0.23306 -0.2625,-0.34313 -0.01,-0.008 -0.014,-0.0146 -0.02,-0.0222 -0.099,-0.11563 -0.2016,-0.227 -0.3101,-0.3328 0,-0.002 -0.01,-0.004 -0.01,-0.007 -0.577,-0.56029 -1.2869,-0.97517 -2.0784,-1.1927 0,-8.2e-4 -0.01,-0.002 -0.01,-0.003 -0.01,-0.001 -0.01,-0.002 -0.013,-0.003 -0.1429,-0.0385 -0.2878,-0.0709 -0.4356,-0.0961 -0.033,-0.006 -0.067,-0.0104 -0.1003,-0.0155 -0.1135,-0.0169 -0.2276,-0.031 -0.3436,-0.0398 -0.073,-0.006 -0.1448,-0.009 -0.2171,-0.0114 -0.05,-10e-4 -0.098,-0.007 -0.1483,-0.007 z" /><text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5953px;font-family:Amiri;-inkscape-font-specification:'Amiri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.600291;paint-order:stroke fill markers"
-         x="4387.9644"
-         y="196.68155"
-         id="text130"><tspan
-           sodipodi:role="line"
-           id="tspan120"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.5953px;font-family:Amiri;-inkscape-font-specification:'Amiri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.600291"
-           x="4387.9644"
-           y="196.68155"><tspan
-             style="fill:#000000"
-             id="tspan111">PHONBIRE</tspan><tspan
-             style="fill:#000000"
-             id="tspan118">WORKS</tspan></tspan></text></g></g></svg>
+         inkscape:export-ydpi="96" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:5;stroke-linecap:round;stroke-dasharray:none;paint-order:stroke markers fill"
+         id="rect4"
+         width="141.12083"
+         height="141.12083"
+         x="376.03101"
+         y="63.898071"
+         inkscape:export-filename="C:\Users\warre\OneDrive\Desktop\logo.png"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <g
+         id="g16"
+         transform="translate(2.5100098e-5,1.2842687)">
+        <path
+           id="path5"
+           style="-inkscape-font-specification:'Bodoni MT, Normal';fill:#ffffff;stroke-width:1;stroke-linecap:round;paint-order:fill markers stroke"
+           d="m 385.39128,86.811035 v 4.675207 h 9.89766 v 55.257978 h -9.89766 v 4.67521 h 33.36891 v -4.67521 h -10.1237 v -23.82814 h 7.8753 c 8.75435,0 15.18174,-1.62893 19.20052,-5.17487 3.92628,-3.46821 5.97191,-7.91192 5.97191,-13.03827 0,-5.00769 -2.02996,-9.361 -5.92433,-12.764642 -3.93751,-3.470355 -9.67756,-5.127263 -17.09487,-5.127263 z m 23.24521,4.675207 h 6.97119 c 2.59643,0 4.72558,0.248163 6.38829,0.678187 1.46894,0.354518 2.77299,1.32967 3.96143,3.140609 1.71711,2.547643 1.56724,5.591752 1.84395,8.541472 0,4.61542 -0.80733,7.94588 -2.11744,9.89766 -1.37387,2.08958 -2.91749,3.24192 -4.67523,3.68783 -1.94132,0.49264 -4.4432,0.76129 -7.50651,0.76129 h -4.85366 z"
+           sodipodi:nodetypes="ccccccccccscscsccsccscsscc" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.3452px;font-family:'Bodoni MT';-inkscape-font-specification:'Bodoni MT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke-width:0.200001;stroke-linecap:round;paint-order:fill markers stroke"
+           x="446.7142"
+           y="170.33867"
+           id="text5"><tspan
+             sodipodi:role="line"
+             id="tspan5"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.3452px;font-family:'Bodoni MT';-inkscape-font-specification:'Bodoni MT, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.200001"
+             x="446.7142"
+             y="170.33867">PhonbireWorks</tspan></text>
+        <path
+           id="path6"
+           style="-inkscape-font-specification:'Bodoni MT, Normal';fill:#ffffff;stroke-width:1;stroke-linecap:round;paint-order:fill markers stroke"
+           d="m 417.27315,86.811035 v 4.675207 h 7.33998 l 24.41105,59.933188 h 4.44919 l 10.25455,-25.49361 10.50437,25.49361 h 4.33022 l 22.48386,-59.933188 h 6.74516 V 86.811035 H 487.3776 v 4.675207 h 8.54149 l -15.42939,41.636788 -10.01663,-24.19691 7.00689,-17.439878 h 7.10204 v -4.675207 z m 21.00874,4.675207 h 11.32522 l 11.51554,28.194068 -5.57934,14.02564 z m 25.12482,0 h 9.08872 l -4.49678,11.063498 z" />
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:round;stroke-dasharray:none;paint-order:fill markers stroke"
+           id="rect13"
+           width="15.417507"
+           height="4.6752076"
+           x="478.8837"
+           y="86.811005" />
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:round;stroke-dasharray:none;paint-order:fill markers stroke"
+           id="rect14"
+           width="122.40025"
+           height="4.6752076"
+           x="385.39127"
+           y="146.74428" />
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:round;stroke-dasharray:none;paint-order:fill markers stroke"
+           id="rect15"
+           width="122.40025"
+           height="1.9372151"
+           x="385.39127"
+           y="177.60022" />
+      </g>
+      <g
+         id="g5"
+         transform="translate(3.2729492e-5,294.34968)">
+        <path
+           id="path1"
+           style="-inkscape-font-specification:'Bodoni MT, Normal';fill:#ffffff;stroke-width:1;stroke-linecap:round;paint-order:fill markers stroke"
+           d="m 385.39128,86.811035 v 4.675207 h 9.89766 v 55.257978 h -9.89766 v 4.67521 h 33.36891 v -4.67521 h -10.1237 v -23.82814 h 7.8753 c 8.75435,0 15.18174,-1.62893 19.20052,-5.17487 3.92628,-3.46821 5.97191,-7.91192 5.97191,-13.03827 0,-5.00769 -2.02996,-9.361 -5.92433,-12.764642 -3.93751,-3.470355 -9.67756,-5.127263 -17.09487,-5.127263 z m 23.24521,4.675207 h 6.97119 c 2.59643,0 4.72558,0.248163 6.38829,0.678187 1.46894,0.354518 2.77299,1.32967 3.96143,3.140609 1.71711,2.547643 1.56724,5.591752 1.84395,8.541472 0,4.61542 -0.80733,7.94588 -2.11744,9.89766 -1.37387,2.08958 -2.91749,3.24192 -4.67523,3.68783 -1.94132,0.49264 -4.4432,0.76129 -7.50651,0.76129 h -4.85366 z"
+           sodipodi:nodetypes="ccccccccccscscsccsccscsscc" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.3452px;font-family:'Bodoni MT';-inkscape-font-specification:'Bodoni MT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke-width:0.200001;stroke-linecap:round;paint-order:fill markers stroke"
+           x="446.7142"
+           y="170.33867"
+           id="text1"><tspan
+             sodipodi:role="line"
+             id="tspan1"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:19.3452px;font-family:'Bodoni MT';-inkscape-font-specification:'Bodoni MT, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.200001"
+             x="446.7142"
+             y="170.33867">PhonbireWorks</tspan></text>
+        <path
+           id="path2"
+           style="-inkscape-font-specification:'Bodoni MT, Normal';fill:#ffffff;stroke-width:1;stroke-linecap:round;paint-order:fill markers stroke"
+           d="m 417.27315,86.811035 v 4.675207 h 7.33998 l 24.41105,59.933188 h 4.44919 l 10.25455,-25.49361 10.50437,25.49361 h 4.33022 l 22.48386,-59.933188 h 6.74516 V 86.811035 H 487.3776 v 4.675207 h 8.54149 l -15.42939,41.636788 -10.01663,-24.19691 7.00689,-17.439878 h 7.10204 v -4.675207 z m 21.00874,4.675207 h 11.32522 l 11.51554,28.194068 -5.57934,14.02564 z m 25.12482,0 h 9.08872 l -4.49678,11.063498 z" />
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:round;stroke-dasharray:none;paint-order:fill markers stroke"
+           id="rect2"
+           width="15.417507"
+           height="4.6752076"
+           x="478.8837"
+           y="86.811005" />
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:round;stroke-dasharray:none;paint-order:fill markers stroke"
+           id="rect3"
+           width="122.40025"
+           height="4.6752076"
+           x="385.39127"
+           y="146.74428" />
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:round;stroke-dasharray:none;paint-order:fill markers stroke"
+           id="rect5"
+           width="122.40025"
+           height="1.9372151"
+           x="385.39127"
+           y="177.60022" />
+      </g>
+    </g>
+  </g>
+</svg>

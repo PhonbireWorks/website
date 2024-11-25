@@ -8,9 +8,10 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
-   sodipodi:docname="logo2 - Copy.svg"
+   sodipodi:docname="logo_load.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
@@ -23,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="-83.4386"
-     inkscape:cy="504.87424"
+     inkscape:zoom="1"
+     inkscape:cx="74"
+     inkscape:cy="435.5"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="2391"
@@ -58,36 +59,52 @@
        bleed="0" />
   </sodipodi:namedview>
   <defs
-     id="defs1" />
+     id="defs1">
+    <linearGradient
+       id="linearGradient2"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#0000e2;stop-opacity:1;"
+         offset="0"
+         id="stop2" />
+      <stop
+         style="stop-color:#5555ff;stop-opacity:1;"
+         offset="1"
+         id="stop3" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2"
+       id="linearGradient3"
+       x1="1220.3745"
+       y1="580.74139"
+       x2="1220.3745"
+       y2="554.41534"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-1163.0618,-498.72054)">
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-linejoin:round;paint-order:fill markers stroke;stroke:none"
-       id="rect1"
-       width="114.62541"
-       height="133.31261"
-       x="1163.0618"
-       y="498.72055" />
     <g
        id="g2"
-       transform="translate(-3.8146973e-5,-2.2015152)">
+       transform="translate(-3.8146973e-5,-2.2015152)"
+       style="fill:url(#linearGradient3);fill-opacity:1">
       <circle
-         style="fill:#5555ff;fill-opacity:1;stroke:none;stroke-width:0.999999;stroke-linejoin:round;paint-order:fill markers stroke"
+         style="fill:url(#linearGradient3);fill-opacity:1.0;stroke:none;stroke-width:0.999999;stroke-linejoin:round;paint-order:fill markers stroke"
          id="path1"
          cx="1188.1311"
          cy="567.57837"
          r="13.163021" />
       <circle
-         style="fill:#5555ff;fill-opacity:1;stroke:none;stroke-width:0.999999;stroke-linejoin:round;paint-order:fill markers stroke"
+         style="fill:url(#linearGradient3);fill-opacity:1.0;stroke:none;stroke-width:0.999999;stroke-linejoin:round;paint-order:fill markers stroke"
          id="circle1"
          cx="1220.3745"
          cy="567.57837"
          r="13.163021" />
       <circle
-         style="fill:#5555ff;fill-opacity:1;stroke:none;stroke-width:0.999999;stroke-linejoin:round;paint-order:fill markers stroke"
+         style="fill:url(#linearGradient3);fill-opacity:1.0;stroke:none;stroke-width:0.999999;stroke-linejoin:round;paint-order:fill markers stroke"
          id="circle2"
          cx="1252.6179"
          cy="567.57837"

@@ -85,18 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // RANDOM LOGO LOAD CODE STARTS
 // THIS CODE LOADS A RANDOM LOGO VARIATION EVERY TIME THE PAGE REFRESHES OR LOADS
 const images = [
-    'images/logos/1.svg',
-    'images/logos/2.svg',
-    'images/logos/3.svg',
-    'images/logos/4.svg',
-    'images/logos/5.svg',
-    'images/logos/6.svg',
-    'images/logos/7.svg',
-    'images/logos/8.svg',
-    'images/logos/9.svg',
-    'images/logos/10.svg',
-    'images/logos/11.svg',
-    'images/logos/12.svg',
+    'images/logo.svg',
 ];
 
 // Function to load a random image

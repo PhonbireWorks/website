@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PhonbireWorks About</title>
-    <link rel="icon" type="image/x-icon" href="images/logo_icon.png">
+    <link rel="icon" type="image/x-icon" href="images/logo pfp.svg">
     <link rel="stylesheet" href="styles/style.css">
     <script src="animate_on_view.js"></script> <!-- SCRIPT FOR HANDLING ANIMATIONS WHEN IN VIEW -->
 </head>
@@ -14,12 +14,17 @@
 
 
 
+    <!-- HEADER STARTS -->
     <header class="sticky" style="box-shadow: 0 0 3rem -0rem #00000068">
-
         <div style="display: flex; justify-content: space-between">
-            <img src="images/logos/5.svg" alt="Sample GIF" style="display: flex; align-self: center; height: 10vh" class="no-right-click">
+            <img src="images/logo.svg" alt="Sample GIF" style="display: flex; align-self: center; height: 10vh" id="randomImage" class="no-right-click">
+            <script>
+                document.addEventListener('contextmenu', function (e) {
+                    e.preventDefault();
+                }, false);
+            </script>
             <div style="display: flex; flex-direction: column; justify-content: center; flex-grow: 1;">
-                <h1 style="font-size: 2rem" class="header-logo">PHONBIREWORKS</h1>
+                <h1 style="font-size: 2rem; color: #000000;" class="header-logo">PHONBIREWORKS</h1>
                 <nav>
                     <div class="hamburger fade-in" id="hamburger">
                         <span class="bar"></span>
@@ -28,7 +33,7 @@
                     </div>
                     <ul class="nav-menu" id="nav-menu">
                         <li><a href="index.html" class="home" style="font-size: 1rem">HOME</a></li>
-                        <li><a href="about.html" class="about" style="font-size: 1rem; color:#ffffff">ABOUT</a></li>
+                        <li><a href="about.html" class="about" style="font-size: 1rem; color:#ff5e00">ABOUT</a></li>
                         <li><a href="shop.html" class="shop" style="font-size: 1rem">SHOP</a></li>
                         <li><a href="blog.html" class="shop" style="font-size: 1rem">BLOG</a></li>
                         <li><a href="shop.html" class="shop" style="font-size: 1rem">PORTFOLIO</a></li>
@@ -37,8 +42,8 @@
                 </nav>
             </div>
         </div>
-
     </header>
+    <!-- HEADER ENDS -->
 
     <main><!-- MAIN STARTS -->
 
@@ -262,28 +267,28 @@
 
     </main><!-- MAIN ENDS -->
     <section class="footer_section">
-        <p style="max-width: 50rem; text-align: justify; color:#000000; padding: 1em; margin: auto">
+        <p style="max-width: 50rem; text-align: justify; color:#ffffff; padding: 1em; margin: auto">
             PhonbireWorks is the go-to source for high-quality digital products and services, from digital templates,
             to custom logos. My goal is to provide customizable solutions tailored to your
             needs. I am passionate about creating digital experiences that make a difference. Let's embark on a digital
             journey together.
         </p>
-        <p style="font-size: 2rem; max-width: 50rem; text-align: center; color:#000000; padding-bottom: 1em; margin: auto">
+        <p style="font-size: 2rem; max-width: 50rem; text-align: center; color:#ffffff; padding-bottom: 1em; margin: auto">
             Let's Collaborate!
         </p>
         <!--FORM STARTS-->
         <div style="display: flex; flex-direction: column; align-items: center; width: 100%; height: auto; margin: auto">
             <form style="display: flex; flex-direction: column; align-items: center" action="https://formspree.io/f/xnnqalvd" method="POST">
-                <label style="color: #000000" for="fname">First Name*</label>
+                <label style="color: #ffffff" for="fname">First Name*</label>
                 <input style="width: 100%" type="text" id="fname" name="firstname" placeholder="Your name.." required>
                 <br>
-                <label style="color: #000000" for="lname">Last Name*</label>
+                <label style="color: #ffffff" for="lname">Last Name*</label>
                 <input style="width: 100%" type="text" id="lname" name="lastname" placeholder="Your last name.." required>
                 <br>
-                <label style="color: #000000" for="email">Email*</label>
+                <label style="color: #ffffff" for="email">Email*</label>
                 <input style="width: 100%" type="email" id="email" name="email" placeholder="Your email.." required>
                 <br>
-                <label style="color: #000000" for="subject">Your Message*</label>
+                <label style="color: #ffffff" for="subject">Your Message*</label>
                 <textarea style="width: 100%" id="subject" name="subject" placeholder="Write something.." style="height:20rem" required></textarea>
                 <br>
                 <input style="width: 80%" type="submit" value="Submit" class="button2">
@@ -291,7 +296,8 @@
         </div>
         <!--FORM ENDS-->
         <br><br><br>
-        <p style="display: flex; flex-direction: column; align-items: center; margin: auto; color:#000000">© 2024 PhonbireWorks</p>
+        <p style="display: flex; flex-direction: column; align-items: center; color:#000000">© 2024
+            PhonbireWorks</p>
     </section>
     <script src="script.js"></script>
 </body>

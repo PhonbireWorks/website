@@ -14,7 +14,7 @@ html {
 
 /* HEADER STYLES STARTS */
 header {
-    background-color: #272727;
+    background-color: #ffffff;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -68,7 +68,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -81,7 +81,7 @@ nav ul li a {
 .hamburger .bar {
     height: 3px;
     width: 25px;
-    background-color: white;
+    background-color: #000000;
     margin: 4px 0;
 }
 /* NAV MENU STYLES ENDS */
@@ -97,13 +97,17 @@ nav ul li a {
         margin-left: 90%;
     }
 
-    nav ul {
+    nav ul { /* NAV MENU BACKGROUND */
         flex-direction: column;
         position: absolute;
         top: 210%;
         left: -250%;
         width: 80%;
-        background-color: #333;
+        border-style: solid;
+        border-width: 0px;
+        border-color: #000000;
+        box-shadow: 0 0 3rem -0rem #00000068;
+        background-color: #ffffff;
         transition: left 0.1s ease-in-out;
     }
 
@@ -140,7 +144,7 @@ nav ul li a {
 }
 
 .home:hover {
-    color: #ffffff;
+    color: #ff5e00;
 }
 
 .about {
@@ -148,7 +152,7 @@ nav ul li a {
 }
 
 .about:hover {
-    color: #ffffff;
+    color: #ff5e00;
 }
 
 .shop {
@@ -156,7 +160,7 @@ nav ul li a {
 }
 
 .shop:hover {
-    color: #ffffff;
+    color: #ff5e00;
 }
 
 .contact {
@@ -164,7 +168,7 @@ nav ul li a {
 }
 
 .contact:hover {
-    color: #ffffff;
+    color: #ff5e00;
 }
 /* NAV BUTTON STYLES ENDS */
 
@@ -619,12 +623,12 @@ nav ul li a {
 /* BUTTON STYLE 1 STARTS */
 .button1 {
     width: auto;
-    height: 2rem;
+    height: 3rem;
     padding-left: 1rem;
     padding-right: 1rem;
     color: #ffffff;
     background-size: cover; /* Ensures the SVG covers the entire button */
-    background-color: #00bbff;
+    background-color: #ff5e00;
     border: none;
     border-radius: 50px;
     background-repeat: no-repeat; /* Prevents the SVG from repeating */
@@ -639,24 +643,24 @@ nav ul li a {
   .button1:hover { /* Changes button style on hover */
     /* opacity: 0.8; */
     color: #ffffff;
-    background-color: #83deff;
+    background-color: #ff975b;
   }
   .button1:active { /* Changes button style on click */
     opacity: 0.8;
     /* transform: translateY(0.25rem); */
-    background-color: #83deff;
+    background-color: #ab3f00;
   }
   /* BUTTON STYLE 1 ENDS */
 
   /* BUTTON STYLE 2 STARTS */
 .button2 {
     width: auto;
-    height: 2rem;
+    height: 3rem;
     padding-left: 1rem;
     padding-right: 1rem;
     color: #ffffff;
     background-size: cover; /* Ensures the SVG covers the entire button */
-    background-color: #00bbff;
+    background-color: #ff5e00;
     border: none;
     border-radius: 50px;
     background-repeat: no-repeat; /* Prevents the SVG from repeating */
@@ -671,12 +675,12 @@ nav ul li a {
   .button2:hover { /* Changes button style on hover */
     /* opacity: 0.8; */
     color: #ffffff;
-    background-color: #83deff;
+    background-color: #ff975b;
   }
   .button2:active { /* Changes button style on click */
     opacity: 0.8;
     /* transform: translateY(0.25rem); */
-    background-color: #83deff;
+    background-color: #ab3f00;
   }
   /* BUTTON STYLE 2 ENDS */
 

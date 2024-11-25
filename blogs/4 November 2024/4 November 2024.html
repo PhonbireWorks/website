@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>How to make a website using GitHub Pages | PhonbireWorks</title>
-    <link rel="icon" type="image/x-icon" href="../../images/logo_icon.png">
+    <link rel="icon" type="image/x-icon" href="../../images/logo pfp.svg">
     <link rel="stylesheet" href="../../styles/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
@@ -14,15 +14,19 @@
 
 
 
+    <!-- HEADER STARTS -->
     <header class="sticky" style="box-shadow: 0 0 3rem -0rem #00000068">
-
-
         <div style="display: flex; justify-content: space-between">
-            <img src="../../images/logo.svg" alt="Sample GIF" style="display: flex; align-self: center; height: 10vh">
+            <img src="../../images/logo.svg" alt="Sample GIF" style="display: flex; align-self: center; height: 10vh" id="randomImage" class="no-right-click">
+            <script>
+                document.addEventListener('contextmenu', function (e) {
+                    e.preventDefault();
+                }, false);
+            </script>
             <div style="display: flex; flex-direction: column; justify-content: center; flex-grow: 1;">
-                <h1 style="font-size: 2rem" class="header-logo">PHONBIREWORKS</h1>
+                <h1 style="font-size: 2rem; color: #000000;" class="header-logo">PHONBIREWORKS</h1>
                 <nav>
-                    <div class="hamburger" id="hamburger">
+                    <div class="hamburger fade-in" id="hamburger">
                         <span class="bar"></span>
                         <span class="bar"></span>
                         <span class="bar"></span>
@@ -31,15 +35,15 @@
                         <li><a href="../../index.html" class="home" style="font-size: 1rem">HOME</a></li>
                         <li><a href="../../about.html" class="about" style="font-size: 1rem">ABOUT</a></li>
                         <li><a href="../../shop.html" class="shop" style="font-size: 1rem">SHOP</a></li>
-                        <li><a href="../../blog.html" class="shop" style="font-size: 1rem; color:#ffffff">BLOG</a></li>
+                        <li><a href="../../blog.html" class="shop" style="font-size: 1rem; color:#ff5e00">BLOG</a></li>
                         <li><a href="../../shop.html" class="shop" style="font-size: 1rem">PORTFOLIO</a></li>
                         <li><a href="../../contact.html" class="contact" style="font-size: 1rem">CONTACT</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
-
     </header>
+    <!-- HEADER ENDS -->
 
     <main><!-- MAIN STARTS -->
 
