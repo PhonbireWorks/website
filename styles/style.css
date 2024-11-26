@@ -880,3 +880,18 @@ nav ul li a {
     padding: 1rem;
     background-color: #ffffff;
 }
+
+
+
+
+
+@media (max-width: 600px) {
+
+    .ebook_container_parent {
+        flex-direction: column;
+        overflow-y: auto;
+    }
+
+}
+
+

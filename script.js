@@ -103,7 +103,7 @@ window.onload = loadRandomImage;
 
 
 
-
+// ACCORDION CODE STARTS
 document.addEventListener('DOMContentLoaded', function() {
     var headers = document.querySelectorAll('.accordion-header');
 
@@ -119,4 +119,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+// ACCORDION CODE ENDS
+
 
