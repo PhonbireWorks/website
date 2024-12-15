@@ -180,7 +180,7 @@ nav ul li a {
 .sticky {
     position: -webkit-sticky; /* For Safari */
     position: sticky;
-    top: 0;
+    top: 0rem;
     z-index: 100;
 }
 
@@ -799,7 +799,7 @@ nav ul li a {
     position: fixed;
     z-index: 2; /* Without z-index of 2, swiper elements draw in front of the popups */
     left: 0;
-    top: 0;
+    top: 10%;
     width: 100vw;
     height: 100vh;
     overflow: auto;
