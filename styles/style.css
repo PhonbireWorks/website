@@ -820,7 +820,7 @@ nav ul li a {
 @media (max-width: 768px /* 768PX DEFAULT */) { 
 
     .popup img {
-        max-width: 80%;
+        max-width: 90%;
     }
     
 }
