@@ -493,7 +493,16 @@ nav ul li a {
 }
 /* BLOG.HTML STYLES ENDS */
 
+.blog-body-container {
+     width: 75%;
+     margin: auto;
+}
 
+@media (max-width: 768px) {
+    .blog-body-container{
+        width: 100%;
+    }
+}
 
 
 
