@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48.668976mm"
+   height="57.47871mm"
+   viewBox="0 0 48.668976 57.47871"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="file icons.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="true"
+     inkscape:zoom="0.48693448"
+     inkscape:cx="433.32318"
+     inkscape:cy="810.1706"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="2391"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:page
+       x="0"
+       y="4.4822158e-22"
+       width="48.668976"
+       height="57.47871"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-129.69667,-83.529046)">
+    <path
+       id="path22"
+       style="fill:#f1c000;fill-opacity:1;stroke-width:1;stroke-linecap:square;paint-order:stroke markers fill"
+       d="m 132.56938,83.529042 v 57.478718 h 45.79627 v -44.049687 -2.86719 l -2.02711,-2.02689 v -2.1e-4 l -6.50763,-6.507638 -2.0271,-2.027103 h -2.8672 z m 2.02689,2.027103 h 31.77352 v 10.279858 h 9.96875 v 43.144657 h -41.74227 z" />
+    <rect
+       style="fill:#f1c000;fill-opacity:1;stroke:none;stroke-width:4.99999;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="rect22"
+       width="42.128689"
+       height="22.519241"
+       x="129.69667"
+       y="109.29803"
+       ry="1.9825398" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:16.8507px;line-height:1;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke:none;stroke-width:4.99999;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke markers fill"
+       x="150.905"
+       y="126.58868"
+       id="text22"><tspan
+         sodipodi:role="line"
+         id="tspan22"
+         style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:4.99999"
+         x="150.905"
+         y="126.58868">ODG</tspan></text>
+    <circle
+       style="fill:#f1c000;fill-opacity:1;stroke:none;stroke-width:4.99999;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="path25"
+       cx="144.33742"
+       cy="94.930458"
+       r="5.0908794" />
+    <path
+       sodipodi:type="star"
+       style="fill:#f1c000;fill-opacity:1;stroke:none;stroke-width:4.99999;stroke-linecap:square;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="path26"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="68.390686"
+       sodipodi:cy="72.905235"
+       sodipodi:r1="9.6227074"
+       sodipodi:r2="4.8113537"
+       sodipodi:arg1="-1.5707963"
+       sodipodi:arg2="-0.52359878"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 68.390686,63.282528 8.333509,14.434061 -16.667018,0 z"
+       inkscape:transform-center-y="-2.4056769"
+       transform="translate(82.201285,29.073971)" />
+    <rect
+       style="fill:none;stroke:#f1c000;stroke-width:1;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect26"
+       width="9.7014875"
+       height="9.7014875"
+       x="154.07474"
+       y="92.356499"
+       ry="1.3482754" />
+  </g>
+</svg>
