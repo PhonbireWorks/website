@@ -39,38 +39,10 @@
 
 <body>
 
-
-
     <!-- HEADER STARTS -->
-    <header class="sticky" style="box-shadow: 0 0 3rem -0rem #00000068">
-        <div style="display: flex; justify-content: space-between">
-            <img src="images/logo.svg" alt="Sample GIF" style="display: flex; align-self: center; height: 10vh" id="randomImage" class="no-right-click">
-            <script>
-                document.addEventListener('contextmenu', function (e) {
-                    e.preventDefault();
-                }, false);
-            </script>
-            <div style="display: flex; flex-direction: column; justify-content: center; flex-grow: 1;">
-                <h1 style="font-size: 2rem; color: #000000;" class="header-logo">PHONBIREWORKS</h1>
-                <nav>
-                    <div class="hamburger fade-in" id="hamburger">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </div>
-                    <ul class="nav-menu" id="nav-menu">
-                        <li><a href="index.html" class="home" style="font-size: 1rem">HOME</a></li>
-                        <li><a href="about.html" class="about" style="font-size: 1rem">ABOUT</a></li>
-                        <li><a href="shop.html" class="shop" style="font-size: 1rem">SHOP</a></li>
-                        <li><a href="blog.html" class="shop" style="font-size: 1rem; color:#ff5e00">BLOG</a></li>
-                        <li><a href="shop.html" class="shop" style="font-size: 1rem">PORTFOLIO</a></li>
-                        <li><a href="contact.html" class="contact" style="font-size: 1rem">CONTACT</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <!-- HEADER ENDS -->
+    <div id="header" class="sticky"></div>
+    <script> fetch('../../../header.html').then(response => response.text()).then(data => { document.getElementById('header').innerHTML = data; }); </script>
+    <!-- HEADER STARTS -->
 
     <main><!-- MAIN STARTS -->
 
@@ -113,7 +85,7 @@
             </div>
             <!-- BLOG BOX ENDS -->
 
-            
+
 
 
 
@@ -130,38 +102,12 @@
 
 
     </main><!-- MAIN ENDS -->
-    <section class="footer_section">
-        <p style="max-width: 50rem; text-align: left; color:#ffffff; padding: 1em; margin: auto">
-            PhonbireWorks is the go-to source for high-quality digital products and services, from templates,
-            to ebooks, to vector traced graphics. My goal is to provide customizable solutions tailored to your
-            needs. I am passionate about creating digital products and services that make a difference.
-        </p>
-        <p style="font-size: 2rem; max-width: 50rem; text-align: center; color:#ffffff; padding-bottom: 1em; margin: auto">
-            Get In Touch
-        </p>
-        <!--FORM STARTS-->
-        <div style="display: flex; flex-direction: column; align-items: center; width: 100%; height: auto; margin: auto">
-            <form style="display: flex; flex-direction: column; align-items: center" action="https://formspree.io/f/xnnqalvd" method="POST">
-                <label style="color: #ffffff" for="fname">First Name*</label>
-                <input style="width: 100%" type="text" id="fname" name="firstname" placeholder="Your name.." required>
-                <br>
-                <label style="color: #ffffff" for="lname">Last Name*</label>
-                <input style="width: 100%" type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-                <br>
-                <label style="color: #ffffff" for="email">Email*</label>
-                <input style="width: 100%" type="email" id="email" name="email" placeholder="Your email.." required>
-                <br>
-                <label style="color: #ffffff" for="subject">Your Message*</label>
-                <textarea style="width: 100%" id="subject" name="subject" placeholder="Write something.." style="height:20rem" required></textarea>
-                <br>
-                <input style="width: 80%" type="submit" value="Submit" class="button2">
-            </form>
-        </div>
-        <!--FORM ENDS-->
-        <br><br><br>
-        <p style="display: flex; flex-direction: column; align-items: center; color:#ffffff">© 2024
-            PhonbireWorks</p>
-    </section>
+    
+    <!-- FOOTER STARTS -->
+    <div id="footer"></div>
+    <script> fetch('../../../footer.html').then(response => response.text()).then(data => { document.getElementById('footer').innerHTML = data; }); </script>
+    <!-- FOOTER ENDS -->
+    
     <script src="script.js"></script>
 </body>
 

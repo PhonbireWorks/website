@@ -12,38 +12,10 @@
 
 <body>
 
-
-
     <!-- HEADER STARTS -->
-    <header class="sticky" style="box-shadow: 0 0 3rem -0rem #00000068">
-        <div style="display: flex; justify-content: space-between">
-            <img src="images/logo.svg" alt="Sample GIF" style="display: flex; align-self: center; height: 10vh" id="randomImage" class="no-right-click">
-            <script>
-                document.addEventListener('contextmenu', function (e) {
-                    e.preventDefault();
-                }, false);
-            </script>
-            <div style="display: flex; flex-direction: column; justify-content: center; flex-grow: 1;">
-                <h1 style="font-size: 2rem; color: #000000;" class="header-logo">PHONBIREWORKS</h1>
-                <nav>
-                    <div class="hamburger fade-in" id="hamburger">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </div>
-                    <ul class="nav-menu" id="nav-menu">
-                        <li><a href="index.html" class="home" style="font-size: 1rem">HOME</a></li>
-                        <li><a href="about.html" class="about" style="font-size: 1rem; color:#ff5e00">ABOUT</a></li>
-                        <li><a href="shop.html" class="shop" style="font-size: 1rem">SHOP</a></li>
-                        <li><a href="blog.html" class="shop" style="font-size: 1rem">BLOG</a></li>
-                        <li><a href="shop.html" class="shop" style="font-size: 1rem">PORTFOLIO</a></li>
-                        <li><a href="contact.html" class="contact" style="font-size: 1rem">CONTACT</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <!-- HEADER ENDS -->
+    <div id="header" class="sticky"></div>
+    <script> fetch('../../../header.html').then(response => response.text()).then(data => { document.getElementById('header').innerHTML = data; }); </script>
+    <!-- HEADER STARTS -->
 
     <main><!-- MAIN STARTS -->
 
@@ -52,66 +24,66 @@
         </div>
 
 
-<!-- HERO STARTS -->
-<section class="hero_section" style="background-image: url(images/hero3.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; display: grid; place-items: center">
-    <div class="fade-in">
-        <h1 style="font-size: 4rem" class="text1">About Me & My Services</h1>
-        <p style="font-size: 2rem" class="text2">Follow me on</p>
-        <br>
-        <div style="text-align: center"> <!-- WTF?! I GUESS LINKED IMAGES COUNT AS TEXT. OKEEE.. -->
-            <a href="https://www.facebook.com/warren.vanzuydam.3" target="_blank"><img src="images/icons8-facebook.svg" alt="Warren Van Zuydam Facebook" style="width: 10%"></a>
-            <a href="#" target="_blank"><img src="images/icons8-instagram.svg" alt="Warren Van Zuydam Instagram" style="width: 10%"></a>
-            <a href="https://www.linkedin.com/in/warren-van-zuydam-23b61a1b0/?originalSubdomain=za" target="_blank"><img src="images/icons8-linkedin.svg" alt="Warren Van Zuydam LinkedIn" style="width: 10%"></a>
-            <a href="https://www.tiktok.com/@phonbireworks4" target="_blank"><img src="images/icons8-tiktok.svg" alt="Warren Van Zuydam TikTok" style="width: 10%"></a>
-            <a href="#" target="_blank"><img src="images/icons8-twitterx.svg" alt="Warren Van Zuydam Twitter X" style="width: 10%"></a>
-        </div>
-        <br>
-        <a href="contact.html" style="align-self: left"><button class="button1">Contact Me</button></a>
-    </div>
+        <!-- HERO STARTS -->
+        <section class="hero_section" style="background-image: url(images/hero3.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; display: grid; place-items: center">
+            <div class="fade-in">
+                <h1 style="font-size: 4rem" class="text1">About Me & My Services</h1>
+                <p style="font-size: 2rem" class="text2">Follow me on</p>
+                <br>
+                <div style="text-align: center"> <!-- WTF?! I GUESS LINKED IMAGES COUNT AS TEXT. OKEEE.. -->
+                    <a href="https://www.facebook.com/warren.vanzuydam.3" target="_blank"><img src="images/icons8-facebook.svg" alt="Warren Van Zuydam Facebook" style="width: 10%"></a>
+                    <a href="#" target="_blank"><img src="images/icons8-instagram.svg" alt="Warren Van Zuydam Instagram" style="width: 10%"></a>
+                    <a href="https://www.linkedin.com/in/warren-van-zuydam-23b61a1b0/?originalSubdomain=za" target="_blank"><img src="images/icons8-linkedin.svg" alt="Warren Van Zuydam LinkedIn" style="width: 10%"></a>
+                    <a href="https://www.tiktok.com/@phonbireworks4" target="_blank"><img src="images/icons8-tiktok.svg" alt="Warren Van Zuydam TikTok" style="width: 10%"></a>
+                    <a href="#" target="_blank"><img src="images/icons8-twitterx.svg" alt="Warren Van Zuydam Twitter X" style="width: 10%"></a>
+                </div>
+                <br>
+                <a href="contact.html" style="align-self: left"><button class="button1">Contact Me</button></a>
+            </div>
 
-</section>
-<!-- HERO ENDS -->
+        </section>
+        <!-- HERO ENDS -->
 
-<!-- INTRO STARTS -->
-<section class="intro_section">
-    <div>
-        <h1 style="font-size: 4rem" class="text1">Hi;</h1>
-        <p style="font-size: 2rem; max-width: 50rem" class="text2">
-            My name is Warren Van Zuydam, and welcome to my website! This is my personal website, used to host my portfolio, digital products, services,
-            and anything else I feel like. I'm an amateur graphic and website designer looking to share
-            my creative work and skills with the rest of the world. I dabble into all kinds of things to do with computers. The more I learn, the bigger the world of computing gets.
-        </p>
-    </div>
-    <img src="images/mugshot.png" alt="Warren Van Zuydam" style="width: 80%; height: 80%; max-width: 20rem; margin-top: 2rem">
-</section>
-<!-- INTRO ENDS -->
-
-
+        <!-- INTRO STARTS -->
+        <section class="intro_section">
+            <div>
+                <h1 style="font-size: 4rem" class="text1">Hi;</h1>
+                <p style="font-size: 2rem; max-width: 50rem" class="text2">
+                    My name is Warren Van Zuydam, and welcome to my website! This is my personal website, used to host my portfolio, digital products, services,
+                    and anything else I feel like. I'm an amateur graphic and website designer looking to share
+                    my creative work and skills with the rest of the world. I dabble into all kinds of things to do with computers. The more I learn, the bigger the world of computing gets.
+                </p>
+            </div>
+            <img src="images/mugshot.png" alt="Warren Van Zuydam" style="width: 80%; height: 80%; max-width: 20rem; margin-top: 2rem">
+        </section>
+        <!-- INTRO ENDS -->
 
 
-<section style="background-color: #eeeeee; padding: 2%; display: flex; flex-direction: column; justify-content:space-evenly; flex-wrap: wrap">
-    <h1 style="font-size: 4rem" class="text1">Services are coming soon!</h1>
-    <hr>
-    <br><br>
-    <div style="min-width: 50%; background-color: #ffffff; padding: 2%; border-radius: 1rem">
-        <h1 style="font-size: 2rem; text-align: left">Services Pricing: (Subject to change in terms of pricing and categories offered)</h1><br>
-            <p style="font-size: 1rem; max-width: 60rem; text-align: left">
-                - PDF filling and hyperlinking ($5 per page)<br><br>
-                - Custom, filled out resumes ($10)<br><br>
-                - Blog hosting<br><br>
-                - Vector tracing<br><br>
-                - Ebook hosting<br><br>
-                - More to come...
-            </p>
-            <br>
-    <!-- <a href="contact.html" style="align-self: left"><button class="button1">Request A Quote</button></a> -->
-    <br><br>
-    </div>
 
-    
-    
-</section>
-        
+
+        <section style="background-color: #eeeeee; padding: 2%; display: flex; flex-direction: column; justify-content:space-evenly; flex-wrap: wrap">
+            <h1 style="font-size: 4rem" class="text1">Services are coming soon!</h1>
+            <hr>
+            <br><br>
+            <div style="min-width: 50%; background-color: #ffffff; padding: 2%; border-radius: 1rem">
+                <h1 style="font-size: 2rem; text-align: left">Services Pricing: (Subject to change in terms of pricing and categories offered)</h1><br>
+                <p style="font-size: 1rem; max-width: 60rem; text-align: left">
+                    - PDF filling and hyperlinking ($5 per page)<br><br>
+                    - Custom, filled out resumes ($10)<br><br>
+                    - Blog hosting<br><br>
+                    - Vector tracing<br><br>
+                    - Ebook hosting<br><br>
+                    - More to come...
+                </p>
+                <br>
+                <!-- <a href="contact.html" style="align-self: left"><button class="button1">Request A Quote</button></a> -->
+                <br><br>
+            </div>
+
+
+
+        </section>
+
 
         <!-- <section style="background-color: #eeeeee; padding: 2%; display: flex; flex-direction: column; justify-content:space-evenly; flex-wrap: wrap">
             <h1 style="font-size: 4rem" class="text1">Pricing (Make Hyperlinks To Auto Scroll To The Correct Section)</h1>
@@ -293,38 +265,12 @@
 
 
     </main><!-- MAIN ENDS -->
-    <section class="footer_section">
-        <p style="max-width: 50rem; text-align: left; color:#ffffff; padding: 1em; margin: auto">
-            PhonbireWorks is the go-to source for high-quality digital products and services, from templates,
-            to ebooks, to vector traced graphics. My goal is to provide customizable solutions tailored to your
-            needs. I am passionate about creating digital products and services that make a difference.
-        </p>
-        <p style="font-size: 2rem; max-width: 50rem; text-align: center; color:#ffffff; padding-bottom: 1em; margin: auto">
-            Get In Touch
-        </p>
-        <!--FORM STARTS-->
-        <div style="display: flex; flex-direction: column; align-items: center; width: 100%; height: auto; margin: auto">
-            <form style="display: flex; flex-direction: column; align-items: center" action="https://formspree.io/f/xnnqalvd" method="POST">
-                <label style="color: #ffffff" for="fname">First Name*</label>
-                <input style="width: 100%" type="text" id="fname" name="firstname" placeholder="Your name.." required>
-                <br>
-                <label style="color: #ffffff" for="lname">Last Name*</label>
-                <input style="width: 100%" type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-                <br>
-                <label style="color: #ffffff" for="email">Email*</label>
-                <input style="width: 100%" type="email" id="email" name="email" placeholder="Your email.." required>
-                <br>
-                <label style="color: #ffffff" for="subject">Your Message*</label>
-                <textarea style="width: 100%" id="subject" name="subject" placeholder="Write something.." style="height:20rem" required></textarea>
-                <br>
-                <input style="width: 80%" type="submit" value="Submit" class="button2">
-            </form>
-        </div>
-        <!--FORM ENDS-->
-        <br><br><br>
-        <p style="display: flex; flex-direction: column; align-items: center; color:#ffffff">© 2024
-            PhonbireWorks</p>
-    </section>
+    
+    <!-- FOOTER STARTS -->
+    <div id="footer"></div>
+    <script> fetch('../../../footer.html').then(response => response.text()).then(data => { document.getElementById('footer').innerHTML = data; }); </script>
+    <!-- FOOTER ENDS -->
+    
     <script src="script.js"></script>
 </body>
 
