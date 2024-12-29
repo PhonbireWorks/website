@@ -868,7 +868,7 @@ nav ul li a {
 
 .accordion-header {
     color: #ffffff;
-    background-color: #b5b5b5;
+    background-color: #ff5e00;
     border: solid;
     border-radius: 0rem;
     padding: 1rem;
@@ -883,7 +883,7 @@ nav ul li a {
 .accordion-content {
     display: none;
     width: 80%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 1rem;
     background-color: #ffffff;
 }
