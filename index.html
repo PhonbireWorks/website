@@ -14,7 +14,8 @@
     <!-- SCRIPTS & OTHER STUFF STARTS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="animate_on_view.js"></script>
-    <script>history.replaceState("", "", "home");</script> <!-- THIS REMOVES THE ".HTML" EXTENTION FROM YOUR URLS -->
+    <!-- <script>history.replaceState("", "", "home");</script> THIS REMOVES THE ".HTML" EXTENTION FROM YOUR URLS -->
+    <script>history.replaceState(history.state, "", "home");</script>
     <!-- SCRIPTS & OTHER STUFF ENDS -->
 
     <!-- GOOGLE SEO STUFF STARTS -->
@@ -58,7 +59,7 @@ window.location.replace("maintenance.html");
                 }, false);
             </script>
             <div style="display: flex; flex-direction: column; justify-content: center; flex-grow: 1;">
-                <h1 style="font-size: 2rem; color: #000000;" class="header-logo">PHONBIREWORKS</h1>
+                <h1 style="font-size: 2rem; color: #000000; font-family: Bodoni MT;" class="header-logo">PHONBIREWORKS</h1>
                 <nav>
                     <div class="hamburger fade-in" id="hamburger">
                         <span class="bar"></span>
