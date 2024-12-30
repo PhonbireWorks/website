@@ -997,12 +997,10 @@ nav ul li a {
     /* Grows the div by 10% */
     box-shadow: 0 0px 3rem #0000003d; /* Adds a drop shadow */
 }
-
 @media (max-width: 1000px) {
 
     .template_item {
-        max-width: 28vw;
-        /* 8rem */
+        max-width: 28vw; /* 8rem */
     }
 
     .template_item p {
@@ -1010,12 +1008,10 @@ nav ul li a {
     }
 
 }
-
-@media (max-width: 800px) {
+@media (max-width: 768px) {
 
     .template_item {
-        max-width: 38vw;
-        /* 8rem */
+        max-width: 40vw; /* 8rem */
     }
 
     .template_item p {
@@ -1023,12 +1019,10 @@ nav ul li a {
     }
 
 }
-
 @media (max-width: 400px) {
 
     .template_item {
-        max-width: 38vw;
-        /* 8rem */
+        max-width: 35vw; /* 8rem */
     }
 
     .template_item p {
@@ -1036,12 +1030,10 @@ nav ul li a {
     }
 
 }
-
-@media (max-width: 320px) {
+@media (max-width: 250px) {
 
     .template_item {
-        max-width: 80vw;
-        /* 8rem */
+        max-width: 80vw; /* 8rem */
     }
 
     .template_item p {
