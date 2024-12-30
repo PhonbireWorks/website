@@ -988,11 +988,21 @@ nav ul li a {
     margin: 1rem;
     max-width: 20%;
     border-radius: 1rem;
+    transition: transform 0.3s ease;
+    /* Smooth transition */
 }
+
+.template_item:hover {
+    transform: scale(1.05);
+    /* Grows the div by 10% */
+    box-shadow: 0 0px 3rem #0000003d; /* Adds a drop shadow */
+}
+
 @media (max-width: 1000px) {
 
     .template_item {
-        max-width: 28vw; /* 8rem */
+        max-width: 28vw;
+        /* 8rem */
     }
 
     .template_item p {
@@ -1000,10 +1010,12 @@ nav ul li a {
     }
 
 }
-@media (max-width: 768px) {
+
+@media (max-width: 800px) {
 
     .template_item {
-        max-width: 40vw; /* 8rem */
+        max-width: 38vw;
+        /* 8rem */
     }
 
     .template_item p {
@@ -1011,10 +1023,12 @@ nav ul li a {
     }
 
 }
+
 @media (max-width: 400px) {
 
     .template_item {
-        max-width: 38vw; /* 8rem */
+        max-width: 38vw;
+        /* 8rem */
     }
 
     .template_item p {
@@ -1022,10 +1036,12 @@ nav ul li a {
     }
 
 }
-@media (max-width: 250px) {
+
+@media (max-width: 320px) {
 
     .template_item {
-        max-width: 80vw; /* 8rem */
+        max-width: 80vw;
+        /* 8rem */
     }
 
     .template_item p {
