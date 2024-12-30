@@ -971,44 +971,6 @@ nav ul li a {
 
 
 
-
-
-
-
-
-
-
-.accordion {
-    width: 100%;
-    max-width: 100%;
-}
-
-.accordion-header {
-    color: #ffffff;
-    background-color: #272727;
-    border: solid;
-    border-radius: 0rem;
-    padding: 1rem;
-    width: 100%;
-    text-align: left;
-    font-size: 1rem;
-    cursor: pointer;
-    outline: none;
-    margin-bottom: 1rem;
-}
-
-.accordion-content {
-    display: none;
-    width: 80%;
-    /* margin: 0 auto; */
-    padding: 1rem;
-    background-color: #ffffff;
-}
-
-
-
-
-
 @media (max-width: 600px) {
 
     .ebook_container_parent {
