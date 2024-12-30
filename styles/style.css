@@ -989,7 +989,7 @@ nav ul li a {
     max-width: 20%;
     border-radius: 1rem;
 }
-@media (max-width: 1300px) {
+@media (max-width: 768px) {
 
     .template_item {
         max-width: 8rem; /* 40% */
