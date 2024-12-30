@@ -982,6 +982,7 @@ nav ul li a {
 
 .blog_item {
     display: flex;
+    cursor: pointer;
     flex-direction: column;
     background-color: #ffffff;
     text-align: left;
