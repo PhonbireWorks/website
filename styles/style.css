@@ -992,18 +992,11 @@ nav ul li a {
 @media (max-width: 1300px) {
 
     .template_item {
-        max-width: 10rem; /* 40% */
+        max-width: 8rem; /* 40% */
     }
 
     .template_item p {
         font-size: 1rem !important;
-    }
-
-}
-@media (max-width: 400px) {
-
-    .template_item {
-        max-width: 20rem; /* 80% */
     }
 
 }
