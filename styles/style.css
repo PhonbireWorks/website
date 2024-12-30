@@ -992,7 +992,7 @@ nav ul li a {
 @media (max-width: 1300px) {
 
     .template_item {
-        max-width: 6rem; /* 40% */
+        max-width: 8rem; /* 40% */
     }
 
     .template_item p {
