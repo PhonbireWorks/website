@@ -980,7 +980,24 @@ nav ul li a {
 }
 
 
-
+.blog_item {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    text-align: left;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+    /* Smooth transition */
+}
+.blog_item:hover {
+    transform: scale(1.05);
+    /* Grows the div by 10% */
+    box-shadow: 0 0px 3rem #0000003d; /* Adds a drop shadow */
+}
 
 .template_item {
     background-color: #ffffff;
@@ -991,7 +1008,6 @@ nav ul li a {
     transition: transform 0.3s ease;
     /* Smooth transition */
 }
-
 .template_item:hover {
     transform: scale(1.05);
     /* Grows the div by 10% */
