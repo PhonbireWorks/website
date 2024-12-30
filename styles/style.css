@@ -1004,7 +1004,6 @@ nav ul li a {
     text-align: left;
     margin: 1rem;
     max-width: 20%;
-    border-radius: 1rem;
     transition: transform 0.3s ease;
     /* Smooth transition */
 }
