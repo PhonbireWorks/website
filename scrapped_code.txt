@@ -39,6 +39,157 @@
 
 
 
+//LEGACY TEMPLATE SHOP SECTION
+<section id="targetSection2" style="background-color: #272727; display: flex; flex-direction: column; align-items: center; padding: 2%">
+
+            <h1 style="color: #ffffff; font-size: 2rem" class="text2">My Digital Template Shop</h1>
+            <br>
+            <p style="color: #ffffff; margin: auto; text-align: center">Not finding what you're looking for?</p>
+            <br>
+            <a href="../../contact.html" style="align-self: center"><button class="button1">Get In Touch</button></a>
+            <br>
+            <!-- SWIPER STARTS -->
+            <div class="container">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <a href="category_pages/journals/journals.html" class="swiper-slide" style="text-decoration: none">
+                            <div><img src="category_pages/journals/design_1/1.png">
+                                <p style="text-align: center; color:#000000; margin-bottom: 1rem"><b>MULTI-PAGE JOURNALS</b></p>
+                            </div>
+                        </a>
+                        <a href="maintenance.html" class="swiper-slide" style="text-decoration: none">
+                            <div><img src="images/coming_soon.png">
+                                <p style="text-align: center; color:#000000; margin-bottom: 1rem"><b>PRODUCT MOCKUP TEMPLATES</b></p>
+                            </div>
+                        </a>
+                        <a href="category_pages/resume_templates/resume_templates.html" class="swiper-slide" style="text-decoration: none">
+                            <div><img src="category_pages/resume_templates/design_1/1.png">
+                                <p style="text-align: center; color:#000000; margin-bottom: 1rem"><b>RESUME TEMPLATES</b></p>
+                            </div>
+                        </a>
+                        <a href="maintenance.html" class="swiper-slide" style="text-decoration: none">
+                            <div><img src="images/coming_soon.png">
+                                <p style="text-align: center; color:#000000; margin-bottom: 1rem"><b>QUOTE TEMPLATES</b></p>
+                            </div>
+                        </a>
+                        <a href="maintenance.html" class="swiper-slide" style="text-decoration: none">
+                            <div><img src="images/coming_soon.png">
+                                <p style="text-align: center; color:#000000; margin-bottom: 1rem"><b>DAILY PLANNERS</b></p>
+                            </div>
+                        </a>
+                        <a href="maintenance.html" class="swiper-slide" style="text-decoration: none">
+                            <div><img src="images/coming_soon.png">
+                                <p style="text-align: center; color:#000000; margin-bottom: 1rem"><b>WEEKLY PLANNERS</b></p>
+                            </div>
+                        </a>
+                        <a href="category_pages/monthly_planners/monthly_planners.html" class="swiper-slide" style="text-decoration: none">
+                            <div><img src="category_pages/monthly_planners/design_1/1.png">
+                                <p style="text-align: center; color:#000000; margin-bottom: 1rem"><b>MONTHLY PLANNERS</b></p>
+                            </div>
+                        </a>
+                        <a href="maintenance.html" class="swiper-slide" style="text-decoration: none">
+                            <div><img src="images/coming_soon.png">
+                                <p style="text-align: center; color:#000000; margin-bottom: 1rem"><b>YEARLY PLANNERS</b></p>
+                            </div>
+                        </a>
+                        <a href="maintenance.html" class="swiper-slide" style="text-decoration: none">
+                            <div><img src="images/coming_soon.png">
+                                <p style="text-align: center; color:#000000; margin-bottom: 1rem"><b>DESK PADS</b></p>
+                            </div>
+                        </a>
+                        <a href="maintenance.html" class="swiper-slide" style="text-decoration: none">
+                            <div><img src="images/coming_soon.png">
+                                <p style="text-align: center; color:#000000; margin-bottom: 1rem"><b>SPREADSHEETS</b></p>
+                            </div>
+                        </a>
+                        <a href="maintenance.html" class="swiper-slide" style="text-decoration: none">
+                            <div><img src="images/coming_soon.png">
+                                <p style="text-align: center; color:#000000; margin-bottom: 1rem"><b>FORMS</b></p>
+                            </div>
+                        </a>
+                        <a href="maintenance.html" class="swiper-slide" style="text-decoration: none">
+                            <div><img src="images/coming_soon.png">
+                                <p style="text-align: center; color:#000000; margin-bottom: 1rem"><b>VECTOR GRAPHIC ELEMENT PACKS</b></p>
+                            </div>
+                        </a>
+                        <a href="maintenance.html" class="swiper-slide" style="text-decoration: none">
+                            <div><img src="images/coming_soon.png">
+                                <p style="text-align: center; color:#000000; margin-bottom: 1rem"><b>BROCHURES</b></p>
+                            </div>
+                        </a>
+                        <a href="maintenance.html" class="swiper-slide" style="text-decoration: none">
+                            <div><img src="images/coming_soon.png">
+                                <p style="text-align: center; color:#000000; margin-bottom: 1rem"><b>BUSINESS CARDS</b></p>
+                            </div>
+                        </a>
+                        <a href="maintenance.html" class="swiper-slide" style="text-decoration: none">
+                            <div><img src="images/coming_soon.png">
+                                <p style="text-align: center; color:#000000; margin-bottom: 1rem"><b>SLIDESHOW TEMPLATES</b></p>
+                            </div>
+                        </a>
+                        <a href="maintenance.html" class="swiper-slide" style="text-decoration: none">
+                            <div><img src="images/coming_soon.png">
+                                <p style="text-align: center; color:#000000; margin-bottom: 1rem"><b>FONTS</b></p>
+                            </div>
+                        </a>
+                        <a href="maintenance.html" class="swiper-slide" style="text-decoration: none">
+                            <div><img src="images/coming_soon.png">
+                                <p style="text-align: center; color:#000000; margin-bottom: 1rem"><b>E-BOOKS</b></p>
+                            </div>
+                        </a>
+                        <a href="maintenance.html" class="swiper-slide" style="text-decoration: none">
+                            <div><img src="images/coming_soon.png">
+                                <p style="text-align: center; color:#000000; margin-bottom: 1rem"><b>MEAL PLANNERS</b></p>
+                            </div>
+                        </a>
+                        <a href="maintenance.html" class="swiper-slide" style="text-decoration: none">
+                            <div><img src="images/coming_soon.png">
+                                <p style="text-align: center; color:#000000; margin-bottom: 1rem"><b>HOME CLEANING CHECKLISTS</b></p>
+                            </div>
+                        </a>
+                        <a href="maintenance.html" class="swiper-slide" style="text-decoration: none">
+                            <div><img src="images/coming_soon.png">
+                                <p style="text-align: center; color:#000000; margin-bottom: 1rem"><b>SOCIAL MEDIA POST TEMPLATES</b></p>
+                            </div>
+                        </a>
+                        <a href="maintenance.html" class="swiper-slide" style="text-decoration: none">
+                            <div><img src="images/coming_soon.png">
+                                <p style="text-align: center; color:#000000; margin-bottom: 1rem"><b>BIRTHDAY CARDS</b></p>
+                            </div>
+                        </a>
+                        <a href="maintenance.html" class="swiper-slide" style="text-decoration: none">
+                            <div><img src="images/coming_soon.png">
+                                <p style="text-align: center; color:#000000; margin-bottom: 1rem"><b>WEDDING INVITATIONS</b></p>
+                            </div>
+                        </a>
+                        <a href="maintenance.html" class="swiper-slide" style="text-decoration: none">
+                            <div><img src="images/coming_soon.png">
+                                <p style="text-align: center; color:#000000; margin-bottom: 1rem"><b>WEBSITE FRAMEWORK TEMPLATES</b></p>
+                            </div>
+                        </a>
+
+
+
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            <!-- SWIPER ENDS -->
+        </section>
+
+
+
+
+
+
+
+
 
 
 //LEGACY FOOTER
