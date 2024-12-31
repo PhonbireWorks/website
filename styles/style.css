@@ -1097,7 +1097,7 @@ nav ul li a {
 /* GALLERY SCROLL CONTAINER STARTS */
 .gallery-container {
     position: relative;
-    width: 40rem; /* Set the width to the size of one image */
+    width: 20rem; /* Set the width to the size of one image */
     margin: auto;
     overflow: hidden;
 }
@@ -1108,7 +1108,7 @@ nav ul li a {
 }
 
 .gallery img {
-    width: 40rem; /* Ensure each image takes up the full width of the container */
+    width: 20rem; /* Ensure each image takes up the full width of the container */
     flex-shrink: 0;
 }
 
