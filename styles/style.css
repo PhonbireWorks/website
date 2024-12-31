@@ -1097,9 +1097,18 @@ nav ul li a {
 /* GALLERY SCROLL CONTAINER STARTS */
 .gallery-container {
     position: relative;
-    width: 20rem; /* Set the width to the size of one image */
+    width: 100%; /* Set the width to the size of one image */
     margin: auto;
     overflow: hidden;
+}
+
+.gc {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
 }
 
 .gallery {
@@ -1108,7 +1117,7 @@ nav ul li a {
 }
 
 .gallery img {
-    width: 20rem; /* Ensure each image takes up the full width of the container */
+    width: 100%; /* Ensure each image takes up the full width of the container */
     flex-shrink: 0;
 }
 
@@ -1132,5 +1141,14 @@ nav ul li a {
 .nav-button.right {
     right: 0;
     font-size: 2rem;
+}
+
+@media (max-width: 1000px) {
+
+    .gc {
+        width: 100%;
+        height: 100%;
+    }
+
 }
 /* GALLERY SCROLL CONTAINER ENDS */

@@ -118,8 +118,8 @@
 
 
 
-
-<div style="background: #ffffff; display: flex; flex-direction: column; align-items: center; justify-content: center; width: 20rem;">
+<!-- PRODUCT ITEM STARTS -->
+<div class="gc">
 <!-- GALLERY SCROLL CONTAINER STARTS -->
 <div class="gallery-container">
     <button class="nav-button left" id="scrollLeft">&#10094;</button>
@@ -145,8 +145,7 @@
 </div>
 <a href="https://www.paypal.com/ncp/payment/2G8M7HPZVPTV8" target="_blank"><button class="button3 shake-horizontal">Buy Now</button></a>
 </div>
-</div>
-
+<!-- PRODUCT ITEM ENDS -->
 
 
 
@@ -174,8 +173,8 @@
     });
   
     function updateGallery() {
-        const offset = -currentIndex * 20; // Adjust based on image width
-        gallery.style.transform = `translateX(${offset}rem)`;
+        const offset = -currentIndex * 100; // Adjust based on image width
+        gallery.style.transform = `translateX(${offset}%)`;
         console.log('Update Gallery:', offset);
     }
 </script>
