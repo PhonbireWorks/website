@@ -81,8 +81,8 @@ function moveMagnifier(e) {
     magnifier.style.left = `${x - magnifier.offsetWidth / 2}px`;
     magnifier.style.top = `${y - magnifier.offsetHeight / 2}px`;
     magnifier.style.backgroundImage = `url(${image.src})`;
-    magnifier.style.backgroundSize = `${image.width * 5}px ${image.height * 5}px`;
-    magnifier.style.backgroundPosition = `-${x * 5 - magnifier.offsetWidth / 5}px -${y * 5 - magnifier.offsetHeight / 5}px`;
+    magnifier.style.backgroundSize = `${image.width * 3}px ${image.height * 3}px`;
+    magnifier.style.backgroundPosition = `-${x * 3 - magnifier.offsetWidth / 3}px -${y * 3 - magnifier.offsetHeight / 3}px`;
 }
 
 function disableScroll(e) {
@@ -121,9 +121,3 @@ image.addEventListener('touchend', function() {
 
 
 
-
-
-
-//MY GALLERY SLIDER CODE STARTS (SWIPER JS ALTERNATIVE)
-    
-//MY GALLERY SLIDER CODE ENDS (SWIPER JS ALTERNATIVE)

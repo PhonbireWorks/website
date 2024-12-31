@@ -189,6 +189,135 @@
 
 
 
+//LEGACY SWIPER GALLERY STARTS
+
+//PUT THIS LINK IN THE <HEAD>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+<!-- SWIPER STARTS -->
+            <div class="container">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="../journals/design_1/1.png"></div>
+                        <div class="swiper-slide"><img src="../journals/design_1/2.png"></div>
+                        <div class="swiper-slide"><img src="../journals/design_1/3.png"></div>
+                        <div class="swiper-slide"><img src="../journals/design_1/4.png"></div>
+                        <div class="swiper-slide"><img src="../journals/design_1/5.png"></div>
+                        <div class="swiper-slide"><img src="../journals/design_1/6.png"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <div style="display: flex; justify-content: flex-start; width: 100%;">
+                    <img src="../../images/zip.svg" alt="" style="width: 100%; height: 100%; max-width: 2rem; margin-left: 1rem;">
+                    <img src="../../images/pdf.svg" alt="" style="width: 100%; height: 100%; max-width: 2rem; margin-left: 1rem;">
+                </div>
+                <div style="display: flex; flex-direction: row; width: 100%; justify-content: space-between; align-items: center">
+                    <p style="color: #000000; font-size: 2rem; margin: 1%" class="text2"><b>DESIGN 1</b></p>
+                    <p style="color: #128251; font-size: 2rem; margin: 1%" class="text2"><b>$25.00</b></p>
+                </div>
+                <a href="https://www.paypal.com/ncp/payment/2G8M7HPZVPTV8" target="_blank"><button class="button3 shake-horizontal">Buy Now</button></a>
+            </div>
+            <!-- SWIPER ENDS -->
+
+//INSERT THIS SWIPER SCRIPT AT THE END OF THE <MAIN>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                // Optional parameters
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+                loop: true,
+                // If we need pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        </script>
+
+
+//PUT THIS IN YOUR STYLES.CSS
+/* SWIPER IMAGE SCROLLER STYLES STARTS */
+.container {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+}
+
+.swiper {
+    width: 100%;
+    height: fit-content;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper .swiper-button-prev {
+    color: #ffffff;
+    background-color: #000000a3;
+    padding: 2%;
+}
+
+.swiper .swiper-button-next {
+    color: #ffffff;
+    background-color: #000000a3;
+    padding: 2%;
+}
+
+.swiper .swiper-pagination-bullet-active {
+    background-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.swiper .swiper-pagination-bullet {
+    background-color: #000000a3;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+@media (max-width: 1000px) {
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+
+}
+
+/* SWIPER IMAGE SCROLLER STYLES ENDS */
+
+
+
+//LEGACY SWIPER GALLERY ENDS
+
+
+
+
 
 
 
