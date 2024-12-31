@@ -213,7 +213,7 @@ nav ul li a {
 }
 
 .intro_section {
-    background-color: #8a8a8a;
+    background-color: #272727;
     text-align: left;
     color: #ffffff;
     display: flex;
@@ -255,7 +255,7 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #8a8a8a;
+    background-color: #272727;
 }
 
 
