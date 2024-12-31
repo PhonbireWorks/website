@@ -6,6 +6,9 @@ document.getElementById('hamburger').addEventListener('click', function() {
 
 
 
+
+
+
 // script.js
 document.getElementById('scrollButton').addEventListener('click', function() {
     document.getElementById('targetSection').scrollIntoView({ behavior: 'smooth' });
@@ -54,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Show the popup after 3 seconds
     setTimeout(function() {
         popup.style.display = 'flex';
-    }, 1000);
+    }, 2000);
 
     // Close the popup when the user clicks anywhere outside of the popup
     window.onclick = function(event) {
@@ -115,5 +118,30 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 // ACCORDION CODE ENDS
+
+
+
+
+
+
+const image = document.getElementById('image');
+const magnifier = document.getElementById('magnifier');
+
+image.addEventListener('mousemove', function(e) {
+    magnifier.style.display = 'block';
+    const rect = image.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    magnifier.style.left = `${x - magnifier.offsetWidth / 2}px`;
+    magnifier.style.top = `${y - magnifier.offsetHeight / 2}px`;
+    magnifier.style.backgroundImage = `url(${image.src})`;
+    magnifier.style.backgroundSize = `${image.width * 2}px ${image.height * 2}px`;
+    magnifier.style.backgroundPosition = `-${x * 2 - magnifier.offsetWidth / 2}px -${y * 2 - magnifier.offsetHeight / 2}px`;
+});
+
+image.addEventListener('mouseleave', function() {
+    magnifier.style.display = 'none';
+});
+
 
 
