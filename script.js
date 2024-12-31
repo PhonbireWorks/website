@@ -139,18 +139,37 @@ function moveMagnifier(e) {
     magnifier.style.backgroundPosition = `-${x * 2 - magnifier.offsetWidth / 2}px -${y * 2 - magnifier.offsetHeight / 2}px`;
 }
 
+function disableScroll(e) {
+    e.preventDefault();
+}
+
 image.addEventListener('mousemove', moveMagnifier);
 image.addEventListener('touchmove', moveMagnifier);
 
+image.addEventListener('mouseenter', function() {
+    document.body.style.overflow = 'hidden';
+    document.addEventListener('touchmove', disableScroll, { passive: false });
+});
+
 image.addEventListener('mouseleave', function() {
     magnifier.style.display = 'none';
+    document.body.style.overflow = 'auto';
+    document.removeEventListener('touchmove', disableScroll);
+});
+
+image.addEventListener('touchstart', function() {
+    document.body.style.overflow = 'hidden';
+    document.addEventListener('touchmove', disableScroll, { passive: false });
 });
 
 image.addEventListener('touchend', function() {
     magnifier.style.display = 'none';
+    document.body.style.overflow = 'auto';
+    document.removeEventListener('touchmove', disableScroll);
 });
 
 // magnifier.style.transition = 'left 0.1s ease, top 0.1s ease';
+
 
 
 
