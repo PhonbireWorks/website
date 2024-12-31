@@ -56,11 +56,6 @@ document.addEventListener('DOMContentLoaded', function() {
         popup.style.display = 'flex';
     }, 1000);
 
-    // Close the popup when the user clicks on <span> (x)
-    close.onclick = function() {
-        popup.style.display = 'none';
-    }
-
     // Close the popup when the user clicks anywhere outside of the popup
     window.onclick = function(event) {
         if (event.target == popup) {
