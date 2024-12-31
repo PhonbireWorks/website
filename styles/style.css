@@ -1056,15 +1056,8 @@ nav ul li a {
 
 
 
-.popupad {
-    display: none;
-}
 
-
-
-
-
-
+/* MAGNIFYING GLASS STYLES START */
 .img-container {
     position: relative;
     width: 300px;
@@ -1081,11 +1074,63 @@ nav ul li a {
     border: 3px solid #000;
     border-radius: 50%;
     cursor: none;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     display: none;
     overflow: hidden;
     pointer-events: none;
     background-repeat: no-repeat;
 }
+/* MAGNIFYING GLASS STYLES END */
 
+
+
+
+
+
+
+
+
+
+
+
+/* GALLERY SCROLL CONTAINER STARTS */
+.gallery-container {
+    position: relative;
+    width: 40rem; /* Set the width to the size of one image */
+    margin: auto;
+    overflow: hidden;
+}
+
+.gallery {
+    display: flex;
+    transition: transform 0.2s ease;
+}
+
+.gallery img {
+    width: 40rem; /* Ensure each image takes up the full width of the container */
+    flex-shrink: 0;
+}
+
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.nav-button.left {
+    left: 0;
+    font-size: 2rem;
+}
+
+.nav-button.right {
+    right: 0;
+    font-size: 2rem;
+}
+/* GALLERY SCROLL CONTAINER ENDS */

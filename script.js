@@ -9,15 +9,9 @@ document.getElementById('hamburger').addEventListener('click', function() {
 
 
 
-// script.js
-document.getElementById('scrollButton').addEventListener('click', function() {
-    document.getElementById('targetSection').scrollIntoView({ behavior: 'smooth' });
-});
 
-// script.js
-document.getElementById('scrollButton').addEventListener('click', function() {
-    document.getElementById('targetSection2').scrollIntoView({ behavior: 'smooth' });
-});
+
+
 
 
 
@@ -76,54 +70,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-
-
-
-
-// RANDOM LOGO LOAD CODE STARTS
-// THIS CODE LOADS A RANDOM LOGO VARIATION EVERY TIME THE PAGE REFRESHES OR LOADS
-const images = [
-    'images/logo.svg',
-];
-
-// Function to load a random image
-function loadRandomImage() {
-    const randomIndex = Math.floor(Math.random() * images.length);
-    const randomImage = images[randomIndex];
-    document.getElementById('randomImage').src = randomImage;
-}
-
-// Load a random image when the page loads
-window.onload = loadRandomImage;
-// THIS CODE LOADS A RANDOM LOGO VARIATION EVERY TIME THE PAGE REFRESHES OR LOADS
-// RANDOM LOGO LOAD CODE ENDS
-
-
-
-
-// ACCORDION CODE STARTS
-document.addEventListener('DOMContentLoaded', function() {
-    var headers = document.querySelectorAll('.accordion-header');
-
-    headers.forEach(function(header) {
-        header.addEventListener('click', function() {
-            var content = this.nextElementSibling;
-
-            if (content.style.display === 'block') {
-                content.style.display = 'none';
-            } else {
-                content.style.display = 'block';
-            }
-        });
-    });
-});
-// ACCORDION CODE ENDS
-
-
-
-
-
-
 const image = document.getElementById('image');
 const magnifier = document.getElementById('magnifier');
 
@@ -135,8 +81,8 @@ function moveMagnifier(e) {
     magnifier.style.left = `${x - magnifier.offsetWidth / 2}px`;
     magnifier.style.top = `${y - magnifier.offsetHeight / 2}px`;
     magnifier.style.backgroundImage = `url(${image.src})`;
-    magnifier.style.backgroundSize = `${image.width * 2}px ${image.height * 2}px`;
-    magnifier.style.backgroundPosition = `-${x * 2 - magnifier.offsetWidth / 2}px -${y * 2 - magnifier.offsetHeight / 2}px`;
+    magnifier.style.backgroundSize = `${image.width * 5}px ${image.height * 5}px`;
+    magnifier.style.backgroundPosition = `-${x * 5 - magnifier.offsetWidth / 5}px -${y * 5 - magnifier.offsetHeight / 5}px`;
 }
 
 function disableScroll(e) {
@@ -173,3 +119,11 @@ image.addEventListener('touchend', function() {
 
 
 
+
+
+
+
+
+//MY GALLERY SLIDER CODE STARTS (SWIPER JS ALTERNATIVE)
+    
+//MY GALLERY SLIDER CODE ENDS (SWIPER JS ALTERNATIVE)
