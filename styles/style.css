@@ -913,7 +913,7 @@ nav ul li a {
 
 
 
-/* Style the Popup */
+
 .popup {
     display: none;
     /* Hidden by default */
@@ -926,36 +926,20 @@ nav ul li a {
     overflow: auto;
     background-color: #000000ac;
 }
-
 .popup a {
     margin: auto;
     display: flex;
-    height: auto;
 }
-
 .popup img {
     margin: auto;
     display: flex;
-    justify-content: center;
     max-width: 60%;
-    height: auto;
 }
-
-@media (max-width: 768px
-    /* 768PX DEFAULT */
-) {
-
+@media (max-width: 768px) {
     .popup img {
         max-width: 90%;
     }
-
 }
-
-.close {
-    display: flex;
-    cursor: pointer;
-}
-
 
 
 /* MISC. STYLES ENDS */
