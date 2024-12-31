@@ -127,21 +127,30 @@ document.addEventListener('DOMContentLoaded', function() {
 const image = document.getElementById('image');
 const magnifier = document.getElementById('magnifier');
 
-image.addEventListener('mousemove', function(e) {
+function moveMagnifier(e) {
     magnifier.style.display = 'block';
     const rect = image.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const y = e.clientY - rect.top;
+    const x = (e.touches ? e.touches[0].clientX : e.clientX) - rect.left;
+    const y = (e.touches ? e.touches[0].clientY : e.clientY) - rect.top;
     magnifier.style.left = `${x - magnifier.offsetWidth / 2}px`;
     magnifier.style.top = `${y - magnifier.offsetHeight / 2}px`;
     magnifier.style.backgroundImage = `url(${image.src})`;
     magnifier.style.backgroundSize = `${image.width * 2}px ${image.height * 2}px`;
     magnifier.style.backgroundPosition = `-${x * 2 - magnifier.offsetWidth / 2}px -${y * 2 - magnifier.offsetHeight / 2}px`;
-});
+}
+
+image.addEventListener('mousemove', moveMagnifier);
+image.addEventListener('touchmove', moveMagnifier);
 
 image.addEventListener('mouseleave', function() {
     magnifier.style.display = 'none';
 });
+
+image.addEventListener('touchend', function() {
+    magnifier.style.display = 'none';
+});
+
+// magnifier.style.transition = 'left 0.1s ease, top 0.1s ease';
 
 
 
