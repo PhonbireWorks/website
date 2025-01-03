@@ -1,7 +1,0 @@
-title: "PhonbireWorks"
-description: "We sell digital products, from PDF fillable journals, so SVG templates"
-url: "https://phonbireworks.github.io/website/"
-author:
-  name: "Warren Van Zuydam"
-plugins:
-  - jekyll-seo-tag
