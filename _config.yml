@@ -1,2 +1,7 @@
 plugins:
 - jekyll-seo-tag
+
+title: "PhonbireWorks"
+description: "A brief description of your site"
+url: "https://phonbireworks.github.io/website/"
+author: name: "Warren Van Zuydam"
