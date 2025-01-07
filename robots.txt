@@ -1,8 +1,4 @@
-user-agent: *
-
-user-agent: googlebot
-(group 3)
-
-allow: /
-
-sitemap: https://phonbireworks.github.io/website/sitemap.xml
+User-agent: *
+Disallow: /private/
+Allow: /
+Sitemap: https://phonbireworks.github.io/website/sitemap.xml
