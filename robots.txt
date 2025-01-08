@@ -1,2 +1,3 @@
+Sitemap: https://phonbireworks.github.io/website/sitemap.html
 User-agent: *
-Allow: /
+Disallow:
