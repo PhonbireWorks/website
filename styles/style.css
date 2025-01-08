@@ -380,6 +380,38 @@ nav ul li a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+
+    .hero-image {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .fab-container {
     display: flex;
     position: fixed;
