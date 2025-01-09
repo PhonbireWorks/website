@@ -152,6 +152,7 @@ nav ul li a {
 
 .home:hover {
     color: #ff5e00;
+    text-decoration: underline;
 }
 
 .about {
@@ -160,6 +161,7 @@ nav ul li a {
 
 .about:hover {
     color: #ff5e00;
+    text-decoration: underline;
 }
 
 .shop {
@@ -168,6 +170,7 @@ nav ul li a {
 
 .shop:hover {
     color: #ff5e00;
+    text-decoration: underline;
 }
 
 .contact {
@@ -176,6 +179,7 @@ nav ul li a {
 
 .contact:hover {
     color: #ff5e00;
+    text-decoration: underline;
 }
 
 /* NAV BUTTON STYLES ENDS */
@@ -1184,3 +1188,10 @@ nav ul li a {
 
 }
 /* GALLERY SCROLL CONTAINER ENDS */
+
+
+
+
+
+
+
