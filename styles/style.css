@@ -1011,7 +1011,7 @@ nav ul li a {
 }
 
 .blog_item:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
     /* Grows the div by 10% */
     box-shadow: 0 0px 3rem #0000003d;
     /* Adds a drop shadow */
