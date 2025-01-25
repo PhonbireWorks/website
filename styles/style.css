@@ -204,7 +204,7 @@ nav ul li a {
 /* SECTION STYLES STARTS */
 .hero_section {
     background-color: #000000;
-    padding: 2%;
+    padding: 1rem;
     text-align: center;
     color: #ffffff;
     min-height: 80vh;
