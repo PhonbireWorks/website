@@ -140,6 +140,23 @@ nav ul li a {
 
 }
 
+@media (max-width: 300px) {
+    .text1 {
+        font-size: 1rem !important;
+    }
+}
+
+
+
+@media (max-width: 500px) {
+    .follow {
+        width: 100% !important;
+    }
+}
+
+
+
+
 /* NAV MENU MEDIA QUERY ENDS */
 
 

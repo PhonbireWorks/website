@@ -9,7 +9,7 @@
    viewBox="0 0 50 50"
    xml:space="preserve"
    sodipodi:docname="icons8-twitterx.svg"
-   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,24 +24,24 @@
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
    inkscape:zoom="3.8650001"
-   inkscape:cx="5.8214747"
-   inkscape:cy="0.90556273"
+   inkscape:cx="5.6921085"
+   inkscape:cy="1.0349288"
    inkscape:window-width="1920"
-   inkscape:window-height="991"
-   inkscape:window-x="2391"
-   inkscape:window-y="-9"
+   inkscape:window-height="992"
+   inkscape:window-x="1920"
+   inkscape:window-y="0"
    inkscape:window-maximized="1"
    inkscape:current-layer="Layer_1" />
 <g
    id="g1"
-   style="fill:#000000">
+   style="fill:#ffffff">
 	<path
    d="M39,4H11c-3.866,0-7,3.134-7,7v28c0,3.866,3.134,7,7,7h28c3.866,0,7-3.134,7-7V11C46,7.134,42.866,4,39,4z M29.978,37   l-6.54-9.292L15.5,37H13l9.308-10.897L13.086,13h7.937l5.637,8.009L33.5,13H36l-8.211,9.613L37.914,37H29.978z"
    id="path1"
-   style="fill:#000000" />
+   style="fill:#ffffff" />
 	<polygon
    points="16.914,15 31.022,35 34.086,35 19.978,15  "
    id="polygon1"
-   style="fill:#000000" />
+   style="fill:#ffffff" />
 </g>
 </svg>
