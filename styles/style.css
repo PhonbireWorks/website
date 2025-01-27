@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     /* outline: 1px solid #ff0000; */
+    box-sizing: border-box;
 }
 
 /* GLOBAL STYLES FOR ENTIRE WEBSITE ENDS */
@@ -55,7 +56,7 @@ img {
 
 
 /* NAV MENU STYLES STARTS */
-nav {
+/* nav {
     position: relative;
 }
 
@@ -86,7 +87,7 @@ nav ul li a {
     width: 25px;
     background-color: #000000;
     margin: 4px 0;
-}
+} */
 
 /* NAV MENU STYLES ENDS */
 
@@ -101,8 +102,8 @@ nav ul li a {
         margin-left: 90%;
     }
 
-    nav ul {
-        /* NAV MENU BACKGROUND */
+    /* nav ul {
+        
         flex-direction: column;
         position: absolute;
         top: 210%;
@@ -126,9 +127,9 @@ nav ul li a {
     }
 
     .header-logo {
-        /* WITHOUT THIS, SMALL DEVICES WILL HAVE A WEIRD WHITE BAR ON THE RIGHT SIDE */
+        
         display: none;
-    }
+    } */
 
     .text1 {
         font-size: 2rem !important;
@@ -1130,7 +1131,7 @@ nav ul li a {
 }
 
 .template_item:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
     /* Grows the div by 10% */
     box-shadow: 0 0px 3rem #0000003d;
     /* Adds a drop shadow */
@@ -1298,3 +1299,169 @@ nav ul li a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1rem;
+}
+.logo img {
+    height: 40px; /* Adjust the size of your logo as needed */
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-list li {
+    margin: 0 1rem;
+    position: relative; /* Needed for drop-down positioning */
+}
+.nav-list a {
+    color: #000000;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+}
+.menu-container {
+    display: none;
+    position: fixed; /* Change to fixed position */
+    top: 1rem; /* Position it at the top corner */
+    right: 1rem; /* Position it at the right corner */
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.menu-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 3px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+.menu-icon::before,
+.menu-icon::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #000000;
+    transition: transform 0.3s ease, top 0.3s ease, bottom 0.3s ease;
+}
+.menu-icon::before {
+    top: -8px;
+}
+.menu-icon::after {
+    bottom: -8px;
+}
+
+/* Hamburger icon transformation */
+.menu-container.active .menu-icon {
+    background-color: transparent;
+}
+.menu-container.active .menu-icon::before {
+    transform: rotate(45deg);
+    top: 0;
+}
+.menu-container.active .menu-icon::after {
+    transform: rotate(-45deg);
+    bottom: 0;
+}
+.menu-container.active ~ .logo {
+    display: none;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color: #ffffff;
+    list-style: none;
+    padding: 0;
+    width: 200px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu li {
+    margin: 0;
+}
+.dropdown-menu a {
+    padding: 0.5rem 1rem;
+    display: block;
+}
+.dropdown-menu a:hover {
+    background-color: #bdbdbd;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        transition: transform 0.3s ease-in-out; /* Slide-in animation */
+    }
+    .nav-list.active {
+        display: flex;
+    }
+    .nav-list li {
+        margin: 0;
+        transform: translateX(-100%);
+        animation: slideIn 0.3s ease-in-out forwards;
+    }
+    .nav-list li:nth-child(1) {
+        animation-delay: 0.1s;
+    }
+    .nav-list li:nth-child(2) {
+        animation-delay: 0.2s;
+    }
+    .nav-list li:nth-child(3) {
+        animation-delay: 0.3s;
+    }
+    .nav-list li:nth-child(4) {
+        animation-delay: 0.4s;
+    }
+    .nav-list li:nth-child(5) {
+        animation-delay: 0.5s;
+    }
+    .dropdown-menu {
+        position: static;
+        width: 100%;
+    }
+    .menu-container {
+        display: block;
+    }
+}
+
+/* Slide-in animation */
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}

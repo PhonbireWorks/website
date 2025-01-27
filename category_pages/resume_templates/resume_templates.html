@@ -16,7 +16,7 @@
 
 
     <!-- HEADER STARTS -->
-    <header class="sticky" style="box-shadow: 0 0 3rem -0rem #00000068">
+    <!-- <header class="sticky" style="box-shadow: 0 0 3rem -0rem #00000068">
         <div style="display: flex; justify-content: space-between">
             <img src="../../images/logo.svg" alt="Sample GIF" style="display: flex; align-self: center; height: 10vh" id="randomImage" class="no-right-click">
             <script>
@@ -43,8 +43,42 @@
                 </nav>
             </div>
         </div>
-    </header>
+    </header> -->
     <!-- HEADER ENDS -->
+
+
+    <!-- NAV STARTS -->
+    <nav class="sticky" style="box-shadow: 0 0 3rem -0rem #00000068">
+        <img src="../../images/logo.svg" alt="" style="height: 3rem" class="logo">
+        <ul class="nav-list">
+            <li><a href="../../index.html">HOME</a></li>
+            <li><a href="../../about.html">ABOUT</a></li>
+            <li><a href="../../shop.html">SHOP</a></li>
+            <li><a href="../../blog.html">BLOG</a></li>
+            <li><a href="../../contact.html">CONTACT</a></li>
+            <!-- <li class="dropdown">
+            <a href="shop.html">SHOP <span>&#9662;</span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">MULTI-PDF JOURNALS</a></li>
+                <li><a href="#">RESUME TEMPLATES</a></li>
+                <li><a href="#">DAILY PLANNERS</a></li>
+                <li><a href="#">WEEKLY PLANNERS</a></li>
+            </ul>
+        </li> -->
+        </ul>
+
+        <div class="menu-container">
+            <div class="menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+    </nav>
+    <!-- NAV ENDS -->
+
+
+
+
 
     <main><!-- MAIN STARTS -->
 
@@ -71,7 +105,8 @@
 
 
 
-        <section style="background-color: #272727; display: flex; flex-direction: column; align-items: center; padding: 2%">
+        <section
+            style="background-color: #272727; display: flex; flex-direction: column; align-items: center; padding: 2%">
 
 
 
@@ -90,11 +125,13 @@
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
                 </div>
-                <div style="display: flex; flex-direction: row; width: 100%; justify-content: space-between; align-items: center">
+                <div
+                    style="display: flex; flex-direction: row; width: 100%; justify-content: space-between; align-items: center">
                     <p style="color: #000000; font-size: 2rem; margin: 1%" class="text2"><b>DESIGN 1</b></p>
                     <p style="color: #128251; font-size: 2rem; margin: 1%" class="text2"><b>$5.00</b></p>
                 </div>
-                <a href="https://www.paypal.com/ncp/payment/P6533GS5QWMJU" target="_blank"><button class="button3 shake-horizontal">Buy Now</button></a>
+                <a href="https://www.paypal.com/ncp/payment/P6533GS5QWMJU" target="_blank"><button
+                        class="button3 shake-horizontal">Buy Now</button></a>
             </div>
             <!-- SWIPER ENDS -->
 
@@ -164,23 +201,28 @@
             to ebooks, to vector traced graphics. My goal is to provide customizable solutions tailored to your
             needs. I am passionate about creating digital products and services that make a difference.
         </p>
-        <p style="font-size: 2rem; max-width: 50rem; text-align: center; color:#ffffff; padding-bottom: 1em; margin: auto">
+        <p
+            style="font-size: 2rem; max-width: 50rem; text-align: center; color:#ffffff; padding-bottom: 1em; margin: auto">
             Get In Touch
         </p>
         <!--FORM STARTS-->
-        <div style="display: flex; flex-direction: column; align-items: center; width: 100%; height: auto; margin: auto">
-            <form style="display: flex; flex-direction: column; align-items: center" action="https://formspree.io/f/xnnqalvd" method="POST">
+        <div
+            style="display: flex; flex-direction: column; align-items: center; width: 100%; height: auto; margin: auto">
+            <form style="display: flex; flex-direction: column; align-items: center"
+                action="https://formspree.io/f/xnnqalvd" method="POST">
                 <label style="color: #ffffff" for="fname">First Name*</label>
                 <input style="width: 100%" type="text" id="fname" name="firstname" placeholder="Your name.." required>
                 <br>
                 <label style="color: #ffffff" for="lname">Last Name*</label>
-                <input style="width: 100%" type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                <input style="width: 100%" type="text" id="lname" name="lastname" placeholder="Your last name.."
+                    required>
                 <br>
                 <label style="color: #ffffff" for="email">Email*</label>
                 <input style="width: 100%" type="email" id="email" name="email" placeholder="Your email.." required>
                 <br>
                 <label style="color: #ffffff" for="subject">Your Message*</label>
-                <textarea style="width: 100%" id="subject" name="subject" placeholder="Write something.." style="height:20rem" required></textarea>
+                <textarea style="width: 100%" id="subject" name="subject" placeholder="Write something.."
+                    style="height:20rem" required></textarea>
                 <input style="width: 80%; margin: 1rem;" type="submit" value="Submit" class="button5">
             </form>
         </div>
