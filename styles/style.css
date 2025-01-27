@@ -1356,7 +1356,7 @@ nav {
     transform: translate(-50%, -50%);
     width: 30px;
     height: 3px;
-    background-color: transparent;
+    background-color: #000000;
     transition: background-color 0.3s ease;
 }
 .menu-icon::before,
