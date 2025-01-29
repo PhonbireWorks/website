@@ -1041,7 +1041,7 @@ nav ul li a {
     position: fixed;
     z-index: 2;
     /* Without z-index of 2, swiper elements draw in front of the popups */
-    top: 13vh;
+    top: 40px;
     width: 100vw;
     height: 100vh;
     overflow: auto;
