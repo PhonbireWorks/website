@@ -15,66 +15,32 @@
 
 
 
-    <!-- HEADER STARTS -->
-    <!-- <header class="sticky" style="box-shadow: 0 0 3rem -0rem #00000068">
-        <div style="display: flex; justify-content: space-between">
-            <img src="../../images/logo.svg" alt="Sample GIF" style="display: flex; align-self: center; height: 10vh" id="randomImage" class="no-right-click">
-            <script>
-                document.addEventListener('contextmenu', function (e) {
-                    e.preventDefault();
-                }, false);
-            </script>
-            <div style="display: flex; flex-direction: column; justify-content: center; flex-grow: 1;">
-                <h1 style="font-size: 2rem; color: #000000; font-family: Bodoni MT;" class="header-logo">PHONBIREWORKS</h1>
-                <nav>
-                    <div class="hamburger fade-in" id="hamburger">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </div>
-                    <ul class="nav-menu" id="nav-menu">
-                        <li><a href="../../index.html" class="home" style="font-size: 1rem">HOME</a></li>
-                        <li><a href="../../about.html" class="about" style="font-size: 1rem">ABOUT</a></li>
-                        <li><a href="../../shop.html" class="shop" style="font-size: 1rem; color:#ff5e00">SHOP</a></li>
-                        <li><a href="../../blog.html" class="shop" style="font-size: 1rem">BLOG</a></li>
-                        <li><a href="../../shop.html" class="shop" style="font-size: 1rem">PORTFOLIO</a></li>
-                        <li><a href="../../contact.html" class="contact" style="font-size: 1rem">CONTACT</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header> -->
-    <!-- HEADER ENDS -->
+    <!-- NAV MENU STARTS -->
+    <div id="nav-container" class="sticky"></div>
+    <script>
+        function loadNav() {
+            fetch('../../nav.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('nav-container').innerHTML = data;
+                    initializeMenuToggle();
+                });
+        }
 
+        function initializeMenuToggle() {
+            const menuContainer = document.querySelector('.menu-container');
+            const navList = document.querySelector('.nav-list');
 
-    <!-- NAV STARTS -->
-    <nav class="sticky" style="box-shadow: 0 0 3rem -0rem #00000068">
-        <img src="../../images/logo.svg" alt="" style="height: 3rem" class="logo">
-        <ul class="nav-list">
-            <li><a href="../../index.html">HOME</a></li>
-            <li><a href="../../about.html">ABOUT</a></li>
-            <li><a href="../../shop.html">SHOP</a></li>
-            <li><a href="../../blog.html">BLOG</a></li>
-            <li><a href="../../contact.html">CONTACT</a></li>
-            <!-- <li class="dropdown">
-            <a href="shop.html">SHOP <span>&#9662;</span></a>
-            <ul class="dropdown-menu">
-                <li><a href="#">MULTI-PDF JOURNALS</a></li>
-                <li><a href="#">RESUME TEMPLATES</a></li>
-                <li><a href="#">DAILY PLANNERS</a></li>
-                <li><a href="#">WEEKLY PLANNERS</a></li>
-            </ul>
-        </li> -->
-        </ul>
+            menuContainer.addEventListener('click', () => {
+                menuContainer.classList.toggle('active');
+                navList.classList.toggle('active');
+                document.querySelector('.logo').style.display = navList.classList.contains('active') ? 'none' : 'block';
+            });
+        }
 
-        <div class="menu-container">
-            <div class="menu-icon">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </div>
-    </nav>
-    <!-- NAV ENDS -->
+        loadNav();
+    </script>
+    <!-- NAV MENU ENDS -->
 
 
 
