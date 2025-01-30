@@ -17,10 +17,10 @@
 
     <!-- NAV MENU STARTS -->
     <div id="nav-container" class="sticky"></div> <!-- IMPORT THE NAV DIV -->
-    <script> // THIS FIRST FUNCTION MAKES SURE YOUR OFFLINE VERSION OF YOUR WEBSITE DISPLAYS THE NAV PROPERLY, BECAUSE OF THE GITHUB PAGES REPO DIRECTORY SHENANIGANS. YOUR REPO NAME IS "WEBSITE", SO YOUR OFFLINE PARENT FOLDER SHOULD ALSO BE CALLED "WEBSITE"
+    <script>
         function loadNav() {
             const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
-            const navPath = isLocal ? '../../nav.html' : '/website/nav.html';
+            const navPath = isLocal ? '/nav.html' : '/website/nav.html';
 
             fetch(navPath)
                 .then(response => response.text())
@@ -31,7 +31,7 @@
                 .catch(error => console.error('Error fetching nav:', error));
         }
 
-        function initializeMenuToggle() { // THIS FUNCTION HANDLES YOUR NAV BUTTON LOGIC
+        function initializeMenuToggle() {
             const menuContainer = document.querySelector('.menu-container');
             const navList = document.querySelector('.nav-list');
 
