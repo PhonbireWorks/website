@@ -1,12 +1,12 @@
 <!-- NAV STARTS -->
 <nav class="sticky" style="box-shadow: 0 0 3rem -0rem #00000068;">
-    <img src="/images/logo.svg" alt="" style="height: 3rem" class="logo">
+    <img src="/website/images/logo.svg" alt="" style="height: 3rem" class="logo">
     <ul class="nav-list">
-        <li><a href="/index.html" class="nav-link">HOME</a></li>
-        <li><a href="/about.html" class="nav-link">ABOUT</a></li>
-        <li><a href="/shop.html" class="nav-link">SHOP</a></li>
-        <li><a href="/blog.html" class="nav-link">BLOG</a></li>
-        <li><a href="/contact.html" class="nav-link">CONTACT</a></li>
+        <li><a href="/website/index.html" class="nav-link">HOME</a></li>
+        <li><a href="/website/about.html" class="nav-link">ABOUT</a></li>
+        <li><a href="/website/shop.html" class="nav-link">SHOP</a></li>
+        <li><a href="/website/blog.html" class="nav-link">BLOG</a></li>
+        <li><a href="/website/contact.html" class="nav-link">CONTACT</a></li>
         <!-- <li class="dropdown">
             <a href="shop.html">SHOP <span>&#9662;</span></a>
             <ul class="dropdown-menu">
@@ -29,19 +29,17 @@
 <script src="/script.js"></script>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      const navLinks = document.querySelectorAll(".nav-link");
-      const currentPath = window.location.pathname;
-      const pathParts = currentPath.split('/').filter(part => part.length > 0);
-      
-      navLinks.forEach(link => {
-        let href = link.getAttribute("href");
-        // Adjust for subfolder levels
-        if (pathParts.length > 1) {
-          href = '../'.repeat(pathParts.length - 1) + href;
-        }
-        link.href = href;
-      });
+  document.addEventListener("DOMContentLoaded", function() {
+    const navLinks = document.querySelectorAll(".nav-link");
+    const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+    navLinks.forEach(link => {
+      let href = link.getAttribute("href");
+      if (!isLocal) {
+        href = '/website/' + href; // Adjust for GitHub Pages
+      }
+      link.href = href;
     });
-  </script>
+  });
+</script>
+
 <!-- NAV ENDS -->
