@@ -29,17 +29,18 @@
 <script src="/script.js"></script>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const navLinks = document.querySelectorAll(".nav-link");
-    const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
-    navLinks.forEach(link => {
-      let href = link.getAttribute("href");
-      if (!isLocal) {
-        href = '/website/' + href; // Adjust for GitHub Pages
-      }
-      link.href = href;
+    document.addEventListener("DOMContentLoaded", function() {
+      const navLinks = document.querySelectorAll(".nav-link");
+      const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+      navLinks.forEach(link => {
+        let href = link.getAttribute("href");
+        if (isLocal) {
+          link.href = '/' + href; // Offline adjustment
+        } else {
+          link.href = '/website/' + href; // Online adjustment for GitHub Pages
+        }
+      });
     });
-  });
-</script>
+  </script>
 
 <!-- NAV ENDS -->
