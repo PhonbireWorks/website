@@ -18,7 +18,7 @@
     <script>
         function loadNav() {
           const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
-          const navPath = isLocal ? 'nav.html' : '/website/nav.html';
+          const navPath = isLocal ? '../../nav.html' : '/website/nav.html';
     
           fetch(navPath)
             .then(response => response.text())
