@@ -11,6 +11,9 @@
     <!-- <script>history.replaceState("", "", "about");</script> THIS REMOVES THE ".HTML" EXTENTION FROM YOUR URLS -->
 </head>
 
+
+<base href="/" id="base-tag">
+
 <body>
 
 
@@ -19,7 +22,7 @@
     <div id="nav-container" class="sticky"></div>
     <script>
         function loadNav() {
-            fetch('/website/nav.html') //WHEN USING TRICKS LIKE THIS TO DISPLAY NAV MENUS IN ALL WEBPAGES, PLEASE INCLUDE YOUR GITHUB REPO NAME IN THE ABSOLUTE PATH!!!
+            fetch('/nav.html') //WHEN USING TRICKS LIKE THIS TO DISPLAY NAV MENUS IN ALL WEBPAGES, PLEASE INCLUDE YOUR GITHUB REPO NAME IN THE ABSOLUTE PATH!!!
                 .then(response => response.text())
                 .then(data => {
                     document.getElementById('nav-container').innerHTML = data;
