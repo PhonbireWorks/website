@@ -39,13 +39,10 @@
         let href = link.getAttribute("href");
         if (isLocal) {
           // Adjust for local environment
-          href = '/website/' + href;
+          href = '../'.repeat(pathParts.length - 2) + href;
         } else {
           // Adjust for GitHub Pages, considering subfolders
-          href = '/' + pathParts.slice(0, -1).map(() => '..').join('/') + '/' + href;
-          if (!href.startsWith('/website/')) {
-            href = '/website/' + href;
-          }
+          href = '/website/' + href;
         }
         link.href = href;
       });
