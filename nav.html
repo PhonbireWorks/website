@@ -32,13 +32,22 @@
     document.addEventListener("DOMContentLoaded", function() {
       const navLinks = document.querySelectorAll(".nav-link");
       const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+      const currentPath = window.location.pathname;
+      const pathParts = currentPath.split('/').filter(part => part.length > 0);
+  
       navLinks.forEach(link => {
         let href = link.getAttribute("href");
         if (isLocal) {
-          link.href = '/' + href; // Offline adjustment
+          // Adjust for local environment
+          href = '/website/' + href;
         } else {
-          link.href = '/website/' + href; // Online adjustment for GitHub Pages
+          // Adjust for GitHub Pages, considering subfolders
+          href = '/' + pathParts.slice(0, -1).map(() => '..').join('/') + '/' + href;
+          if (!href.startsWith('/website/')) {
+            href = '/website/' + href;
+          }
         }
+        link.href = href;
       });
     });
   </script>
