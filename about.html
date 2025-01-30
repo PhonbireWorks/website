@@ -18,8 +18,8 @@
 
 
     <!-- NAV MENU STARTS -->
-    <div id="nav-container" class="sticky"></div>
-    <script>
+    <div id="nav-container" class="sticky"></div> <!-- IMPORT THE NAV DIV -->
+    <script> // THIS FIRST FUNCTION MAKES SURE YOUR OFFLINE VERSION OF YOUR WEBSITE DISPLAYS THE NAV PROPERLY, BECAUSE OF THE GITHUB PAGES REPO DIRECTORY SHENANIGANS. YOUR REPO NAME IS "WEBSITE", SO YOUR OFFLINE PARENT FOLDER SHOULD ALSO BE CALLED "WEBSITE"
         function loadNav() {
             const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
             const navPath = isLocal ? 'nav.html' : '/website/nav.html';
@@ -33,7 +33,7 @@
                 .catch(error => console.error('Error fetching nav:', error));
         }
 
-        function initializeMenuToggle() {
+        function initializeMenuToggle() { // THIS FUNCTION HANDLES YOUR NAV BUTTON LOGIC
             const menuContainer = document.querySelector('.menu-container');
             const navList = document.querySelector('.nav-list');
 
@@ -63,18 +63,27 @@
 
 
 
-        <section style="background-color: #ffbe99; display: flex; flex-direction: column; align-items: center; padding: 2%">
+        <section
+            style="background-color: #ffbe99; display: flex; flex-direction: column; align-items: center; padding: 2%">
             <br>
-            <h1 style="color: #ffffff; font-size: 3rem; text-align: center" class="text1 fade-in">ABOUT ME & MY SERVICES</h1>
+            <h1 style="color: #ffffff; font-size: 3rem; text-align: center" class="text1 fade-in">ABOUT ME & MY SERVICES
+            </h1>
             <br>
             <p style="color: #ffffff; margin: auto; text-align: center">Follow me on</p>
             <br>
-            <div style="text-align: center; width: 50%" class="follow"> <!-- WTF?! I GUESS LINKED IMAGES COUNT AS TEXT. OKEEE.. -->
-                <a href="https://www.facebook.com/warren.vanzuydam.3" target="_blank"><img src="images/icons8-facebook.svg" alt="Warren Van Zuydam Facebook" style="width: 10%"></a>
-                <a href="#" target="_blank"><img src="images/icons8-instagram.svg" alt="Warren Van Zuydam Instagram" style="width: 10%"></a>
-                <a href="https://www.linkedin.com/in/warren-van-zuydam-23b61a1b0/?originalSubdomain=za" target="_blank"><img src="images/icons8-linkedin.svg" alt="Warren Van Zuydam LinkedIn" style="width: 10%"></a>
-                <a href="https://www.tiktok.com/@phonbireworks4" target="_blank"><img src="images/icons8-tiktok.svg" alt="Warren Van Zuydam TikTok" style="width: 10%"></a>
-                <a href="#" target="_blank"><img src="images/icons8-twitterx.svg" alt="Warren Van Zuydam Twitter X" style="width: 10%"></a>
+            <div style="text-align: center; width: 50%" class="follow">
+                <!-- WTF?! I GUESS LINKED IMAGES COUNT AS TEXT. OKEEE.. -->
+                <a href="https://www.facebook.com/warren.vanzuydam.3" target="_blank"><img
+                        src="images/icons8-facebook.svg" alt="Warren Van Zuydam Facebook" style="width: 10%"></a>
+                <a href="#" target="_blank"><img src="images/icons8-instagram.svg" alt="Warren Van Zuydam Instagram"
+                        style="width: 10%"></a>
+                <a href="https://www.linkedin.com/in/warren-van-zuydam-23b61a1b0/?originalSubdomain=za"
+                    target="_blank"><img src="images/icons8-linkedin.svg" alt="Warren Van Zuydam LinkedIn"
+                        style="width: 10%"></a>
+                <a href="https://www.tiktok.com/@phonbireworks4" target="_blank"><img src="images/icons8-tiktok.svg"
+                        alt="Warren Van Zuydam TikTok" style="width: 10%"></a>
+                <a href="#" target="_blank"><img src="images/icons8-twitterx.svg" alt="Warren Van Zuydam Twitter X"
+                        style="width: 10%"></a>
             </div>
             <br>
             <p style="color: #ffffff; margin: auto; text-align: center">or</p>
@@ -91,37 +100,60 @@
             <div>
                 <h1 style="font-size: 3rem" class="text1">Hi;</h1>
                 <p style="font-size: 2rem; max-width: 50rem" class="text2">
-                    My name is Warren Van Zuydam, and welcome to my website! This is my personal website, used to host my portfolio, digital products, services,
-                    and anything else I feel like. I'm an amateur graphic and website designer looking to share my creative work and skills with the rest of
-                    the world. I dabble into all kinds of things to do with computers, from graphic design, to operating systems.
+                    My name is Warren Van Zuydam, and welcome to my website! This is my personal website, used to host
+                    my portfolio, digital products, services,
+                    and anything else I feel like. I'm an amateur graphic and website designer looking to share my
+                    creative work and skills with the rest of
+                    the world. I dabble into all kinds of things to do with computers, from graphic design, to operating
+                    systems.
                 </p>
             </div>
-            <img src="images/mugshot.png" alt="Warren Van Zuydam" style="width: 80%; height: 80%; max-width: 20rem; margin-top: 2rem">
+            <img src="images/mugshot.png" alt="Warren Van Zuydam"
+                style="width: 80%; height: 80%; max-width: 20rem; margin-top: 2rem">
         </section>
         <!-- INTRO ENDS -->
 
-        
+
 
 
         <h1 style="font-size: 3rem; hyphens: auto; word-break: break-word; overflow-wrap: break-word; margin: 1rem; color: #000000;"
             class="text1 fade-in">Services That I Offer On PhonbireWorks:</h1>
         <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 1rem; margin: 1rem;">
-            At the moment, this website is limited to digital products only, however, I plan to implement the following services soon:
+            At the moment, this website is limited to digital products only, however, I plan to implement the following
+            services soon:
         </p>
         <ul>
-            <li style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">PDF filling and hyperlinking</li>
-            <li style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">Custom-designed, filled out resumes</li>
-            <li style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">Blog hosting</li>
-            <li style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">Vector tracing of different graphics</li>
-            <li style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">AI-generated logo vector tracing and artifact correction</li>
-            <li style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">Custom logo design</li>
-            <li style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">E-book hosting</li>
-            <li style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">Website design</li>
-            <li style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">More to come...</li>
+            <li
+                style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                PDF filling and hyperlinking</li>
+            <li
+                style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                Custom-designed, filled out resumes</li>
+            <li
+                style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                Blog hosting</li>
+            <li
+                style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                Vector tracing of different graphics</li>
+            <li
+                style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                AI-generated logo vector tracing and artifact correction</li>
+            <li
+                style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                Custom logo design</li>
+            <li
+                style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                E-book hosting</li>
+            <li
+                style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                Website design</li>
+            <li
+                style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                More to come...</li>
         </ul>
 
 
-        
+
 
 
 
@@ -140,23 +172,28 @@
             to ebooks, to vector traced graphics. My goal is to provide customizable solutions tailored to your
             needs. I am passionate about creating digital products and services that make a difference.
         </p>
-        <p style="font-size: 2rem; max-width: 50rem; text-align: center; color:#ffffff; padding-bottom: 1em; margin: auto">
+        <p
+            style="font-size: 2rem; max-width: 50rem; text-align: center; color:#ffffff; padding-bottom: 1em; margin: auto">
             Get In Touch
         </p>
         <!--FORM STARTS-->
-        <div style="display: flex; flex-direction: column; align-items: center; width: 100%; height: auto; margin: auto">
-            <form style="display: flex; flex-direction: column; align-items: center" action="https://formspree.io/f/xnnqalvd" method="POST">
+        <div
+            style="display: flex; flex-direction: column; align-items: center; width: 100%; height: auto; margin: auto">
+            <form style="display: flex; flex-direction: column; align-items: center"
+                action="https://formspree.io/f/xnnqalvd" method="POST">
                 <label style="color: #ffffff" for="fname">First Name*</label>
                 <input style="width: 100%" type="text" id="fname" name="firstname" placeholder="Your name.." required>
                 <br>
                 <label style="color: #ffffff" for="lname">Last Name*</label>
-                <input style="width: 100%" type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                <input style="width: 100%" type="text" id="lname" name="lastname" placeholder="Your last name.."
+                    required>
                 <br>
                 <label style="color: #ffffff" for="email">Email*</label>
                 <input style="width: 100%" type="email" id="email" name="email" placeholder="Your email.." required>
                 <br>
                 <label style="color: #ffffff" for="subject">Your Message*</label>
-                <textarea style="width: 100%" id="subject" name="subject" placeholder="Write something.." style="height:20rem" required></textarea>
+                <textarea style="width: 100%" id="subject" name="subject" placeholder="Write something.."
+                    style="height:20rem" required></textarea>
                 <input style="width: 80%; margin: 1rem;" type="submit" value="Submit" class="button5">
             </form>
         </div>
