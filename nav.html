@@ -1,6 +1,6 @@
 <!-- NAV STARTS -->
 <nav class="sticky" style="box-shadow: 0 0 3rem -0rem #00000068;">
-    <img src="images/logo.svg" alt="" style="height: 3rem" class="logo">
+    <img src="/website/images/logo.svg" alt="" style="height: 3rem" class="logo">
     <ul class="nav-list">
         <li><a href="/website/index.html" class="nav-link">HOME</a></li>
         <li><a href="/website/about.html" class="nav-link">ABOUT</a></li>
@@ -28,7 +28,22 @@
 
 <script src="/script.js"></script>
 
-<script>
+<!-- <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const navLinks = document.querySelectorAll(".nav-link");
+      const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+  
+      navLinks.forEach(link => {
+        let href = link.getAttribute("href");
+        if (isLocal) {
+          href = '/website/' + href.replace('/website/', '');
+        }
+        link.href = href;
+      });
+    });
+  </script> -->
+
+  <script>
     document.addEventListener("DOMContentLoaded", function() {
       const navLinks = document.querySelectorAll(".nav-link");
       const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
@@ -37,7 +52,7 @@
         let href = link.getAttribute("href");
         if (isLocal) {
           // Adjust for local environment
-          href = '/website/' + href.replace('/website/', '');
+          href = href.replace('/website/', '');
         }
         link.href = href;
       });
