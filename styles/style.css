@@ -1295,8 +1295,8 @@ nav ul li a {
 
 
 :root {
-    --color-1: #ffffff;
-    --text-color: #000000;
+    --color-1: #272727;
+    --text-color: #ffffff;
     --accent-color: #acacac;
 }
 
@@ -1327,10 +1327,12 @@ nav a {
     align-items: center;
     text-decoration: none;
     color: var(--text-color);
+    font-weight: bold;
 }
 
 nav a:hover {
-    color: #ff3c00;
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 nav .home-link {
