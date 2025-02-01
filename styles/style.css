@@ -980,6 +980,8 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     width: 35%;
+    border-style: solid;
+    border-width: 2px;
 }
 
 .swiper {
