@@ -1123,6 +1123,12 @@ nav ul li a {
     transition: transform 0.3s ease;
 }
 
+.grid-child img {
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+}
+
 .grid-child:hover {
     transform: scale(1.01);
     /* Grows the div by 10% */
