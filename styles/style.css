@@ -888,7 +888,7 @@ nav ul li a {
     /* Ensures the SVG covers the entire button */
     background-color: #00000000;
     border: solid;
-    border-width: 0.15rem;
+    border-width: 2px;
     background-repeat: no-repeat;
     /* Prevents the SVG from repeating */
     background-position: center;
@@ -933,7 +933,7 @@ nav ul li a {
     /* Ensures the SVG covers the entire button */
     background-color: #00000000;
     border: solid;
-    border-width: 0.15rem;
+    border-width: 2px;
     background-repeat: no-repeat;
     /* Prevents the SVG from repeating */
     background-position: center;
@@ -1104,13 +1104,62 @@ nav ul li a {
     /* Adds a drop shadow */
 }
 
+
+
+
+
+.grid-parent {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 1rem;
+    background-color: #ffffff;
+}
+
+.grid-child {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    transition: transform 0.3s ease;
+}
+
+.grid-child:hover {
+    transform: scale(1.01);
+    /* Grows the div by 10% */
+    box-shadow: 0 0px 3rem #0000003d;
+    /* Adds a drop shadow */
+}
+
+@media(max-width: 900px) {
+    .grid-parent {
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media(max-width: 375px) {
+    .grid-parent {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
+
 .template_item {
-    background-color: #ffd1c9;
+    background-color: #ffffff;
     text-align: left;
     margin: 1rem;
     max-width: 20%;
+    border-style: solid;
+    border-width: 2px;
     transition: transform 0.3s ease;
     /* Smooth transition */
+}
+
+.template_item img {
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #000000;
 }
 
 .template_item:hover {
