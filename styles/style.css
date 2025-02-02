@@ -1201,6 +1201,59 @@ nav ul li a {
 
 
 
+.grid-parent3 {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1rem;
+    background-color: #ffffff;
+}
+
+.grid-child3 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    /* transition: transform 0.3s ease; */
+}
+
+.grid-child3 img {
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+}
+
+/* .grid-child3:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0px 3rem #0000003d;
+    opacity: 80%;
+} */
+
+@media(max-width: 1340px) {
+    .grid-parent3 {
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media(max-width: 1000px) {
+    .grid-parent3 {
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width: 500px) {
+    .grid-parent3 {
+        gap: 1rem;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
 
 
 
