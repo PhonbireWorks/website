@@ -1,0 +1,1 @@
+Because of how the nav menu is programmed, it can only be navigated in the live version of the website, but for the offline version, the links are dead
