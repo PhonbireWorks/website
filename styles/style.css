@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #ac6e6e;
+}
+
 /* GLOBAL STYLES FOR ENTIRE WEBSITE ENDS */
 
 
@@ -15,7 +19,7 @@ html {
     /* WITHOUT THIS, YOUR FA BUTTON WON'T SCROLL SMOOTHLY */
 }
 
-/* HEADER STYLES STARTS */
+/* HEADER STYLES START */
 header {
     background-color: #ffffff;
     color: white;
@@ -23,7 +27,7 @@ header {
     text-align: center;
 }
 
-/* HEADER STYLES STARTS */
+/* HEADER STYLES END */
 
 
 
@@ -97,59 +101,10 @@ nav ul li a {
 /* NAV MENU MEDIA QUERY STARTS */
 @media (max-width: 768px) {
 
-    .hamburger {
-        display: flex;
-        margin-left: 90%;
-    }
-
-    /* nav ul {
-        
-        flex-direction: column;
-        position: absolute;
-        top: 210%;
-        left: -250%;
-        width: 80%;
-        border-style: solid;
-        border-width: 0px;
-        border-color: #000000;
-        box-shadow: 0 0 3rem -0rem #00000068;
-        background-color: #ffffff;
-        transition: left 0.1s ease-in-out;
-    }
-
-    nav ul.active {
-        left: 0;
-    }
-
-    nav ul li {
-        text-align: center;
-        margin: 5%;
-    }
-
-    .header-logo {
-        
-        display: none;
-    } */
-
-    .text1 {
-        font-size: 2rem !important;
-    }
-
-    .text2 {
-        font-size: 1rem !important;
-    }
-
-    .text3 {
-        font-size: 0.5rem !important;
-    }
+    
 
 }
 
-@media (max-width: 300px) {
-    .text1 {
-        font-size: 1rem !important;
-    }
-}
 
 
 
@@ -239,7 +194,7 @@ nav ul li a {
 }
 
 .intro_section {
-    background-color: #272727;
+    background-color: #724040;
     text-align: left;
     color: #ffffff;
     display: flex;
@@ -281,7 +236,7 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #272727;
+    background-color: #ac6e6e;
 }
 
 
@@ -932,7 +887,7 @@ nav ul li a {
     height: 3rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    color: #000000;
+    color: #724040;
     background-size: cover;
     /* Ensures the SVG covers the entire button */
     background-color: #00000000;
@@ -955,7 +910,7 @@ nav ul li a {
 .button6:hover {
     /* Changes button style on hover */
     /* opacity: 0.8; */
-    color: #000000;
+    color: #724040;
     background-color: #0000001a;
     box-shadow: 0rem 0rem 2rem #0000004d;
 }
@@ -1123,14 +1078,14 @@ nav ul li a {
 .grid-child {
     border-style: solid;
     border-width: 2px;
-    border-color: #000000;
+    border-color: #724040;
     transition: transform 0.3s ease;
 }
 
 .grid-child img {
     border-bottom-style: solid;
     border-width: 2px;
-    border-color: #000000;
+    border-color: #724040;
 }
 
 .grid-child:hover {
@@ -1171,14 +1126,15 @@ nav ul li a {
 .grid-child2 {
     border-style: solid;
     border-width: 2px;
-    border-color: #000000;
+    border-color: #724040;
     transition: transform 0.3s ease;
+    background-color: #ffffff;
 }
 
 .grid-child2 img {
     border-bottom-style: solid;
     border-width: 2px;
-    border-color: #000000;
+    border-color: #724040;
 }
 
 .grid-child2:hover {
@@ -1212,14 +1168,14 @@ nav ul li a {
 .grid-child3 {
     border-style: solid;
     border-width: 2px;
-    border-color: #000000;
+    border-color: #724040;
     /* transition: transform 0.3s ease; */
 }
 
 .grid-child3 img {
     border-bottom-style: solid;
     border-width: 2px;
-    border-color: #000000;
+    border-color: #724040;
 }
 
 /* .grid-child3:hover {
@@ -1299,14 +1255,7 @@ nav ul li a {
 
 @media (max-width: 768px) {
 
-    .template_item {
-        max-width: 40vw;
-        /* 8rem */
-    }
-
-    .template_item p {
-        font-size: 1rem !important;
-    }
+    
 
 }
 
@@ -1461,7 +1410,7 @@ nav ul li a {
 
 
 :root {
-    --color-1: #272727;
+    --color-1: #ac6e6e;
     --text-color: #ffffff;
     --accent-color: #acacac;
 }
@@ -1565,3 +1514,134 @@ nav .home-link {
         margin-right: auto;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text1 {
+    font-size: 4rem !important;
+}
+
+.text2 {
+    font-size: 2rem !important;
+}
+
+
+.grid-box1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ffffff00;
+}
+
+.grid-child1 {
+    display: grid;
+}
+
+
+
+/* ID'S START */
+
+#grid-parent1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#grid-child1 {
+    display: grid;
+}
+#mugshot {
+    width: 20rem;
+    max-width: 100%;
+}
+
+#CTA-container {
+    display: flex;
+    gap: 2rem;
+}
+
+/* ID'S END */
+
+
+
+
+
+/* MEDIA QUERIES START */
+
+@media(max-width: 1000px) {
+    
+}
+
+@media(max-width: 900px) {
+    .text1 {
+        font-size: 2rem !important;
+    }
+    .text2 {
+        font-size: 1rem !important;
+    }
+    #CTA-container {
+        flex-direction: column;
+        gap: 0rem;
+    }
+    
+}
+
+@media(max-width: 768px) {
+    .template_item {
+        max-width: 40vw;
+        /* 8rem */
+    }
+
+    .template_item p {
+        font-size: 1rem !important;
+    }
+    .hamburger {
+        display: flex;
+        margin-left: 90%;
+    }
+    .text3 {
+        font-size: 0.5rem !important;
+    }
+    .grid-box1 {
+        grid-template-columns: 1fr;
+    }
+    #image1 {
+        width: 5rem !important;
+    }
+    #hero {
+        height: 30rem !important;
+    }
+    #mugshot {
+        width: 10rem;
+    }
+}
+
+@media(max-width: 500px) {
+    .text1 {
+        font-size: 2rem !important;
+    }
+    
+}
+
+/* MEDIA QUERIES END */

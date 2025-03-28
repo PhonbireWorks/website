@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhonbireWorks - Transcription Services</title>
+    <link rel="icon" type="image/x-icon" href="../../images/logo pfp.svg">
+    <link rel="stylesheet" href="../../styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- <script>history.replaceState("", "", "blog");</script> THIS REMOVES THE ".HTML" EXTENTION FROM YOUR URLS -->
+</head>
+
+<body style="background-color: #ffffff;">
+
+    <!-- NAV MENU STARTS -->
+    <div id="nav-container" class="sticky"></div> <!-- IMPORT THE NAV DIV -->
+    <script>
+        function loadNav() {
+            const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+            const navPath = isLocal ? '/nav.html' : '/website/nav.html';
+
+            fetch(navPath)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('nav-container').innerHTML = data;
+                    initializeMenuToggle();
+                })
+                .catch(error => console.error('Error fetching nav:', error));
+        }
+
+        function initializeMenuToggle() {
+            const menuContainer = document.querySelector('.menu-container');
+            const navList = document.querySelector('.nav-list');
+
+            if (menuContainer && navList) {
+                menuContainer.addEventListener('click', () => {
+                    menuContainer.classList.toggle('active');
+                    navList.classList.toggle('active');
+                    document.querySelector('.logo').style.display = navList.classList.contains('active') ? 'none' : 'block';
+                });
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", loadNav);
+    </script>
+    <!-- NAV MENU ENDS -->
+
+
+
+
+
+
+
+    <main><!-- MAIN STARTS -->
+
+        <div class="fab-container">
+            <button onclick="topFunction()" id="topBtn" class="fab"></button>
+        </div>
+
+
+
+
+
+        <section style="padding: 2%">
+
+            <div class="blog-body-container">
+
+                <h1 style="font-size: 3rem; hyphens: auto; word-break: break-word; overflow-wrap: break-word; color: #724040;"
+                    class="text1">Our Transcription Services</h1>
+                <!-- <br>
+                <hr>
+                <br>
+                <p style="text-align: left; hyphens: auto; word-break: break-word; overflow-wrap: break-word"><b>Date:
+                    </b>8 March 2025</p>
+                <br>
+                <p style="text-align: left; hyphens: auto; word-break: break-word; overflow-wrap: break-word"><b>Author:
+                    </b>Warren Van Zuydam</p>
+                <br>
+                <hr> -->
+                <br><br><br>
+                <!-- CONTENT STARTS -->
+
+
+                <section style="display: flex; justify-content: center;">
+                    <img src="transcription_1.jpg" alt="" style="width: 20rem">
+                </section>
+
+                <br><br>
+
+                <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                    PhonbireWorks offers transcription services for clients looking to make their work accessible to
+                    everyone with hearing disabilities, or people who just want to follow text to understand what's
+                    being said easier. Transcriptions can be done in two formats - "verbatim/full verbatim", and "non-verbatim/clean verbatim". Click
+                    <a href="#id1">here</a> to learn the difference, and make an informed decision.
+                </p>
+                <br><br>
+                <p
+                    style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; font-size: 2rem; color: #724040;">
+                    <b>How Business Works With Our Clients:</b>
+                </p>
+                <br><br>
+                <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                    Below is the step-by-step process of using our transcription service. Everything starts with:
+                </p>
+                <ol>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                            Initial email inquiry from the client (you)
+                        </p>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                            We send a detailed information packet. We'll also request your name, surname, your
+                            transcription instructions, and the audio/video file(s).
+                        </p>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                            After analyzing the source files, we'll send a quote, containing the pricing, the estimated
+                            time of completion for the
+                            transcription, and we'll request confirmation on your side
+                        </p>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                            We then send a legal contract for electronic signature
+                        </p>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                            You sign, send us back the contract with your signature, then we'll request a 25% deposit,
+                            providing payment instructions (EFT, or PayPal)
+                        </p>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                            The transcription starts after the 25% deposit is received
+                        </p>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                            When the transcription is done, we notify you, requesting the final 75% payment
+                        </p>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                            Once successfully paid, we then send a download link to a Google Drive folder containing the
+                            finished transcription documents
+                        </p>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                            And finally, we'll kindly ask for your feedback and/or testimonial
+                        </p>
+                    </li>
+                </ol>
+                <br>
+                <a href="/contact.html" style="margin: 2rem;"><button class="button6">Get Started!</button></a>
+                <br><br>
+                <p
+                    style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; font-size: 2rem; color: #724040;">
+                    <b>Privacy Policy</b>
+                </p>
+                <br><br>
+                <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                    <b>1. Introduction</b> <br><br>
+                </p>
+                <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                    This Privacy Policy describes how PhonbireWorks collects, uses,
+                    and protects the personal information of our clients. We are committed to
+                    protecting your privacy and ensuring the confidentiality of your information.
+                </p>
+                <br><br>
+                <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                    <b>2. Information We Collect</b> <br><br>
+                </p>
+                <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                    We collect the following personal information from clients:
+                </p>
+                <ul>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                            <b>Name and Surname:</b> We collect your name and surname for invoicing and communication
+                            purposes.
+                        </p>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                            <b>Email Address:</b> We collect your email address through our contact form service.
+                        </p>
+                    </li>
+                </ul>
+                <br><br>
+                <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                    <b>3. Use of Information</b> <br><br>
+                </p>
+                <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                    We use your personal information for the following purposes:
+                </p>
+                <ul>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                            To communicate with you regarding your transcription project.
+                        </p>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                            To generate invoices and process payments.
+                        </p>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                            To maintain accurate records of our business transactions.
+                        </p>
+                    </li>
+                </ul>
+                <br><br>
+                <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                    <b>4. Data Retention and Security</b> <br><br>
+                </p>
+                <ul>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                            <b>Audio/Video Files:</b> We delete all audio and video files provided by clients
+                            immediately upon
+                            completion of the transcription project and delivery of the final transcript.
+                        </p>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                            <b>Personal Information:</b> We retain your name and surname for as long as necessary to
+                            comply with legal and accounting obligations.
+                        </p>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                            <b>Data Security:</b> We take reasonable measures to protect your personal information from
+                            unauthorized access, use, or disclosure. We use secure storage methods and limit access to
+                            your information to authorized personnel
+                            only.
+                        </p>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                            <b>No AI Transcription:</b> We do not use automated, AI powered transcription services. All
+                            transcription is performed manually by Warren Van Zuydam.
+                        </p>
+                    </li>
+                </ul>
+                <br><br>
+                <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                    <b>5. Sharing of Information</b> <br><br>
+                </p>
+                <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                    We do not share your personal information with any third parties, except as required by law.
+                </p>
+                <br><br>
+                <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                    <b>6. Your Rights</b> <br><br>
+                </p>
+                <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                    You have the right to:
+                </p>
+                <ul>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                            Access your personal information.
+                        </p>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                            Request correction of any inaccuracies in your personal information.
+                        </p>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                            Request deletion of your personal information, where applicable laws allow.
+                        </p>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                            To ask questions about the data we hold.
+                        </p>
+                    </li>
+                </ul>
+                <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                    To exercise these rights, please contact us using the form under the "CONTACT" tab.
+                </p>
+                <br><br>
+                <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                    <b>7. Changes to This Privacy Policy</b> <br><br>
+                </p>
+                <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                    We may update this Privacy Policy from time to time. We will notify you of any changes by posting
+                    the new Privacy Policy on our website or by sending you an email.
+                </p>
+                <br><br>
+                <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                    <b>8. Contact Us</b> <br><br>
+                </p>
+                <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                    If you have any questions or concerns about this Privacy Policy, please contact us using our form
+                    under the "CONTACT" tab.
+                </p>
+                <br><br>
+                <p
+                    style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; font-size: 2rem; color: #724040;">
+                    <b>Our Transcription Style Guide</b>
+                </p>
+                <br><br>
+                <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                    All our transcription formatting standards follow Rev.com's, as that's the format we are most
+                    familiar with.
+                </p>
+                <!-- <ul>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <a href="#">Precision</a>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <a href="#">Wrong words</a>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <a href="#">Spelling & grammar</a>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <a href="#">Number conventions</a>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <a href="#">Verbatim vs. non-verbatim</a>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <a href="#">Inaudibles</a>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <a href="#">Provided speaker labels</a>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <a href="#">Precision</a>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <a href="#">Precision</a>
+                    </li>
+                    <li
+                        style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem; margin-left: 2rem;">
+                        <a href="#">Precision</a>
+                    </li>
+                </ul>
+                <br><br>
+                <p
+                    style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; font-size: 2rem; color: #724040;">
+                    <b>Spelling & Grammar</b>
+                </p>
+                <br><br>
+                <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                    We use the American English spelling for our transcription projects. This is to keep the text easily
+                    readable, and it saves time in most cases.
+                </p>
+                <table style="border: 1px solid black; border-collapse: collapse;">
+                    <tr>
+                        <th
+                            style="padding: 1rem; width: 100vw; border: 1px solid black; border-collapse: collapse; background-color: #10105e; color: #ffffff;">
+                            Examples</th>
+                    </tr>
+                </table>
+                <table style="border: 1px solid black; border-collapse: collapse;">
+                    <tr>
+                        <th
+                            style="padding: 1rem; width: 50vw; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                            We don't type "colour, favourite, recognise, etc."</th>
+                        <th
+                            style="padding: 1rem; width: 50vw; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                            But we do type "color, favorite, recognize, etc."</th>
+                    </tr>
+                </table>
+                <br><br>
+                <p
+                    style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; font-size: 2rem; color: #724040;">
+                    <b>Numbering Format</b>
+                </p>
+                <br><br>
+                <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                    We keep the numbering format in a way that can be easily read and understood by the reader.
+                </p>
+
+
+                <table style="border: 1px solid black; border-collapse: collapse;">
+                    <tr>
+                        <th
+                            style="padding: 1rem; width: 100vw; border: 1px solid black; border-collapse: collapse; background-color: #10105e; color: #ffffff;">
+                            Examples</th>
+                    </tr>
+                </table>
+                <table style="border: 1px solid black; border-collapse: collapse;">
+                    <tr>
+                        <th
+                            style="padding: 1rem; width: 50vw; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                            Numbers such as 0, 1, 2, 3, etc. are written out in full words from 0-9. Any number above 9
+                            will be transcribed as a number character.</th>
+                        <th
+                            style="padding: 1rem; width: 50vw; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                            e.g. zero, one, two, three, four, five, six, seven, eight, nine, 10, 11, 12, 13, 14, 15, 16,
+                            17, 18, 19, 20, etc.</th>
+                    </tr>
+                    <tr>
+                        <th
+                            style="padding: 1rem; width: 30vw; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                            Any number above 999 will be transcribed using the appropriate commas.</th>
+                        <th
+                            style="padding: 1rem; width: 30vw; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                            e.g. 1,000, 95,000, 1,000,000, etc.</th>
+                    </tr>
+                    <tr>
+                        <th
+                            style="padding: 1rem; width: 30vw; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                            Spoken number with dollars, pounds, etc. We use number characters for currency, so this is
+                            the exception to writing numbers in full words.</th>
+                        <th
+                            style="padding: 1rem; width: 30vw; border: 1px solid black; border-collapse: collapse; text-align: left;">
+                            $5, $100, £1499.95, etc.</th>
+                    </tr>
+                </table>
+ -->
+
+
+
+                <br><br>
+                <p id="id1"
+                    style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; font-size: 2rem; color: #724040;">
+                    <b>Verbatim Vs. Non-Verbatim</b>
+                </p>
+                <br><br>
+                <!-- <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                    We treat all transcriptions as highly confidential. Any sharing of audio/video is strictly
+                    prohibited, and can only be accessed by the transcriptionist and the client. Upon completion, as
+                    well as approval on the client's side through a legal signature, can the audio/video be permanently
+                    removed from the transcriptionist's PC. If the project is declined midway, or declined from the
+                    start (due to poor quality, or other difficulties), then the audio/video shall also be permanently
+                    removed from the transcriptionist's end. The client will have to submit, and sign a new project to
+                    be transcribed.
+                </p> -->
+                <p style="hyphens: auto; word-break: break-word; overflow-wrap: break-word; line-height: 2rem;">
+                    <b>Verbatim transcription</b> captures every single word spoken, including filler words ("um," "uh,"
+                    "like"), false starts, stutters, repetitions, and non-verbal cues (e.g., "laughs," "sighs").
+                    Verbatim aims
+                    to provide a complete and accurate record of the spoken word, reflecting the natural flow of
+                    conversation. Useful for legal proceedings, research interviews, qualitative analysis, and other
+                    cases where precise language and delivery are critical. Verbatim projects are therefore more
+                    expensive to transcribe.
+                    <br><br>
+                    <b>Non-verbatim transcription</b> removes filler words, false starts, and repetitions, creating a
+                    cleaner
+                    and more readable transcript. It focuses on conveying the essential meaning of the spoken word while
+                    omitting unnecessary disfluencies. Non-verbal cues are usually omitted unless they are vital to the
+                    meaning. Compared to verbatim projects, non-verbaim projects are easier to transcribe.
+                </p>
+
+
+
+
+
+
+            </div>
+
+
+
+    </main><!-- MAIN ENDS -->
+
+    <!-- FOOTER STARTS -->
+    <footer class="footer_section">
+        <p style="max-width: 50rem; text-align: left; color:#ffffff; padding: 1em; margin: auto">
+            PhonbireWorks is the go-to source for high-quality digital products and services, from templates,
+            to ebooks, to vector traced graphics. My goal is to provide customizable solutions tailored to your
+            needs. I am passionate about creating digital products and services that make a difference.
+        </p>
+        <p
+            style="font-size: 2rem; max-width: 50rem; text-align: center; color:#ffffff; padding-bottom: 1em; margin: auto">
+            Get In Touch
+        </p>
+        <!--FORM STARTS-->
+        <div
+            style="display: flex; flex-direction: column; align-items: center; width: 100%; height: auto; margin: auto">
+            <form style="display: flex; flex-direction: column; align-items: center"
+                action="https://formspree.io/f/xnnqalvd" method="POST">
+                <label style="color: #ffffff" for="fname">First Name*</label>
+                <input style="width: 100%" type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                <br>
+                <label style="color: #ffffff" for="lname">Last Name*</label>
+                <input style="width: 100%" type="text" id="lname" name="lastname" placeholder="Your last name.."
+                    required>
+                <br>
+                <label style="color: #ffffff" for="email">Email*</label>
+                <input style="width: 100%" type="email" id="email" name="email" placeholder="Your email.." required>
+                <br>
+                <label style="color: #ffffff" for="subject">Your Message*</label>
+                <textarea style="width: 100%" id="subject" name="subject" placeholder="Write something.."
+                    style="height:20rem" required></textarea>
+                <input style="width: 80%; margin: 1rem;" type="submit" value="Submit" class="button5">
+            </form>
+        </div>
+        <!--FORM ENDS-->
+        <br><br><br>
+        <iframe src="../../copyright.html" style="width:100%; height: 3rem; border:none;" scrolling="no"></iframe>
+    </footer>
+    <!-- FOOTER ENDS -->
+
+    <script src="../../script.js"></script>
+</body>
+
+</html>
