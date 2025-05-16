@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #ac6e6e;
+    background-color: #547a58;
 }
 
 /* GLOBAL STYLES FOR ENTIRE WEBSITE ENDS */
@@ -236,7 +236,7 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #ac6e6e;
+    background-color: #547a58;
 }
 
 
@@ -930,6 +930,65 @@ nav ul li a {
 
 
 
+/* BUTTON STYLE 2 STARTS */
+.button7 {
+    /* width: auto; */
+    height: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #ffffff;
+    background-size: cover;
+    /* Ensures the SVG covers the entire button */
+    background-color: #2937ff;
+    border: solid;
+    border-radius: 4px;
+    border-width: 0px;
+    background-repeat: no-repeat;
+    /* Prevents the SVG from repeating */
+    background-position: center;
+    /* Centers the SVG in the button */
+    
+    /* Enhanced shadow on hover */
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    /* transition: opacity 0.5s; */
+    transition: background-color 0.5s;
+    transition: box-shadow 0.5s;
+}
+
+.button7:hover {
+    /* Changes button style on hover */
+    /* opacity: 0.8; */
+    color: #ffffff;
+    background-color: #4551ff;
+    box-shadow: 0rem 0rem 2rem #0000004d;
+}
+
+.button7:active {
+    /* Changes button style on click */
+    opacity: 0.8;
+    /* transform: translateY(0.25rem); */
+    background-color: #00000069;
+}
+
+/* BUTTON STYLE 2 ENDS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* SWIPER IMAGE SCROLLER STYLES STARTS */
 .container {
@@ -1078,14 +1137,14 @@ nav ul li a {
 .grid-child {
     border-style: solid;
     border-width: 2px;
-    border-color: #724040;
+    border-color: #272727;
     transition: transform 0.3s ease;
 }
 
 .grid-child img {
     border-bottom-style: solid;
     border-width: 2px;
-    border-color: #724040;
+    border-color: #272727;
 }
 
 .grid-child:hover {
@@ -1126,7 +1185,7 @@ nav ul li a {
 .grid-child2 {
     border-style: solid;
     border-width: 2px;
-    border-color: #724040;
+    border-color: #272727;
     transition: transform 0.3s ease;
     background-color: #ffffff;
 }
@@ -1134,7 +1193,7 @@ nav ul li a {
 .grid-child2 img {
     border-bottom-style: solid;
     border-width: 2px;
-    border-color: #724040;
+    border-color: #272727;
 }
 
 .grid-child2:hover {
@@ -1168,14 +1227,14 @@ nav ul li a {
 .grid-child3 {
     border-style: solid;
     border-width: 2px;
-    border-color: #724040;
+    border-color: #272727;
     /* transition: transform 0.3s ease; */
 }
 
 .grid-child3 img {
     border-bottom-style: solid;
     border-width: 2px;
-    border-color: #724040;
+    border-color: #272727;
 }
 
 /* .grid-child3:hover {
@@ -1410,7 +1469,7 @@ nav ul li a {
 
 
 :root {
-    --color-1: #ac6e6e;
+    --color-1: #272727; /* #ac6e6e */
     --text-color: #ffffff;
     --accent-color: #acacac;
 }
